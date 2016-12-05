@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
 	<script type="text/javascript" src="/js/head.min.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
   
     <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css?<?php echo filemtime($cssPath.'ie7.css'); ?>" /><![endif]-->
     
