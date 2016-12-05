@@ -1,17 +1,6 @@
 #www. immer dranschreiben
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^rothauerwebsites\.com$ [NC]
-RewriteRule ^(.*) http://www.rothauerwebsites.com%{REQUEST_URI} [L,R=301]
-RewriteCond %{HTTP_HOST} ^rothauerwebsites\.com$ [NC]
-RewriteRule ^(.*) http://www.rothauerwebsites.com/ [L,R=301]
-
-IndexIgnore *
-
-# block visitors referred from semalt.com
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} semalt\.com [NC]
-RewriteRule (.*) http://www.semalt.com [R=403,L]
-RewriteCond %{HTTP_REFERER} buttons\-for\-website\.com [NC]
-RewriteRule (.*) http://www.buttons-for-website.com [R=403,L]
-RewriteCond %{HTTP_REFERER} forum\.topic24725750\.darodar\.com [NC]
-RewriteRule (.*) forum.topic24725750.darodar.com [R=403,L]
+RewriteCond %{HTTP_HOST} ^rothauer-it\.com$ [NC]
+RewriteRule ^(.*) http://www.rothauer-it.com%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^rothauer-it\.com$ [NC]
+RewriteRule ^(.*) http://www.rothauer-it.com/ [L,R=301]
