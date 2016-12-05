@@ -284,6 +284,12 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
+            link : 'www.wildniscamps.at'
+           ,img  : {name : 'wildniscamps.png' }
+           ,id : 'wildniscamps'
+        };
+        projects.push(o);
+        var o = {
             link : 'www.kunstbrettl.at'
            ,img  : {name : 'kunstbrettl.png' }
            ,id : 'kunstbrettl'
@@ -294,6 +300,7 @@ rw.Helper = {
            ,link : 'www.marktmusik-scharnstein.at'
            ,img  : {name : 'marktmusik-scharnstein.png' }
            ,id : 'marktmusik-scharnstein'
+           ,more: true
          };
         projects.push(o);
         var o = {
