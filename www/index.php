@@ -766,8 +766,8 @@
             
             <p class="lang de small">Diese Webseite benutzt die Open-Source-L&ouml;sung Piwik zur statistischen Auswertung aller Besucherzugriffe.&nbsp;Piwik basiert auf sogenannten Cookies (kleine Textdateien) die auf Ihrem Computer tempor&auml;r gespeichert werden.&nbsp;Sie k&ouml;nnen die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software generell verhindern.&nbsp;Bitte beachten Sie jedoch, dass ohne Cookies nicht alle Funktionen unserer Webeite genutzt werden k&ouml;nnen.Cookies erlauben eine Analyse der Benutzung unserer Webseite durch Sie.&nbsp;Die auf Basis dieses Cookies erzeugten Informationen &uuml;ber Ihre Benutzung dieses Internetangebotes werden auf unserem Server (Serverstandort Wien, &Ouml;sterreich) gespeichert.&nbsp;Ihre IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert.<br />
             Diese Information wird also nicht gespeichert. Alle erhobenen Informationen dienen ausschlie&szlig;lich der laufenden Verbesserung unseres Onlineangebots.&nbsp;Eine Weitergabe an Dritte findet generell nicht statt. Sie k&ouml;nnen eine Auswertung Ihres Besuchs mittels &quot;Opt-Out&quot; unterbinden:</p>
-            <iframe class="lang de" src="https://www.foodcoopshop.com/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 200px; width: 600px;"></iframe>
-            <iframe class="lang en" src="https://www.foodcoopshop.com/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 200px; width: 600px;"></iframe>
+            <iframe class="lang de" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 200px; width: 600px;"></iframe>
+            <iframe class="lang en" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 200px; width: 600px;"></iframe>
             
           </div>
         </div>
@@ -791,14 +791,14 @@
               _paq.push(['trackPageView']);
               _paq.push(['enableLinkTracking']);
               (function() {
-                var u="https://www.foodcoopshop.com/piwik/";
+                var u="https://www.rothauer-it.com/pwk/";
                 _paq.push(['setTrackerUrl', u+'piwik.php']);
                 _paq.push(['setSiteId', 3]);
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
                 g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
               })();
             </script>
-            <noscript><p><img src="https://www.foodcoopshop.com/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+            <noscript><p><img src="https://www.rothauer-it.com/pwk/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
         <!-- End Piwik Code -->
     <?php } ?>
   
