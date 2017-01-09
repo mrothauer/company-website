@@ -8,7 +8,7 @@
 	<meta name="description" content="Mario Rothauer" />
 	<meta name="keywords" content="websites webprogramming webdesign almtal" />
 	<meta name="robots" content="index, follow" />
-    <meta name="google-site-verification" content="ZBUbPTp_fGCwJCciHJVi4Feuin4dcYsZyvFhkrhim6g" />
+    <meta name="google-site-verification" content="SEYDpX9sY2j6wzm9huzlL0SonRDDqxsR7W3Yi4DiuVs" />
 
 	<title>Mag. (FH) Mario Rothauer | Internetdienstleistungen aus dem Almtal</title>
 
