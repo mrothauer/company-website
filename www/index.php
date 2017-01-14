@@ -714,7 +714,8 @@
             <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
-              <p>
+            <p>UID-Nr. ATU71726279</p>
+            <p>
                 <a target="_blank" class="img" title="xing" href="http://www.xing.com/profile/Mario_Rothauer">
                   <img src="/img/xing_icon_16x16.png" />
                 </a>
