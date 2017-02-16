@@ -53,7 +53,7 @@ rw.Helper = {
 //					break;
 					case moreId:
 						var nameEn = 'websites';
-						var nameDe = 'webseiten';
+						var nameDe = 'websites';
 					break;
 					case contactId:
 						var nameEn = 'contact';

@@ -692,7 +692,7 @@
   </div>
   
   <script type="text/javascript">
-    head.load('/js/jquery-1.11.0.min.js', '/js/core.js');
+    head.load('/js/jquery-1.11.0.min.js', '/js/core.js?v=1');
     head.ready(function() {
       rw.Helper.render();
     });
