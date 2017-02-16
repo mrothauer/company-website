@@ -51,6 +51,7 @@
 	              <li class="lang de">seit Oktober 2016 Open Source</li>
 			      <li class="lang en">Software for food coops</li>
 			      <li class="lang en">Open source since October 2016</li>	              
+	              <li><a target="_blank" href="https://github.com/foodcoopshop/foodcoopshop"><span class="lang de">FoodCoopShop auf Github</span><span class="lang en">FoodCoopShop on Github</span></a></li>
 	            </ul>
 	        </div>
 	          
@@ -272,47 +273,6 @@
 	          
         </div>
         
-        <div class="desc" id="collaborativelaw">
-          
-	        <div class="left">
-	            <b class="lang de">Collaborative Law, Österreich</b>
-	            <b class="lang en">Collaborative Law, Austria</b>
-	            <ul>
-	              <li class="lang de">Webseite für Kooperative Rechtspraxis</li>
-	              <li class="lang en">Website for collaborative law</li>
-	              <li><span class="lang de">Basierend auf</span><span class="lang en">Based on</span> <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-	              </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.collaborativelaw.eu" class="external">
-	              <img src="/thumbs/big/collaborativelaw.png" />
-	            </a>
-	            <a target="_blank" href="http://www.collaborativelaw.eu" class="project-link external">www.collaborativelaw.eu</a>
-	        </div>
-	          
-        </div>
-        
-        <div class="desc" id="sustainableconsulting">
-          
-	        <div class="left">
-	            <b class="lang de">Sustainable Consulting, Schweiz</b>
-	            <b class="lang en">Sustainable Consulting, Switzerland</b>
-	            <ul>
-                  <li><span class="lang de">Basierend auf</span><span class="lang en">Based on</span> <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-	              <li><span class="lang de">Integration von</span><span class="lang en">Integration of</span> <a target="_blank" href="http://codecanyon.net/item/classic-accordion/140404">Classic Accordion</a></li>
-	              </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.sustainableconsulting.ch" class="external">
-	              <img src="/thumbs/big/sustainableconsulting.png" />
-	            </a>
-	            <a target="_blank" href="http://www.sustainableconsulting.ch" class="project-link external">www.sustainableconsulting.ch</a>
-	        </div>
-	          
-        </div>
-        
         <div class="desc" id="nazaninaghakhani">
           
 	        <div class="left">
@@ -333,32 +293,7 @@
 	        </div>
 	          
         </div>
-        
-        <div class="desc" id="active-earth">
-        
-          <div class="left">
-            <b class="lang de">Nachhaltige Outdoor-Kurse, Spanien</b>
-            <b class="lang en">Sustainable outdoor education, Spain</b>
-            <ul>
-              <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-              <li class="lang de">Ansprechend gestaltete, <a target="_blank" href="http://www.active-earth.net/files/downloads/pdf/easyday-summercamp-view-activeearth-training.pdf">automatisch generierte PDFs</a> (<a target="_blank" href="http://www.tcpdf.org/">TCPDF</a>)</li>
-              <li class="lang de">User-freundliche jQuery-Slideshow</li>
-              
-              <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-              <li class="lang en">Well layouted <a target="_blank" href="http://www.active-earth.net/files/downloads/pdf/easyday-summercamp-view-activeearth-training.pdf">generated PDFs</a> (<a target="_blank" href="http://www.tcpdf.org/">TCPDF</a>)</li>
-              <li class="lang en">Self-made javascript image slideshow</li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.active-earth.net" class="external">
-              <img src="/thumbs/big/activeearth.png" />
-            </a>
-            <a target="_blank" href="http://www.active-earth.net" class="project-link external">www.active-earth.net</a>
-          </div>
-          
-        </div>
-        
+                
         <div class="desc" id="kindergarten-scharnstein">
           
 	        <div class="left">
@@ -496,25 +431,6 @@
               <img src="/thumbs/big/baumeister-amering.png" />
             </a>
             <a target="_blank" href="http://www.baumeister-amering.at" class="project-link external">www.baumeister-amering.at</a>
-          </div>
-          
-        </div>
-
-        <div class="desc" id="fairidee">
-          
-          <div class="left">
-            <b class="lang de">Grafik & Design Agentur, Wiesbaden</b>
-            <b class="lang en">Graphic design agency, Germany</b>
-            <ul>
-              <li>Layout by <a href="http://www.fairidee.de" target="_blank">fairidee.de</a></li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.fairidee.de" class="external">
-              <img src="/thumbs/big/fairidee.png" />
-            </a>
-            <a target="_blank" href="http://www.fairidee.de" class="project-link external">www.fairidee.de</a>
           </div>
           
         </div>
@@ -680,7 +596,7 @@
           </div>
         </div>
         
-        <div class="desc" id="more"></div>
+        <div class="desc" id="websites"></div>
 
         <div class="desc" id="about">
             
@@ -692,14 +608,11 @@
                 After finising the University of Applied Science in Vienna (2005) and gaining lots of work experience abroad (Peru, Paraguay, Bolivia, Berlin), Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-                Nach dem Studium für Projektmanagement und Informationstechnik an der FH des bfi Wien (Abschluss 2005) und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler.
-              </p>
-              <p class="lang de">
-                Er freut sich immer dann ganz besonders, wenn eines seiner Projekte die Welt ein kleines Bisschen verbessert. Das Open-Source-Projekt <a href="target="_blank" href="http://www.foodcoopshop.com">"FoodCoopShop - Bestellsoftware für Foodcoops"</a> ist so ein Beispiel: Selbstorganisiertes Einkaufen bei Bauern aus der Region - da haben alle Beteiligten was davon. Mario lebt mit seiner Familie in Almtal / OÖ.
+                Nach einem FH-Studium in Wien und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler. Er hat sich auf die <b>Programmierung webbasierter Software</b> spezialisiert und lebt mit seiner Familie im Almtal.
               </p>
               <p>
                 <span class="lang en">Qualifications</span>
-                <span class="lang de">Qualifikationen</span>: PHP, MySQL, CakePHP, Zend, Symfony2, Joomla, Prestashop, Bootstrap, Unit Tests, WordPress, HTML, CSS, JavaScript, Ajax, jQuery, Google Maps API, Eclipse, Ubuntu, Git, Bancha, ExtJS
+                <span class="lang de">Qualifikationen</span>: PHP, MySQL, CakePHP, Symfony3, Angular2, Prestashop, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, Google Maps API, OpenStreetMap, Eclipse, Git
               </p>
               <p class="lang en">Languages: German, Spanish, English</p>
               <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>

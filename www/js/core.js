@@ -12,8 +12,8 @@ rw.Helper = {
 		
 		for(var i=0;i<squaresCount;i++) {
 			
-			var squareIdsForProjects = [15,16,17,18,19,22,23,24,25,26];
-			var squareIdsForBottomLine = [36,37,38,39,40];
+			var squareIdsForProjects = [16,17,18];
+			var squareIdsForBottomLine = [37,38,39,40];
 			
 			if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
 				var square = $('<a/>').attr('href', '#desc');
@@ -35,11 +35,11 @@ rw.Helper = {
 				square.addClass('first-row');
 			}
 			
-			var openSourceId = squareIdsForBottomLine[0];
-			var moreId = squareIdsForBottomLine[1];
-			var contactId = squareIdsForBottomLine[2];
-			var aboutId = squareIdsForBottomLine[3];
-			var disclaimerId = squareIdsForBottomLine[4];
+//			var openSourceId = squareIdsForBottomLine[0];
+			var moreId = squareIdsForBottomLine[0];
+			var contactId = squareIdsForBottomLine[1];
+			var aboutId = squareIdsForBottomLine[2];
+			var disclaimerId = squareIdsForBottomLine[3];
 			
 			if ($.inArray(i, squareIdsForBottomLine) != -1) {
 				var newHeading = $('<div/>').addClass('heading');
@@ -47,13 +47,13 @@ rw.Helper = {
 				var image = false;
 				var marginTop = 22;
 				switch(i) {
-					case openSourceId:
-						var nameEn = nameDe = 'open source';
-						directLink = 'http://www.github.com/mrothauer';
-					break;
+//					case openSourceId:
+//						var nameEn = nameDe = 'open source';
+//						directLink = 'https://github.com/mrothauer';
+//					break;
 					case moreId:
-						var nameEn = 'more';
-						var nameDe = 'mehr';
+						var nameEn = 'websites';
+						var nameDe = 'webseiten';
 					break;
 					case contactId:
 						var nameEn = 'contact';
@@ -92,8 +92,10 @@ rw.Helper = {
 		var k = -1;
 		for(var j=0;j<projects.length;j++) {
 			
-			if (projects[j].more != undefined && projects[j].more == true) {
-				$('#more').append('<div class="project">' + $('div#' + projects[j].id).html()) + '</div>';
+			var directLink = projects[j].directLink != undefined && projects[j].directLink;
+			
+			if (projects[j].more != undefined && projects[j].more == true && !directLink) {
+				$('#websites').append('<div class="project">' + $('div#' + projects[j].id).html()) + '</div>';
 				continue;
 			}
 			
@@ -115,6 +117,11 @@ rw.Helper = {
 			newHeading.html(heading);
 			projectContainer.append(newHeading);
 			
+			if (directLink) {
+				projectContainer.attr('href', projects[j].directLink);
+				projectContainer.attr('target', '_blank');
+			}
+			
 			if (projects[j].img != undefined) {
 				var newImg = rw.Helper.getThumbSmall(projects[j].img);
 				projectContainer.append(newImg);
@@ -124,8 +131,8 @@ rw.Helper = {
 			}
 		}
 		
-		if (k + 1 != 10) {
-			console.error('projects count without more attribute must be 10');
+		if (k + 1 != 3) {
+			console.error('projects count without more attribute must be 3');
 			console.log(k + 1);
 		}
 		
@@ -154,17 +161,12 @@ rw.Helper = {
 			$('.square.contact').trigger('click');
 		});
 		
-		// google analytics
-		$('a.external').on('click', function() {
-			_gaq.push(['_trackEvent', 'external-link', $(this).attr('href')]);
-		});
 		$('a.square.notEmpty').on('mouseover', function() {
 			var heading = $(this).find('.heading');
 			if (heading.html().toLowerCase().match('span')) {
 				heading = heading.find('span.lang.en');
 			}
 			heading = heading.html().toLowerCase().replace(/\<br?>/i, '');
-			_gaq.push(['_trackEvent', 'square', 'square-mouseover', heading]);
 		});
 		$('a.square.notEmpty').on('click', function() {
 			var heading = $(this).find('.heading');
@@ -172,10 +174,9 @@ rw.Helper = {
 				heading = heading.find('span.lang.en');
 			}
 			heading = heading.html().toLowerCase().replace(/\<br?>/i, '');
-			_gaq.push(['_trackEvent', 'square', 'square-click', heading]);
 		});
 
-	    $('.square.contact').trigger('click');
+	    $('.square.about').trigger('click');
 	    
 	    // Smooth Scroll to Top
 		// http://www.elmastudio.de/wordpress/back-to-top-buttons-mit-smooth-scroll-und-fading-in-wordpress/
@@ -227,7 +228,6 @@ rw.Helper = {
 	,initLocalisation : function () {
 		
 		var userLang = navigator.language /* Mozilla */ || navigator.userLanguage /* IE */;
-		_gaq.push(['_trackEvent', 'localisation', 'userLang', userLang]);
 		
 		var initLang = 'en';
 		if (userLang.match(/de/) != -1) {
@@ -244,7 +244,6 @@ rw.Helper = {
 		$('#lang-box a').hover(function () {
 			opacityBefore = $(this).css('opacity');
 		    $(this).css('opacity', 0.99); //sic! sonst problem mit der kombination mouseout / click
-		    _gaq.push(['_trackEvent', 'localisation', 'localisation-mouseover', $(this).attr('class').replace(/button-/, '')]);
 		  }, function () {
 			if ($(this).css('opacity') != 1) {
 				$(this).css('opacity', opacityBefore);
@@ -256,7 +255,6 @@ rw.Helper = {
 			$('#lang-box a').css('opacity', 0.6);
 			$(this).css('opacity', 1);
 			var currentLang = $(this).attr('class').replace(/button-/, '');
-			_gaq.push(['_trackEvent', 'localisation', 'currentLang', currentLang]);
 			$('#wrapper .lang').hide();
 			$('#wrapper .lang.' + currentLang).show();
 		});
@@ -269,6 +267,12 @@ rw.Helper = {
 	
 	,getProjects : function() {
         var projects = [];
+        var o = {
+            heading : 'open source'
+           ,directLink : 'https://github.com/mrothauer'
+           ,img  : {name : 'github.png' }
+        };
+        projects.push(o);
         var o = {
             heading : 'www.foodcoop<br />shop.com'
            ,link : 'www.foodcoopshop.com'
@@ -287,14 +291,23 @@ rw.Helper = {
             link : 'www.wildniscamps.at'
            ,img  : {name : 'wildniscamps.png' }
            ,id : 'wildniscamps'
+           ,more: true
         };
         projects.push(o);
         var o = {
             link : 'www.kunstbrettl.at'
            ,img  : {name : 'kunstbrettl.png' }
            ,id : 'kunstbrettl'
+           ,more: true
         };
         projects.push(o);
+		var o = {
+			 link : 'www.motorsagla.at'
+			,img  : {name : 'motorsagla.png' }
+			,id : 'motorsagla',
+			more: true
+		};
+		projects.push(o);
         var o = {
             heading : 'www.marktmusik-<br />scharnstein.at'
            ,link : 'www.marktmusik-scharnstein.at'
@@ -307,6 +320,7 @@ rw.Helper = {
             link : 'www.cread.at'
            ,img  : {name : 'cread.png' }
            ,id : 'cread'
+           ,more: true
         };
         projects.push(o);
         var o = {
@@ -314,6 +328,7 @@ rw.Helper = {
            ,link : 'www.maler-luckeneder.at'
            ,img  : {name : 'maler-luckeneder.png' }
            ,id : 'maler-luckeneder'
+           ,more: true
         };
         projects.push(o);
         var o = {
@@ -321,6 +336,7 @@ rw.Helper = {
            ,link : 'www.fairteiler-scharnstein.at'
            ,img  : {name : 'fairteiler-scharnstein.png' }
            ,id : 'fairteiler-scharnstein'
+           ,more: true
         };
         projects.push(o);
         var o = {
@@ -334,6 +350,7 @@ rw.Helper = {
             link : 'www.cumnobis.de'
            ,img  : {name : 'cumnobis.png' }
            ,id : 'cumnobis'
+           ,more: true
         };
         projects.push(o);
         var o = {
@@ -352,21 +369,6 @@ rw.Helper = {
            ,more: true
        };
        projects.push(o);
-       var o = {
-           link : 'www.active-earth.net'
-          ,img  : {name : 'activeearth.png' }
-          ,id : 'active-earth'
-          ,more: true
-       };
-       projects.push(o);
-       var o = {
-            heading : 'collaborative<br />law.eu'
-           ,link : 'www.collaborativelaw.eu'
-           ,img  : {name : 'collaborativelaw.png' }
-           ,id : 'collaborativelaw'
-           ,more: true
-        };
-        projects.push(o);
         var o = {
             link : 'www.variousvisions.at'
            ,img  : {name : 'variousvisions.png' }
@@ -375,18 +377,11 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-             heading : 'sustainable<br />consulting.ch'
-            ,link : 'www.sustainableconsulting.ch'
-            ,img  : {name : 'sustainableconsulting.png' }
-            ,id : 'sustainableconsulting'
-            ,more: true
-        };
-        projects.push(o);
-        var o = {
              heading : 'nazanin<br />aghakhani.com'
             ,link : 'www.nazaninaghakhani.com'
             ,img  : {name : 'nazaninaghakhani.png' }
             ,id : 'nazaninaghakhani'
+            ,more: true
         };
         projects.push(o);
 		var o = {
@@ -394,6 +389,7 @@ rw.Helper = {
 			,link : 'www.kindergarten-scharnstein.at'
 			,img  : {name : 'kindergarten-scharnstein.png' }
 			,id : 'kindergarten-scharnstein'
+            ,more: true
 		};
 		projects.push(o);
 		var o = {
@@ -403,13 +399,6 @@ rw.Helper = {
 			,more : true
 		};
 		projects.push(o);
-        var o = {
-             link : 'www.fairidee.de'
-            ,img  : {name : 'fairidee.png' }
-            ,id : 'fairidee'
-            ,more : true
-        };
-        projects.push(o);
         var o = {
              heading : 'baumeister-<br />amering.at'
            ,link : 'www.baumeister-amering.at'
@@ -467,13 +456,6 @@ rw.Helper = {
 			,img  : {name : 'baeckerberg.png' }
 			,id : 'baeckerberg'
 			,more : true
-		};
-		projects.push(o);
-		var o = {
-			 link : 'www.motorsagla.at'
-			,img  : {name : 'motorsagla.png' }
-			,id : 'motorsagla',
-			more: true
 		};
 		projects.push(o);
 		return projects;
