@@ -7,13 +7,13 @@ rw.Helper = {
 		
 		var squaresContainer = $('div.squares');
 		var columns = 7;
-		var rows = 6;
+		var rows = 5;
 		var squaresCount = rows * columns;
 		
 		for(var i=0;i<squaresCount;i++) {
 			
 			var squareIdsForProjects = [16,17,18];
-			var squareIdsForBottomLine = [37,38,39,40];
+			var squareIdsForBottomLine = [30,31,32,33];
 			
 			if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
 				var square = $('<a/>').attr('href', '#desc');
