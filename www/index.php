@@ -651,6 +651,7 @@
             <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
+            <p>UID-Nr. ATU71726279</p>
             <p style="margin-top: 30px;">
               <b class="lang de">Datenschutzerklärung</b>
               <b class="lang en">Website disclaimer</b>
