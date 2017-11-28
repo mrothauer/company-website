@@ -78,7 +78,7 @@
 	            <a target="_blank" href="http://www.reparatur-initiativen.de" class="external">
 	              <img src="/thumbs/big/reparatur-initiativen.png" />
 	            </a>
-	            <a target="_blank" href="http://www.reparatur-initiativen.com" class="project-link external">www.reparatur-initiativen.de</a>
+	            <a target="_blank" href="http://www.reparatur-initiativen.de" class="project-link external">www.reparatur-initiativen.de</a>
 	        </div>
 	          
         </div>
