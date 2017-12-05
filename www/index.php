@@ -602,17 +602,17 @@
             
             <div>
             
-              <img alt="Mario Rothauer" width="150" height="200" src="/img/mario-rothauer-website.jpg" />
+              <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
               <p class="lang en">
                 After finising the University of Applied Science in Vienna (2005) and gaining lots of work experience abroad (Peru, Paraguay, Bolivia, Berlin), Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-                Nach einem FH-Studium in Wien und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler. Er hat sich auf die <b>Programmierung webbasierter Software</b> spezialisiert und lebt mit seiner Familie im Almtal.
+                Nach einem FH-Studium in Wien und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler. Er hat sich auf die <b>Programmierung webbasierter Software</b> spezialisiert - am liebsten Open Source - und lebt mit seiner Familie im Almtal.
               </p>
               <p>
                 <span class="lang en">Qualifications</span>
-                <span class="lang de">Qualifikationen</span>: PHP, MySQL, CakePHP, Symfony3, Angular2, Prestashop, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, Google Maps API, OpenStreetMap, Eclipse, Git
+                <span class="lang de">Qualifikationen</span>: PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git
               </p>
               <p class="lang en">Languages: German, Spanish, English</p>
               <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>
