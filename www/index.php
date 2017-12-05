@@ -172,7 +172,7 @@
 	              <li class="lang en">Painter, Scharnstein, Upper Austria</li>
 	              <li class="lang de">basierend auf Joomla</li>
 	              <li class="lang en">based on Joomla</li>
-                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with</span> <a href="http://www.cread.at">cread.at</a></li>
+                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with cread.at</li>
 	            </ul>
 	        </div>
 	          
@@ -281,7 +281,6 @@
 	            <ul>
 	              <li class="lang de">Dirigentin und Pianistin</li>
 	              <li class="lang en">Conductor and piano player</li>
-	              <li>responsive design</li>
 	              </ul>
 	        </div>
 	          
@@ -300,7 +299,7 @@
 	            <b class="lang de">Kindergarten Scharnstein</b>
 	            <b class="lang en">Kindergarten Scharnstein, Upper Austria</b>
 	            <ul>
-	              <li>Layout by <a href="http://www.cread.at" target="_blank">cread.at</a></li>
+	              <li>Layout by cread.at</li>
                   <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
                   <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
 	            </ul>
@@ -340,7 +339,7 @@
             <b class="lang de">Grabner GmbH, Tischlerei, Grünau</b>
             <b class="lang en">Grabner Ltd., Carpenter, Upper Austria</b>
             <ul>
-              <li>Layout by <a href="http://www.cread.at" target="_blank">cread.at</a></li>
+              <li>Layout by cread.at</li>
             </ul>
           </div>
           
@@ -352,26 +351,6 @@
           </div>
           
         </div>
-                
-        <div class="desc" id="cread">
-          
-          <div class="left">
-            <b class="lang de">Werbung mit Sinn, Oberösterreich</b>
-            <b class="lang en">Sustainable Advertisement, Upper Austria</b>
-            <ul>
-              <li class="lang de">Werbeagentur aus Steinbach am Ziehberg</li>
-              <li class="lang en">Advertising agency, Steinbach/Ziehberg</li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.cread.at" class="external">
-              <img src="/thumbs/big/cread.png" />
-            </a>
-            <a target="_blank" href="http://www.cread.at" class="project-link external">www.cread.at</a>
-          </div>
-          
-        </div>
         
         <div class="desc" id="holzmagier">
           
@@ -380,9 +359,8 @@
             <b class="lang en">Wood magician M.E.C Steinschnak, Upper Austria</b>
             <ul>
               <li>
-              	<span class="lang en">Full width implementation of </span>
-              	<span class="lang de">Implementierung von </span>
-              	<a href="http://caroufredsel.frebsite.nl/" target="_blank">CarouFredSel 6.0.6</a>
+              	<span class="lang en">Carving</span>
+              	<span class="lang de">Holzschnitzer</span>
               </li>
             </ul>
           </div>
@@ -422,7 +400,7 @@
             <b class="lang de">Baumeister, Oberösterreich</b>
             <b class="lang en">Builder, Upper Austria</b>
             <ul>
-              <li>Layout by <a href="http://www.cread.at" target="_blank">cread.at</a></li>
+              <li>Layout by cread.at</li>
             </ul>
           </div>
           
@@ -657,7 +635,7 @@
               <b class="lang en">Website disclaimer</b>
             </p>
             <p class="lang en small">
-              The information contained in this website is for general information purposes only. The information is provided by Rothauer Websites and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of Rothauer Websites. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, Rothauer Websites takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
+              The information contained in this website is for general information purposes only. The information is provided by Rothauer IT and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of Rothauer IT. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, Rothauer IT takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
             </p>
             <p class="lang de small">
               Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
