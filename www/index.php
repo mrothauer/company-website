@@ -23,7 +23,6 @@
     <script type="text/javascript">
 		if(!window.rw) { rw = window.rw = {}; }
 		rw.environment = '<?php echo $environment; ?>';
-		var _gaq = _gaq || [];
 	</script>
 	
 </head>
