@@ -1,11 +1,13 @@
 <?php require_once('../include/functions.php'); ?>
 <!DOCTYPE html>
-<html lang="de">
+<html>
 <head>
 
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#719f41">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<meta name="author" content="Mag. (FH) Mario Rothauer" />
-	<meta name="description" content="Mario Rothauer" />
 	<meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
 	<meta name="description" content="Programmier-Diensleistungen aus dem Almtal. Seit 2009." />
 	<meta name="robots" content="index, follow" />
@@ -14,6 +16,7 @@
 	<title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
+	<link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
 	<script type="text/javascript" src="/js/head.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
   

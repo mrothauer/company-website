@@ -111,7 +111,7 @@ rw.Helper = {
 				var heading = projects[j].link;
 			}
 			if (heading.match(/\<br/i)) {
-				newHeading.css('margin-top', '45px');
+				newHeading.addClass('heading-with-break');
 			}
 			heading = heading.replace(/www\./, '');
 			newHeading.html(heading);

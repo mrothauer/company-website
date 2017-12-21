@@ -189,6 +189,9 @@ div.squares .square .heading {
     text-align: center;
     margin-top: 53px;
 }
+div.squares .square .heading.heading-with-break {
+    margin-top: 45px;
+}
 div.squares .square div.info {
     position: absolute;
     right: 5px;
