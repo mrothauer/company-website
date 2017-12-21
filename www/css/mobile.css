@@ -1,5 +1,8 @@
 @media only screen and (max-device-width: 768px) {
   
+  body {
+    width: 100%;
+  }
   .desc p,
   .desc span,
   .desc li {
