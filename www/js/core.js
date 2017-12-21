@@ -180,7 +180,7 @@ rw.Helper = {
 	    
 	    // Smooth Scroll to Top
 		// http://www.elmastudio.de/wordpress/back-to-top-buttons-mit-smooth-scroll-und-fading-in-wordpress/
-	    $('a.square[href*=#], a.header-link').on('click', function() {
+	    $('a.square[href*=\\#], a.header-link').on('click', function() {
 	    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	        	var $target = $(this.hash);
 	        	$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
