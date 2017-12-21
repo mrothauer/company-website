@@ -10,7 +10,7 @@
 	<meta name="robots" content="index, follow" />
     <meta name="google-site-verification" content="SEYDpX9sY2j6wzm9huzlL0SonRDDqxsR7W3Yi4DiuVs" />
 
-	<title>Mag. (FH) Mario Rothauer | Internetdienstleistungen aus dem Almtal</title>
+	<title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
 	<script type="text/javascript" src="/js/head.min.js"></script>

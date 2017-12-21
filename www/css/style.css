@@ -52,12 +52,12 @@ div#lang-box a {
 }
 
 a#head {
-    background: url(/img/rothauer-it.com.png) no-repeat;
+    background: url(/img/rothauer-it.com.jpg) no-repeat;
     height: 81px;
-    left: 435px;
+    left: 448px;
     position: absolute;
     top: -16px;
-    width: 287px;
+    width: 285px;
     z-index: 100;
 }
 a.header-link {
