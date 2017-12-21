@@ -6,7 +6,8 @@
     <meta charset="UTF-8" />
 	<meta name="author" content="Mag. (FH) Mario Rothauer" />
 	<meta name="description" content="Mario Rothauer" />
-	<meta name="keywords" content="websites webprogramming webdesign almtal" />
+	<meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
+	<meta name="description" content="Programmier-Diensleistungen aus dem Almtal. Seit 2009." />
 	<meta name="robots" content="index, follow" />
     <meta name="google-site-verification" content="SEYDpX9sY2j6wzm9huzlL0SonRDDqxsR7W3Yi4DiuVs" />
 
@@ -16,8 +17,6 @@
 	<script type="text/javascript" src="/js/head.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
   
-    <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css?<?php echo filemtime($cssPath.'ie7.css'); ?>" /><![endif]-->
-    
     <script type="text/javascript">
 		if(!window.rw) { rw = window.rw = {}; }
 		rw.environment = '<?php echo $environment; ?>';
