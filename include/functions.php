@@ -6,7 +6,7 @@
   }
 
 	$environment = 'live';
-	if (preg_match('/rothauer\-it\.dev/', $_SERVER['SERVER_NAME'])) {
+	if (preg_match('/rothauer\-it\.test/', $_SERVER['SERVER_NAME'])) {
 		$environment = 'dev';
 	}
 
