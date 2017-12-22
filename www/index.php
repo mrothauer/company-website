@@ -5,7 +5,7 @@
 
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="theme-color" content="#719f41">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
 
 	<meta name="author" content="Mag. (FH) Mario Rothauer" />
 	<meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
@@ -590,8 +590,10 @@
                 Nach einem FH-Studium in Wien und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler. Er hat sich auf die <b>Programmierung webbasierter Software</b> spezialisiert - am liebsten Open Source - und lebt mit seiner Familie im Almtal.
               </p>
               <p>
-                <span class="lang en">Qualifications</span>
-                <span class="lang de">Qualifikationen</span>: PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git
+              	<b>
+	                <span class="lang en">Qualifications</span>
+    	            <span class="lang de">Qualifikationen</span>
+	            :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git
               </p>
               <p class="lang en">Languages: German, Spanish, English</p>
               <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>

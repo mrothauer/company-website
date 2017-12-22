@@ -1,8 +1,5 @@
 @media only screen and (max-device-width: 768px) {
   
-  body {
-    width: 100%;
-  }
   .desc p,
   .desc span,
   .desc li {
@@ -14,6 +11,10 @@
   .desc li {
     float: left;
     margin-left: 25px;
+  }
+  
+  div#about span {
+    font-size: 32px;
   }
   
   div.squares div.square.description div.right,
