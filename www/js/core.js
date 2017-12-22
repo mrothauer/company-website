@@ -268,7 +268,7 @@ rw.Helper = {
 	,getProjects : function() {
         var projects = [];
         var o = {
-            heading : 'open source'
+            heading : 'open source<br />github'
            ,directLink : 'https://github.com/mrothauer'
            ,img  : {name : 'github.png' }
         };
@@ -294,6 +294,13 @@ rw.Helper = {
            ,more: true
         };
         projects.push(o);
+		var o = {
+			 link : 'www.holzmagier.at'
+			,img  : {name : 'holzmagier.png' }
+			,id : 'holzmagier'
+			,more : true
+		};
+		projects.push(o);
         var o = {
             link : 'www.kunstbrettl.at'
            ,img  : {name : 'kunstbrettl.png' }
@@ -426,13 +433,6 @@ rw.Helper = {
 			 link : 'www.grabner-gmbh.at'
 			,img  : {name : 'grabner.png' }
 			,id : 'grabner'
-			,more : true
-		};
-		projects.push(o);
-		var o = {
-			 link : 'www.holzmagier.at'
-			,img  : {name : 'holzmagier.png' }
-			,id : 'holzmagier'
 			,more : true
 		};
 		projects.push(o);

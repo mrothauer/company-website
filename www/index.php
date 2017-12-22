@@ -534,28 +534,7 @@
             <a target="_blank" href="http://www.schima-sports.at" class="project-link external">www.schima-sports.at</a>
           </div>
         </div>
-      
-        <div class="desc" id="kunststube-webhofer">
-          
-          <div class="left">
-            <b class="lang de">Ytong-Skulpturen, Pettenbach, Oberösterreich</b>
-            <b class="lang en">Ytong sculptures, Upper Austria</b>
-            <ul>
-              <li class="lang de">Skulputren aus Ytong</li>
-              <li class="lang en">Sculptures made of ytong</li>
-              <li>Layout by Cornelia Webhofer</li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.kunststube-webhofer.at" class="external">
-              <img src="/thumbs/big/kunststube-webhofer.png" />
-            </a>
-            <a target="_blank" href="http://www.kunststube-webhofer.at" class="project-link external">www.kunststube-webhofer.at</a>
-          </div>
-          
-        </div>
-        
+              
         <div class="desc" id="baeckerberg">
           <div class="left">
             <b class="lang de">Bäckerberg, Oberösterreich</b>
