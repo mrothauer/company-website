@@ -563,10 +563,12 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
               <p class="lang en">
-                After finising the University of Applied Science in Vienna (2005) and gaining lots of work experience abroad (Peru, Paraguay, Bolivia, Berlin), Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
+                After finising the University of Applied Science in Vienna (2005) and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-                Nach einem FH-Studium in Wien und mehreren fachbezogenenen Auslandsaufenthalten (Peru, Paraguay, Bolivien, Berlin) arbeitet Mario seit 2009 als freiberuflicher Software-Entwickler. Er hat sich auf die <b>Programmierung webbasierter Software</b> spezialisiert - am liebsten Open Source - und lebt mit seiner Familie im Almtal.
+                Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 Programmier-Dienstleistungen zur Erstellung von <b>webbasierter Software</b> an.
+              </p>
+              <p class="lang de">Am liebsten arbeitet er an Open-Source-Projekten, die zu einer Verbesserung der Gesellschaft beitragen. Mario lebt mit seiner Familie im Almtal.
               </p>
               <p>
               	<b>
