@@ -1,0 +1,234 @@
+html {
+    overflow-y: scroll;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #585858;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img { border: 0; }
+
+a, a:hover, a:visited, a:active {
+    color: #585858;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 1.0s;
+    -moz-transition: all 1.0s;
+    -o-transition: all 1.0s;
+    transition: all 1.0s;
+}
+a:hover {
+    color: orange;
+}
+ul {
+    padding-left: 15px;
+}
+ul li {
+    padding-bottom: 10px;
+}
+.small {
+    font-size: 11px;
+}
+#wrapper {
+    width: 787px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#lang-box {
+    position: absolute;
+    top: 38px;
+    right: 14px;
+    z-index: 100;
+    display: none;
+}
+div#lang-box a {
+    float: left;
+    margin-left: 5px;
+}
+
+a#head {
+    background: url(/img/rothauer-it.com.jpg) no-repeat;
+    height: 81px;
+    left: 448px;
+    position: absolute;
+    top: -16px;
+    width: 285px;
+    z-index: 100;
+}
+a.header-link {
+    margin-top: 15px;
+    float: left;
+    clear: both;
+}
+div.squares {
+    float: left;
+}
+div.squares .square {
+    width: 130px;
+    height: 130px;
+    display: block;
+    border: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    float: left;
+    position: relative;
+}
+div.squares .square.last-column {
+    border-right: none;
+    width: 65px;
+}
+div.squares .square.first-column {
+    width: 65px;
+}
+#square-1 {
+    text-align: center;
+}
+#square-1 .fb-like {
+    margin-top: 21px;
+}
+div.squares .square.last-row {
+    border-bottom: none;
+    height: 65px;
+}
+div.squares .square.first-row {
+    height: 65px;
+}
+div.squares .square.description {
+    width: 787px;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid orange;
+    display: none;
+    height: auto;
+    min-height: 130px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    line-height: 18px;
+}
+div.squares .square.hasImage img {
+    height: 130px;
+    width: 130px;
+    display: none;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+div.squares .square.hasImage.mpgat img {
+    height: 65px;
+} 
+div.squares div.square.description div.desc {
+    display: none;
+    padding: 25px 0 20px 0;
+    text-align: justify;
+    width: 787px;
+    float: left;
+}
+div.squares div.square.description div.project {
+    border-bottom: 1px solid orange;
+    margin-bottom: 20px;
+    float: left;
+    padding-bottom: 15px;
+}
+div.squares div.square.description div.desc div.left {
+    float: left;
+    width: 277px;
+    text-align: left;
+    line-height: 24px;
+}
+div.squares div.square.description div.desc div.left a {
+    font-weight: bold;
+}
+div.squares div.square.description div.desc div.left b {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+div.squares div.square.description div.right {
+    float: right;
+    margin-left: 10px;
+    width: 500px;
+}
+div.squares div.square.description div.right a.external:hover img {
+    border-color: #b9babc;
+}
+div.squares div.square.description div.right img {
+    width: 500px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+}
+div.squares div.square.description div.right a.project-link {
+    float: right;
+    margin-top: 5px;
+}
+
+div.squares a.square.hasImage:hover div.info,
+div.squares a.square.hasImage.selected div.info {
+    display: none;
+}
+div.squares a.square.hasImage:hover .heading,
+div.squares a.square.hasImage.selected .heading {
+    display: none;
+}
+div.squares a.square.hasNoImage:hover,
+div.squares a.square.hasNoImage.selected {
+    color: white;
+    background: #b9babc;
+}
+
+div.squares .square .heading {
+    text-align: center;
+    margin-top: 53px;
+}
+div.squares .square .heading.heading-with-break {
+    margin-top: 45px;
+}
+div.squares .square div.info {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 10px;
+}
+.orange {
+    color: orange;
+}
+div#about p,
+div#disclaimer p,
+div#imprint p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    line-height: 22px;
+    width: 661px;
+}
+
+div#about img {
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    float: right;
+    margin-left: 22px;
+}
+div#about span {
+    float: left;
+}
+div#contact a.img {
+    float: left;
+    padding-right: 5px;
+}
+div#contact,
+div#about,
+div#imprint {
+    margin-left: 63px;
+    margin-right: 63px;
+    width: 661px;
+}

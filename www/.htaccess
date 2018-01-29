@@ -1,0 +1,6 @@
+#www. immer dranschreiben
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^rothauer-it\.com$ [NC]
+RewriteRule ^(.*) http://www.rothauer-it.com%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^rothauer-it\.com$ [NC]
+RewriteRule ^(.*) http://www.rothauer-it.com/ [L,R=301]
