@@ -383,14 +383,6 @@ rw.Helper = {
            ,more: true
         };
         projects.push(o);
-        var o = {
-             heading : 'nazanin<br />aghakhani.com'
-            ,link : 'www.nazaninaghakhani.com'
-            ,img  : {name : 'nazaninaghakhani.png' }
-            ,id : 'nazaninaghakhani'
-            ,more: true
-        };
-        projects.push(o);
 		var o = {
 			 heading : 'kindergarten-<br />scharnstein.at'
 			,link : 'www.kindergarten-scharnstein.at'
@@ -406,14 +398,6 @@ rw.Helper = {
 			,more : true
 		};
 		projects.push(o);
-        var o = {
-             heading : 'baumeister-<br />amering.at'
-           ,link : 'www.baumeister-amering.at'
-           ,img  : {name : 'baumeister-amering.png' }
-           ,id : 'baumeister-amering'
-           ,more : true
-        };
-        projects.push(o);
         var o = {
             heading : 'nextgreen<br />leaders.com'
            ,link : 'www.nextgreenleaders.com'

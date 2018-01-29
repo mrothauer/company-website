@@ -272,26 +272,6 @@
 	        </div>
 	          
         </div>
-        
-        <div class="desc" id="nazaninaghakhani">
-          
-	        <div class="left">
-	            <b class="lang de">Nazanin Aghakhani, Dirigentin, Scharnstein</b>
-	            <b class="lang en">Nazanin Aghakhani, Conductor, Upper Austria</b>
-	            <ul>
-	              <li class="lang de">Dirigentin und Pianistin</li>
-	              <li class="lang en">Conductor and piano player</li>
-	              </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.nazaninaghakhani.com" class="external">
-	              <img src="/thumbs/big/nazaninaghakhani.png" />
-	            </a>
-	            <a target="_blank" href="http://www.nazaninaghakhani.com" class="project-link external">www.nazaninaghakhani.com</a>
-	        </div>
-	          
-        </div>
                 
         <div class="desc" id="kindergarten-scharnstein">
           
@@ -394,25 +374,6 @@
           
         </div>
         
-        <div class="desc" id="baumeister-amering">
-          
-          <div class="left">
-            <b class="lang de">Baumeister, Oberösterreich</b>
-            <b class="lang en">Builder, Upper Austria</b>
-            <ul>
-              <li>Layout by cread.at</li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.baumeister-amering.at" class="external">
-              <img src="/thumbs/big/baumeister-amering.png" />
-            </a>
-            <a target="_blank" href="http://www.baumeister-amering.at" class="project-link external">www.baumeister-amering.at</a>
-          </div>
-          
-        </div>
-                
         <div class="desc" id="nextgreenleaders">
           
           <div class="left">
