@@ -17,7 +17,6 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
 	<link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
-	<script type="text/javascript" src="/js/head.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
   
     <script type="text/javascript">
@@ -654,10 +653,12 @@
     
   </div>
   
+  <script type="text/javascript" src="/<?php echo $jsPath; ?>jquery-1.12.4.min.js?<?php echo filemtime($jsPath.'jquery-1.12.4.min.js'); ?>"></script>
+  <script type="text/javascript" src="/<?php echo $jsPath; ?>helper.js?<?php echo filemtime($jsPath.'helper.js'); ?>"></script>
+  
   <script type="text/javascript">
-    head.load('/js/jquery-1.12.4.min.js', '/js/core.js?v=1');
-    head.ready(function() {
-      rw.Helper.render();
+    $(document).ready(function() {
+        rw.Helper.render();
     });
   </script>
   
