@@ -274,17 +274,15 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
+            heading : 'hofladen online'
+           ,directLink : 'https://www.hofladen-online.at'
+        };
+        projects.push(o);
+        var o = {
             heading : 'www.foodcoop<br />shop.com'
            ,link : 'www.foodcoopshop.com'
            ,img  : {name : 'foodcoopshop.png' }
            ,id : 'foodcoopshop'
-        };
-        projects.push(o);
-        var o = {
-             heading : 'www.reparatur-<br />initiativen.de'
-            ,link : 'www.reparatur-initiativen.de'
-            ,img  : {name : 'reparatur-initiativen.png' }
-            ,id : 'reparatur-initiativen'
         };
         projects.push(o);
         var o = {
