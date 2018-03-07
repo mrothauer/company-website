@@ -274,7 +274,7 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'hofladen online'
+            heading : 'hofladen-<br />online.at'
            ,directLink : 'https://www.hofladen-online.at'
         };
         projects.push(o);

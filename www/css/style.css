@@ -16,10 +16,10 @@ a, a:hover, a:visited, a:active {
     border: none;
     outline: none;
     text-decoration: none;
-    -webkit-transition: all 1.0s;
-    -moz-transition: all 1.0s;
-    -o-transition: all 1.0s;
-    transition: all 1.0s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 a:hover {
     color: orange;
@@ -182,7 +182,12 @@ div.squares a.square.hasImage.selected .heading {
 div.squares a.square.hasNoImage:hover,
 div.squares a.square.hasNoImage.selected {
     color: white;
-    background: #b9babc;
+    background: orange;
+}
+div.squares a#square-17:hover,
+div.squares a#square-17.selected {
+    color: white;
+    background: #66cd00;
 }
 
 div.squares .square .heading {
