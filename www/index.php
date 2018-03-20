@@ -17,7 +17,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
 	<link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css" />
   
     <script type="text/javascript">
 		if(!window.rw) { rw = window.rw = {}; }
@@ -47,10 +47,9 @@
 	            <b class="lang de">FoodCoopShop</b>
 	            <b class="lang en">FoodCoopShop</b>
 	            <ul>
-	              <li class="lang de">Software für Foodcoops</li>
-	              <li class="lang de">seit Oktober 2016 Open Source</li>
-			      <li class="lang en">Software for food coops</li>
-			      <li class="lang en">Open source since October 2016</li>	              
+	              <li class="lang de">Open Source Software für Foodcoops</li>
+			      <li class="lang en">Open source software for food-coops</li>
+	              <li><a target="_blank" href="https://www.foodcoopshop.com"><span class="lang de">Projektseite FoodCoopShop</span><span class="lang en">FoodCoopShop project page</span></a></li>
 	              <li><a target="_blank" href="https://github.com/foodcoopshop/foodcoopshop"><span class="lang de">FoodCoopShop auf Github</span><span class="lang en">FoodCoopShop on Github</span></a></li>
 	            </ul>
 	        </div>
@@ -522,11 +521,20 @@
             
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
+              <p>
+              	<b>
+	                <span class="lang de">Presse</span>
+	                <span class="lang en">Press</span>
+	            : </b>
+	            <a style="text-decoration: underline" class="lang de" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank">Bericht über FoodCoopShop auf tips.at (14.03.2018)</a>
+	            <a style="text-decoration: underline" class="lang en" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank">Article about FoodCoopShop on tips.at (in German)</a>
+	          </p>
+
               <p class="lang en">
-                After finising the University of Applied Science in Vienna (2005) and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
+                After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-                Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 Programmier-Dienstleistungen zur Erstellung von <b>webbasierter Software</b> an.
+                Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von <b>webbasierter Software</b> an.
               </p>
               <p class="lang de">Am liebsten arbeitet er an Open-Source-Projekten, die zu einer Verbesserung der Gesellschaft beitragen. Mario lebt mit seiner Familie im Almtal.
               </p>
@@ -534,13 +542,13 @@
               	<b>
 	                <span class="lang en">Qualifications</span>
     	            <span class="lang de">Qualifikationen</span>
-	            :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git
+	            :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, Continuous Integration (Travis-CI)
               </p>
               <p class="lang en">Languages: German, Spanish, English</p>
               <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>
-            </div>
-              
           </div>
+          
+        </div>
         
         <div class="desc" id="contact">
           <div style="width:411px;float: left;">
@@ -595,13 +603,12 @@
                 Dieser Internetauftritt beinhaltet Links zu externen Internetauftritten Dritter, auf deren Inhalt der Medieninhaber keinen Einfluss hat. Dementsprechend kann der Medieninhaber trotz sorgfältiger Prüfung für die Inhalte der entsprechenden Seiten keine Verantwortung übernehmen. Für diese Inhalte ist der Betreiber der jeweiligen Website verantwortlich. Sollten dennoch Rechtsverletzungen in Verbindung mit einer der verlinkten Seiten erkennbar werden, wird der Link selbstverständlich umgehend entfernt.
             </p>
             
+            <p class="lang de"><b>Auswertungen der Websitenzugriffe mit Matomo</b></p>
+            <p class="lang en"><b>Tracking with Matomo</b></p>
             
-            <p class="lang de"><b>Auswertungen der Websitenzugriffe mit PIWIK</b></p>
-            <p class="lang en"><b>Tracking with PIWIK</b></p>
+            <p class="lang de small">Einverst&auml;ndnis bzw. Information &uuml;ber die Webanalyse mit Matomo</p>
             
-            <p class="lang de small">Einverst&auml;ndnis bzw. Information &uuml;ber die Webanalyse mit Piwik</p>
-            
-            <p class="lang de small">Diese Webseite benutzt die Open-Source-L&ouml;sung Piwik zur statistischen Auswertung aller Besucherzugriffe.&nbsp;Piwik basiert auf sogenannten Cookies (kleine Textdateien) die auf Ihrem Computer tempor&auml;r gespeichert werden.&nbsp;Sie k&ouml;nnen die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software generell verhindern.&nbsp;Bitte beachten Sie jedoch, dass ohne Cookies nicht alle Funktionen unserer Webeite genutzt werden k&ouml;nnen.Cookies erlauben eine Analyse der Benutzung unserer Webseite durch Sie.&nbsp;Die auf Basis dieses Cookies erzeugten Informationen &uuml;ber Ihre Benutzung dieses Internetangebotes werden auf unserem Server (Serverstandort Deutschland) gespeichert.&nbsp;Ihre IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert.<br />
+            <p class="lang de small">Diese Webseite benutzt die Open-Source-L&ouml;sung Matomo zur statistischen Auswertung aller Besucherzugriffe.&nbsp;Matomo basiert auf sogenannten Cookies (kleine Textdateien) die auf Ihrem Computer tempor&auml;r gespeichert werden.&nbsp;Sie k&ouml;nnen die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software generell verhindern.&nbsp;Bitte beachten Sie jedoch, dass ohne Cookies nicht alle Funktionen unserer Webeite genutzt werden k&ouml;nnen.Cookies erlauben eine Analyse der Benutzung unserer Webseite durch Sie.&nbsp;Die auf Basis dieses Cookies erzeugten Informationen &uuml;ber Ihre Benutzung dieses Internetangebotes werden auf unserem Server (Serverstandort Deutschland) gespeichert.&nbsp;Ihre IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert.<br />
             Diese Information wird also nicht gespeichert. Alle erhobenen Informationen dienen ausschlie&szlig;lich der laufenden Verbesserung unseres Onlineangebots.&nbsp;Eine Weitergabe an Dritte findet generell nicht statt. Sie k&ouml;nnen eine Auswertung Ihres Besuchs mittels &quot;Opt-Out&quot; unterbinden:</p>
             <iframe class="lang de" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 200px; width: 600px;"></iframe>
             <iframe class="lang en" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 200px; width: 600px;"></iframe>
@@ -624,7 +631,7 @@
   </script>
   
     <?php if ($environment == 'live') { ?>
-        <!-- Piwik -->
+        <!-- Matomo -->
             <script type="text/javascript">
               var _paq = _paq || [];
               _paq.push(['trackPageView']);
@@ -638,7 +645,7 @@
               })();
             </script>
             <noscript><p><img src="https://www.rothauer-it.com/pwk/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
-        <!-- End Piwik Code -->
+        <!-- End Matomo Code -->
     <?php } ?>
   
   
