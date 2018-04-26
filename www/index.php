@@ -521,13 +521,13 @@
             
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
-              <p>
-              	<b>
-	                <span class="lang de">Presse</span>
-	                <span class="lang en">Press</span>
-	            : </b>
-	            <a style="text-decoration: underline" class="lang de" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank">Bericht über FoodCoopShop auf tips.at (14.03.2018)</a>
-	            <a style="text-decoration: underline" class="lang en" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank">Article about FoodCoopShop on tips.at (in German)</a>
+          	  <b>
+                <span class="lang de">Bericht über FoodCoopShop auf tips.at (14.03.2018)</span>
+                <span class="lang en">Article about FoodCoopShop on tips.at (in German)</span>
+              </b><br />
+	          <p>
+	            <a style="text-decoration: underline" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
+	           / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
 	          </p>
 
               <p class="lang en">
