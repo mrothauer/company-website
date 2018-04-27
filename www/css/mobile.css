@@ -13,8 +13,9 @@
     margin-left: 25px;
   }
   
-  div#about span {
-    font-size: 32px;
+  div#about span,
+  div#about b {
+    font-size: 25px ! important;
   }
   
   div.squares div.square.description div.right,
@@ -26,7 +27,7 @@
   }
   
   div.squares div.square.description div.desc div.left b {
-    font-size: 26px;
+    font-size: 25px;
     margin-left: 15px;
     margin-bottom: 10px;
     float: left;

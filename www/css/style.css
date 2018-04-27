@@ -127,7 +127,6 @@ div.squares .square.hasImage.mpgat img {
 div.squares div.square.description div.desc {
     display: none;
     padding: 25px 0 20px 0;
-    text-align: justify;
     width: 787px;
     float: left;
 }
@@ -222,9 +221,6 @@ div#about img {
     -webkit-border-radius: 10px;
     float: right;
     margin-left: 22px;
-}
-div#about span {
-    float: left;
 }
 div#contact a.img {
     float: left;
