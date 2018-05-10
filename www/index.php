@@ -635,7 +635,7 @@
                 Mag. (FH) Mario Rothauer<br />
                 Mayrhofstraße 4<br />
                 A-4644 Scharnstein<br />
-                E-Mail: <a href="mailto:office@rothauer-it.com">office@rothauer-it.com</a><br />
+               [email]<br />
                 Tel: +43 680 217 89 39
             </p>
 

@@ -222,7 +222,7 @@ rw.Helper = {
 	}
 	
 	,replaceEmailPlaceholder : function() {
-		var emailContainers = $('#contact, #imprint', '#privacy');
+		var emailContainers = $('#contact, #imprint, #privacy');
 		var emailString = 'office' + '@' + 'rothaue' + 'r-it' + '.com';
 		emailContainers.each(function() {
 			$(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
