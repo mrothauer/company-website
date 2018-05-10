@@ -13,7 +13,7 @@ rw.Helper = {
 		for(var i=0;i<squaresCount;i++) {
 			
 			var squareIdsForProjects = [16,17,18];
-			var squareIdsForBottomLine = [30,31,32,33];
+			var squareIdsForBottomLine = [29,30,31,32,33];
 			
 			if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
 				var square = $('<a/>').attr('href', '#desc');
@@ -39,7 +39,8 @@ rw.Helper = {
 			var moreId = squareIdsForBottomLine[0];
 			var contactId = squareIdsForBottomLine[1];
 			var aboutId = squareIdsForBottomLine[2];
-			var disclaimerId = squareIdsForBottomLine[3];
+			var imprintId = squareIdsForBottomLine[3];
+            var privacyId = squareIdsForBottomLine[4];
 			
 			if ($.inArray(i, squareIdsForBottomLine) != -1) {
 				var newHeading = $('<div/>').addClass('heading');
@@ -54,20 +55,23 @@ rw.Helper = {
 					case moreId:
 						var nameEn = 'websites';
 						var nameDe = 'websites';
-					break;
+						break;
 					case contactId:
 						var nameEn = 'contact';
 						var nameDe = 'kontakt';
-					break;
+						break;
 					case aboutId:
 						var nameEn = 'about';
 						var nameDe = 'über mich';
-					break;
-					case disclaimerId:
-						var nameEn = 'imprint<br>disclaimer';
-						var nameDe = 'impressum<br>datenschutz';
-						marginTop = 12
-					break;
+						break;
+					case imprintId:
+						var nameEn = 'imprint';
+						var nameDe = 'impressum';
+						break;
+                    case privacyId:
+                        var nameEn = 'privacy';
+                        var nameDe = 'datenschutz';
+                        break;
 				}
 				
                 newHeading.css('margin-top', marginTop + 'px');
@@ -218,7 +222,7 @@ rw.Helper = {
 	}
 	
 	,replaceEmailPlaceholder : function() {
-		var emailContainers = $('#contact, #imprint');
+		var emailContainers = $('#contact, #imprint', '#privacy');
 		var emailString = 'office' + '@' + 'rothaue' + 'r-it' + '.com';
 		emailContainers.each(function() {
 			$(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));

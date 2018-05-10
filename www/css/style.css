@@ -206,7 +206,7 @@ div.squares .square div.info {
     color: orange;
 }
 div#about p,
-div#disclaimer p,
+div#privacy p,
 div#imprint p {
     padding: 0;
     margin: 0;
@@ -228,6 +228,7 @@ div#contact a.img {
 }
 div#contact,
 div#about,
+div#privacy,
 div#imprint {
     margin-left: 63px;
     margin-right: 63px;

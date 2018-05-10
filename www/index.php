@@ -582,17 +582,8 @@
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
             <p>UID-Nr. ATU71726279</p>
-            <p style="margin-top: 30px;">
-              <b class="lang de">Datenschutzerklärung</b>
-              <b class="lang en">Website disclaimer</b>
-            </p>
-            <p class="lang en small">
-              The information contained in this website is for general information purposes only. The information is provided by Rothauer IT and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of Rothauer IT. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, Rothauer IT takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
-            </p>
-            <p class="lang de small">
-              Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
-            </p>
-            <p>
+            
+            <p style="margin-top:30px;">
               <b class="lang de">Haftungsausschluss</b>
               <b class="lang en">Liability of links</b>
             </p>
@@ -603,18 +594,54 @@
                 Dieser Internetauftritt beinhaltet Links zu externen Internetauftritten Dritter, auf deren Inhalt der Medieninhaber keinen Einfluss hat. Dementsprechend kann der Medieninhaber trotz sorgfältiger Prüfung für die Inhalte der entsprechenden Seiten keine Verantwortung übernehmen. Für diese Inhalte ist der Betreiber der jeweiligen Website verantwortlich. Sollten dennoch Rechtsverletzungen in Verbindung mit einer der verlinkten Seiten erkennbar werden, wird der Link selbstverständlich umgehend entfernt.
             </p>
             
-            <p class="lang de"><b>Auswertungen der Websitenzugriffe mit Matomo</b></p>
-            <p class="lang en"><b>Tracking with Matomo</b></p>
-            
-            <p class="lang de small">Einverst&auml;ndnis bzw. Information &uuml;ber die Webanalyse mit Matomo</p>
-            
-            <p class="lang de small">Diese Webseite benutzt die Open-Source-L&ouml;sung Matomo zur statistischen Auswertung aller Besucherzugriffe.&nbsp;Matomo basiert auf sogenannten Cookies (kleine Textdateien) die auf Ihrem Computer tempor&auml;r gespeichert werden.&nbsp;Sie k&ouml;nnen die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software generell verhindern.&nbsp;Bitte beachten Sie jedoch, dass ohne Cookies nicht alle Funktionen unserer Webeite genutzt werden k&ouml;nnen.Cookies erlauben eine Analyse der Benutzung unserer Webseite durch Sie.&nbsp;Die auf Basis dieses Cookies erzeugten Informationen &uuml;ber Ihre Benutzung dieses Internetangebotes werden auf unserem Server (Serverstandort Deutschland) gespeichert.&nbsp;Ihre IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert.<br />
-            Diese Information wird also nicht gespeichert. Alle erhobenen Informationen dienen ausschlie&szlig;lich der laufenden Verbesserung unseres Onlineangebots.&nbsp;Eine Weitergabe an Dritte findet generell nicht statt. Sie k&ouml;nnen eine Auswertung Ihres Besuchs mittels &quot;Opt-Out&quot; unterbinden:</p>
-            <iframe class="lang de" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 200px; width: 600px;"></iframe>
-            <iframe class="lang en" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 200px; width: 600px;"></iframe>
-            
           </div>
         </div>
+        
+		<div class="desc" id="privacy">
+          <div>
+            <p style="margin-top: 30px;">
+              <b class="lang de">Erklärung zur Informationspflicht (Datenschutzerklärung)</b>
+              <b class="lang en">Privacy policy</b>
+            </p>
+            <p class="lang en small">
+              The information contained in this website is for general information purposes only. The information is provided by Rothauer IT and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of Rothauer IT. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, Rothauer IT takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
+            </p>
+            <p class="lang de small">
+              Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.
+            </p>            
+
+            <p class="lang de"><b>Kontakt mit uns</b></p>
+            <p class="lang en"><b>Contacting us</b></p>
+            <p class="small">
+              Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+            </p>            
+            
+            <p class="lang de"><b>Webanalyse mit Matomo</b></p>
+            <p class="lang en"><b>Tracking with Matomo</b></p>
+            <p class="small">Unsere Website verwendet Funktionen des Webanalysedienstes Matomo. Dazu werden <b>keine</b> Cookies verwendet. Die dadurch erzeugten Informationen werden auf den Server des Anbieters (rothauer-it.com, Serverstandort: Deutschland) übertragen und dort gespeichert. Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. <b></b>Ihre IP-Adresse wird erfasst, aber umgehend (durch Löschung der letzten 2 Bytes) pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich. Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO. Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten pseudonymisiert. Die Nutzerdaten werden für die Dauer von 12 Monaten aufbewahrt. Sie können mittels "Opt-Out" eine Auswertung ihres Besuches verhindern:</p>
+            
+            <iframe class="lang de" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 100px; width: 100%;"></iframe>
+            <iframe class="lang en" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 100px; width: 100%;"></iframe>
+            
+            <p class="lang de"><b>Ihre Rechte</b></p>
+            <p class="lang en"><b>Your rights</b></p>
+            <p class="small">
+              Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist dies die Datenschutzbehörde.
+            </p>
+            
+            <p class="lang de"><b>Sie erreichen uns unter folgenden Kontaktdaten</b></p>
+            <p class="lang en"><b>Contact</b></p>
+            <p class="small">
+                Mag. (FH) Mario Rothauer<br />
+                Mayrhofstraße 4<br />
+                A-4644 Scharnstein<br />
+                E-Mail: <a href="mailto:office@rothauer-it.com">office@rothauer-it.com</a><br />
+                Tel: +43 680 217 89 39
+            </p>
+
+          </div>
+        </div>
+        
       </div>
       
     </div>
@@ -634,6 +661,7 @@
         <!-- Matomo -->
             <script type="text/javascript">
               var _paq = _paq || [];
+              _paq.push(['disableCookies']);
               _paq.push(['trackPageView']);
               _paq.push(['enableLinkTracking']);
               (function() {
