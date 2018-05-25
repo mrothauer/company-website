@@ -373,25 +373,6 @@
           
         </div>
         
-        <div class="desc" id="nextgreenleaders">
-          
-          <div class="left">
-            <b class="lang de">Nachhaltige Leadership-Programme, Schweiz</b>
-            <b class="lang en">Sustainable leadership programs, Switzerland</b>
-            <ul>
-              <li>Layout by <a href="http://www.fairidee.de" target="_blank">fairidee.de</a></li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.nextgreenleaders.com" class="external">
-              <img src="/thumbs/big/nextgreenleaders.png" />
-            </a>
-            <a target="_blank" href="http://www.nextgreenleaders.com" class="project-link external">www.nextgreenleaders.com</a>
-          </div>
-          
-        </div>
-
         <div class="desc" id="almtalerhaus">
           
           <div class="left">

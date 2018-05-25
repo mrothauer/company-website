@@ -401,14 +401,6 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'nextgreen<br />leaders.com'
-           ,link : 'www.nextgreenleaders.com'
-           ,img  : {name : 'nextgreenleaders.png' }
-           ,id : 'nextgreenleaders'
-           ,more : true
-        };
-        projects.push(o);
-        var o = {
              link : 'www.schima-sports.at'
             ,img  : {name : 'schimasports.png' }
             ,id : 'schimas-sports'
