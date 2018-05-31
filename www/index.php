@@ -581,7 +581,7 @@
 		<div class="desc" id="privacy">
           <div>
             <p style="margin-top: 30px;">
-              <b class="lang de">Erklärung zur Informationspflicht (Datenschutzerklärung)</b>
+              <b class="lang de">Datenschutzerklärung</b>
               <b class="lang en">Privacy policy</b>
             </p>
             <p class="lang en small">
@@ -589,7 +589,7 @@
             </p>
             <p class="lang de small">
               Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.
-            </p>            
+            </p>
 
             <p class="lang de"><b>Kontakt mit uns</b></p>
             <p class="lang en"><b>Contacting us</b></p>
