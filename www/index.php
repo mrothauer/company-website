@@ -580,45 +580,92 @@
         
 		<div class="desc" id="privacy">
           <div>
-            <p style="margin-top: 30px;">
-              <b class="lang de">Datenschutzerklärung</b>
-              <b class="lang en">Privacy policy</b>
-            </p>
-            <p class="lang en small">
-              The information contained in this website is for general information purposes only. The information is provided by Rothauer IT and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of Rothauer IT. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. However, Rothauer IT takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
-            </p>
-            <p class="lang de small">
-              Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.
-            </p>
+            <h2>Datenschutzerklärung</h2>
 
-            <p class="lang de"><b>Kontakt mit uns</b></p>
-            <p class="lang en"><b>Contacting us</b></p>
-            <p class="small">
-              Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
-            </p>            
-            
-            <p class="lang de"><b>Webanalyse mit Matomo</b></p>
-            <p class="lang en"><b>Tracking with Matomo</b></p>
-            <p class="small">Unsere Website verwendet Funktionen des Webanalysedienstes Matomo. Dazu werden <b>keine</b> Cookies verwendet. Die dadurch erzeugten Informationen werden auf den Server des Anbieters (rothauer-it.com, Serverstandort: Deutschland) übertragen und dort gespeichert. Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. <b></b>Ihre IP-Adresse wird erfasst, aber umgehend (durch Löschung der letzten 2 Bytes) pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich. Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO. Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten pseudonymisiert. Die Nutzerdaten werden für die Dauer von 12 Monaten aufbewahrt. Sie können mittels "Opt-Out" eine Auswertung ihres Besuches verhindern:</p>
-            
-            <iframe class="lang de" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" style="border: 0; height: 100px; width: 100%;"></iframe>
-            <iframe class="lang en" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en" style="border: 0; height: 100px; width: 100%;"></iframe>
-            
-            <p class="lang de"><b>Ihre Rechte</b></p>
-            <p class="lang en"><b>Your rights</b></p>
-            <p class="small">
-              Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. In Österreich ist dies die Datenschutzbehörde.
-            </p>
-            
-            <p class="lang de"><b>Sie erreichen uns unter folgenden Kontaktdaten</b></p>
-            <p class="lang en"><b>Contact</b></p>
-            <p class="small">
-                Mag. (FH) Mario Rothauer<br />
-                Mayrhofstraße 4<br />
-                A-4644 Scharnstein<br />
-               [email]<br />
-                Tel: +43 680 217 89 39
-            </p>
+
+<p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
+
+<p>Mag. (FH) Mario Rothauer<br />
+Mayrhofstraße 4<br />
+A-4644 Scharnstein<br />
+E-Mail: <a href="mailto:office@rothauer-it.com">office@rothauer-it.com</a><br />
+Tel: +43 680 217 89 39
+</p>
+
+<h3>Ihre Betroffenenrechte</h3>
+
+<p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten k&ouml;nnen Sie jederzeit folgende Rechte aus&uuml;ben:</p>
+
+<ul>
+	<li>Auskunft &uuml;ber Ihre bei uns gespeicherten Daten und deren Verarbeitung,</li>
+	<li>Berichtigung unrichtiger personenbezogener Daten,</li>
+	<li>L&ouml;schung Ihrer bei uns gespeicherten Daten,</li>
+	<li>Einschr&auml;nkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht l&ouml;schen d&uuml;rfen,</li>
+	<li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und</li>
+	<li>Daten&uuml;bertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben.</li>
+</ul>
+
+<p>Sofern Sie uns eine Einwilligung erteilt haben, k&ouml;nnen Sie diese jederzeit mit Wirkung f&uuml;r die Zukunft widerrufen.</p>
+
+<h3>Zwecke der Datenverarbeitung durch die verantwortliche Stelle und Dritte</h3>
+
+<p>Wir verarbeiten Ihre personenbezogenen Daten nur zu den in dieser Datenschutzerkl&auml;rung genannten Zwecken. Eine &Uuml;bermittlung Ihrer pers&ouml;nlichen Daten an Dritte zu anderen als den genannten Zwecken findet nicht statt. Wir geben Ihre pers&ouml;nlichen Daten nur an Dritte weiter, wenn:</p>
+
+<ul>
+	<li>Sie Ihre ausdr&uuml;ckliche Einwilligung dazu erteilt haben,</li>
+	<li>die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,</li>
+	<li>die Verarbeitung zur Erf&uuml;llung einer rechtlichen Verpflichtung erforderlich ist,</li>
+</ul>
+
+<p>die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein &uuml;berwiegendes schutzw&uuml;rdiges Interesse an der Nichtweitergabe Ihrer Daten haben.</p>
+
+<h3>L&ouml;schung bzw. Sperrung der Daten</h3>
+
+<p>Wir halten uns an die Grunds&auml;tze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielf&auml;ltigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinem&auml;&szlig;ig und entsprechend den gesetzlichen Vorschriften gesperrt oder gel&ouml;scht.</p>
+
+<h3>Erfassung allgemeiner Informationen beim Besuch unserer Website</h3>
+
+<p>Wenn Sie auf unsere Website zugreifen, werden automatisch mittels eines Cookies Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und &auml;hnliches. Hierbei handelt es sich ausschlie&szlig;lich um Informationen, welche keine R&uuml;ckschl&uuml;sse auf Ihre Person zulassen.</p>
+
+<p>Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Sie werden insbesondere zu folgenden Zwecken verarbeitet:</p>
+
+<ul>
+	<li>Sicherstellung eines problemlosen Verbindungsaufbaus der Website,</li>
+	<li>Sicherstellung einer reibungslosen Nutzung unserer Website,</li>
+	<li>Auswertung der Systemsicherheit und -stabilit&auml;t sowie</li>
+	<li>zu weiteren administrativen Zwecken.</li>
+</ul>
+
+<p>Die Verarbeitung Ihrer personenbezogenen Daten basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um R&uuml;ckschl&uuml;sse auf Ihre Person zu ziehen. Empf&auml;nger der Daten sind nur die verantwortliche Stelle und ggf. Auftragsverarbeiter.</p>
+
+<p>Anonyme Informationen dieser Art werden von uns ggfs. statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.</p>
+
+<h3>Cookies</h3>
+
+<p>Wie viele andere Webseiten verwenden wir auch so genannte &bdquo;Cookies&ldquo;. Cookies sind kleine Textdateien, die von einem Websiteserver auf Ihre Festplatte &uuml;bertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem und Ihre Verbindung zum Internet.</p>
+
+<p>Cookies k&ouml;nnen nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu &uuml;bertragen. Anhand der in Cookies enthaltenen Informationen k&ouml;nnen wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten erm&ouml;glichen.</p>
+
+<p>In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre Einwilligung eine Verkn&uuml;pfung mit personenbezogenen Daten hergestellt.</p>
+
+<p>Nat&uuml;rlich k&ouml;nnen Sie unsere Website grunds&auml;tzlich auch ohne Cookies betrachten. Internet-Browser sind regelm&auml;&szlig;ig so eingestellt, dass sie Cookies akzeptieren. Im Allgemeinen k&ouml;nnen Sie die Verwendung von Cookies jederzeit &uuml;ber die Einstellungen Ihres Browsers deaktivieren. Bitte verwenden Sie die Hilfefunktionen Ihres Internetbrowsers, um zu erfahren, wie Sie diese Einstellungen &auml;ndern k&ouml;nnen. Bitte beachten Sie, dass einzelne Funktionen unserer Website m&ouml;glicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies deaktiviert haben.</p>
+
+<h3>Kontaktformular</h3>
+
+<p>Treten Sie bzgl. Fragen jeglicher Art per E-Mail oder Kontaktformular mit uns in Kontakt, erteilen Sie uns zum Zwecke der Kontaktaufnahme Ihre freiwillige Einwilligung. Hierf&uuml;r ist die Angabe einer validen E-Mail-Adresse erforderlich. Diese dient der Zuordnung der Anfrage und der anschlie&szlig;enden Beantwortung derselben. Die Angabe weiterer Daten ist optional. Die von Ihnen gemachten Angaben werden zum Zwecke der Bearbeitung der Anfrage sowie f&uuml;r m&ouml;gliche Anschlussfragen gespeichert. Nach Erledigung der von Ihnen gestellten Anfrage werden personenbezogene Daten automatisch gel&ouml;scht.</p>
+
+<h3>&Auml;nderung unserer Datenschutzbestimmungen</h3>
+
+<p>Wir behalten uns vor, diese Datenschutzerkl&auml;rung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um &Auml;nderungen unserer Leistungen in der Datenschutzerkl&auml;rung umzusetzen, z.B. bei der Einf&uuml;hrung neuer Services. F&uuml;r Ihren erneuten Besuch gilt dann die neue Datenschutzerkl&auml;rung.</p>
+
+<h3>Webanalyse mit Matomo</h3>
+<p>Unsere Website verwendet Funktionen des Webanalysedienstes Matomo. Dazu werden <b>keine</b> Cookies verwendet. Die dadurch erzeugten Informationen werden auf den Server des Anbieters (rothauer-it.com, Serverstandort: Deutschland) übertragen und dort gespeichert. Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. <b></b>Ihre IP-Adresse wird erfasst, aber umgehend (durch Löschung der letzten 2 Bytes) pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich. Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO. Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten pseudonymisiert. Die Nutzerdaten werden für die Dauer von 12 Monaten aufbewahrt.</p>
+
+<p>Sie können mittels "Opt-Out" eine Auswertung ihres Besuches verhindern:</p>
+<iframe style="border: 0; height: 100px; width: 100%;" src="https://www.rothauer-it.com/pwk/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" width="300" height="150"></iframe>
+
+
+<p><em>Die Datenschutzerkl&auml;rung wurde mit dem </em><a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/" rel="noopener" target="_blank"><em>Datenschutzerkl&auml;rungs-Generator der activeMind AG erstellt</em></a><em>.</em></p>
 
           </div>
         </div>
