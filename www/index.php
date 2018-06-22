@@ -503,20 +503,20 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
           	  <b>
+                <span class="lang de">Leitartikel "Vom Markt-Platz zum Online-Markt" im Magazin "Leben in Stadt und Land" (Juni 2018)</span>
+                <span class="lang en">Main article in "Leben in Stadt und Land" (June 2018, in German)</span>
+              </b><br />
+	          <p>
+	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank"><span style="float: none;" class="lang de">Zum Artikel</span><span style="float: none;" class="lang en">read article</span></a>
+	          </p>
+
+          	  <b>
                 <span class="lang de">Bericht über FoodCoopShop in der Tips (14.03.2018)</span>
                 <span class="lang en">Article about FoodCoopShop in Tips (in German)</span>
               </b><br />
 	          <p>
 	            <a style="text-decoration: underline" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
 	           / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
-	          </p>
-
-          	  <b>
-                <span class="lang de">Leitartikel "Vom Markt-Platz zum Online-Markt" im Magazin "Leben in Stadt und Land" (Juni 2018)</span>
-                <span class="lang en">Main article in "Leben in Stadt und Land" (June 2018, in German)</span>
-              </b><br />
-	          <p>
-	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank"><span style="float: none;" class="lang de">PDF-Download</span><span style="float: none;" class="lang en">PDF download</span></a>
 	          </p>
 
               <p class="lang en">
