@@ -516,7 +516,7 @@
                 <span class="lang en">Main article in "Leben in Stadt und Land" (June 2018, in German)</span>
               </b><br />
 	          <p>
-	            <a style="text-decoration: underline" href="/files/Leben-in-Stadt-und-Land-2-2018.pdf" target="_blank"><span style="float: none;" class="lang de">PDF-Download</span><span style="float: none;" class="lang en">PDF download</span></a>
+	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank"><span style="float: none;" class="lang de">PDF-Download</span><span style="float: none;" class="lang en">PDF download</span></a>
 	          </p>
 
               <p class="lang en">
