@@ -503,7 +503,13 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
           	  <b>
-                <span class="lang de">Leitartikel "Vom Markt-Platz zum Online-Markt" im Magazin "Leben in Stadt und Land" (Juni 2018)</span>
+                <span>Aktuelles Projekt für das Netzwerk Reparatur-Initiativen</span>
+              </b><a style="text-decoration: underline" href="https://www.reparatur-initiativen.de/post/auf-dem-weg-zur-reparatur-statistik/" target="_blank">Zum Artikel</a>
+	          <br />
+	          <br />
+	          
+          	  <b>
+                <span class="lang de">Leitartikel für Magazin "Leben in Stadt und Land" (Juni 2018)</span>
                 <span class="lang en">Main article in "Leben in Stadt und Land" (June 2018, in German)</span>
               </b><br />
 	          <p>
@@ -519,6 +525,8 @@
 	           / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
 	          </p>
 
+			  <b class="lang de">Über mich</b>
+			  <b class="lang en">About me</b>
               <p class="lang en">
                 After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
