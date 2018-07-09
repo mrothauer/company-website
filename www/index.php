@@ -15,9 +15,9 @@
 
 	<title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
 
+	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'fonts.css'); ?>" />
 	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
 	<link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css" />
   
     <script type="text/javascript">
 		if(!window.rw) { rw = window.rw = {}; }
