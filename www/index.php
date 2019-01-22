@@ -503,14 +503,14 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
           	  <b>
-                <span>Aktuelles Projekt für das Netzwerk Reparatur-Initiativen</span>
-              </b><a style="text-decoration: underline" href="https://www.reparatur-initiativen.de/post/auf-dem-weg-zur-reparatur-statistik/" target="_blank">Zum Artikel</a>
+                <span>Projekt für das <a href="https://www.reparatur-initiativen.de" target="_blank"><i>Netzwerk Reparatur-Initiativen</i></a> (2018)</span>
+              </b><br /><a style="text-decoration: underline" href="https://www.reparatur-initiativen.de/post/auf-dem-weg-zur-reparatur-statistik/" target="_blank">Zum Artikel</a>
 	          <br />
 	          <br />
 	          
           	  <b>
-                <span class="lang de">Leitartikel für Magazin "Leben in Stadt und Land" (Juni 2018)</span>
-                <span class="lang en">Main article in "Leben in Stadt und Land" (June 2018, in German)</span>
+                <span class="lang de">Leitartikel für "Leben in Stadt und Land" (2018)</span>
+                <span class="lang en">Main article in "Leben in Stadt und Land" (2018, in German)</span>
               </b><br />
 	          <p>
 	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank"><span style="float: none;" class="lang de">Zum Artikel</span><span style="float: none;" class="lang en">read article</span></a>
