@@ -70,10 +70,10 @@
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.wildniscamps.at" class="external">
+	            <a target="_blank" href="https://www.wildniscamps.at" class="external">
 	              <img src="/thumbs/big/wildniscamps.png" />
 	            </a>
-	            <a target="_blank" href="http://www.wildniscamps.at" class="project-link external">www.wildniscamps.at</a>
+	            <a target="_blank" href="https://www.wildniscamps.at" class="project-link external">www.wildniscamps.at</a>
 	        </div>
 	          
         </div> 
@@ -90,10 +90,10 @@
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.kunstbrettl.at" class="external">
+	            <a target="_blank" href="https://www.kunstbrettl.at" class="external">
 	              <img src="/thumbs/big/kunstbrettl.png" />
 	            </a>
-	            <a target="_blank" href="http://www.kunstbrettl.at" class="project-link external">www.kunstbrettl.at</a>
+	            <a target="_blank" href="https://www.kunstbrettl.at" class="project-link external">www.kunstbrettl.at</a>
 	        </div>
 	          
         </div> 
@@ -131,10 +131,10 @@
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.cumnobis.de" class="external">
+	            <a target="_blank" href="https://www.cumnobis.de" class="external">
 	              <img src="/thumbs/big/cumnobis.png" />
 	            </a>
-	            <a target="_blank" href="http://www.cumnobis.de" class="project-link external">www.cumnobis.de</a>
+	            <a target="_blank" href="https://www.cumnobis.de" class="project-link external">www.cumnobis.de</a>
 	        </div>
 	          
         </div>
@@ -153,10 +153,10 @@
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.maler-luckeneder.at" class="external">
+	            <a target="_blank" href="https://www.maler-luckeneder.at" class="external">
 	              <img src="/thumbs/big/maler-luckeneder.png" />
 	            </a>
-	            <a target="_blank" href="http://www.maler-luckeneder.at" class="project-link external">www.maler-luckeneder.at</a>
+	            <a target="_blank" href="https://www.maler-luckeneder.at" class="project-link external">www.maler-luckeneder.at</a>
 	        </div>
 	          
         </div>
@@ -175,10 +175,10 @@
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.gesellschafterkreis.de" class="external">
+	            <a target="_blank" href="https://www.gesellschafterkreis.de" class="external">
 	              <img src="/thumbs/big/gesellschafterkreis.png" />
 	            </a>
-	            <a target="_blank" href="http://www.gesellschafterkreis.de" class="project-link external">www.gesellschafterkreis.de</a>
+	            <a target="_blank" href="https://www.gesellschafterkreis.de" class="project-link external">www.gesellschafterkreis.de</a>
 	        </div>
 	          
         </div>        
@@ -212,16 +212,16 @@
 	            <ul>
 	              <li class="lang de">Foodcoop in Scharnstein, Oberösterreich</li>
 	              <li class="lang en">Foodcoop in Scharnstein, Upper Austria</li>
-	              <li class="lang de">basierend auf <a href="http://www.foodcoopshop.com">FoodCoopShop</a></li>
-	              <li class="lang en">based on <a href="http://www.foodcoopshop.com">FoodCoopShop</a> </li>
+	              <li class="lang de">basierend auf <a href="https://www.foodcoopshop.com">FoodCoopShop</a></li>
+	              <li class="lang en">based on <a href="https://www.foodcoopshop.com">FoodCoopShop</a> </li>
 	            </ul>
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.fairteiler-scharnstein.at" class="external">
+	            <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="external">
 	              <img src="/thumbs/big/fairteiler-scharnstein.png" />
 	            </a>
-	            <a target="_blank" href="http://www.fairteiler-scharnstein.at" class="project-link external">www.fairteiler-scharnstein.at</a>
+	            <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="project-link external">www.fairteiler-scharnstein.at</a>
 	        </div>
 	          
         </div>        
@@ -358,7 +358,7 @@
             <ul>
               <li class="lang de">Berghütte am Fuße des Toten Gebirges</li>
               <li class="lang en">Mountain hut in the mountain range "Totes Gebirge"</li>
-              <li>Layout by <a href="http://www.fairidee.de" target="_blank">fairidee.de</a></li>
+              <li>Layout by <a href="https://www.fairidee.de" target="_blank">fairidee.de</a></li>
             </ul>
           </div>
           
@@ -379,7 +379,7 @@
             <ul>
               <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
               <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-              <li>Layout by <a href="http://www.fairidee.de" target="_blank">fairidee.de</a></li>
+              <li>Layout by <a href="https://www.fairidee.de" target="_blank">fairidee.de</a></li>
             </ul>
           </div>
           
@@ -398,19 +398,19 @@
             <b class="lang de">Portal für Offene Werkstätten</b>
             <b class="lang en">Portal for open workshops</b>
             <ul>
-              <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
+              <li class="lang de">Basierend auf <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
               <li class="lang de">Interaktive Werkstätten-Suche mit Google Maps</li>
               
-              <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
+              <li class="lang en">Based on <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
               <li class="lang en">Interactive workshop search with Google Maps</li>
             </ul>
           </div>
           
           <div class="right">
-            <a target="_blank" href="http://www.offene-werkstaetten.org" class="external">
+            <a target="_blank" href="https://www.offene-werkstaetten.org" class="external">
               <img src="/thumbs/big/offenewerkstaetten.png" />
             </a>
-            <a target="_blank" href="http://www.offene-werkstaetten.org" class="project-link external">www.offene-werkstaetten.org</a>
+            <a target="_blank" href="https://www.offene-werkstaetten.org" class="project-link external">www.offene-werkstaetten.org</a>
           </div>
           
         </div>
@@ -427,10 +427,10 @@
           </div>
           
           <div class="right">
-            <a target="_blank" href="http://www.motorsagla.at" class="external">
+            <a target="_blank" href="https://www.motorsagla.at" class="external">
               <img src="/thumbs/big/motorsagla.png" />
             </a>
-            <a target="_blank" href="http://www.motorsagla.at" class="project-link external">www.motorsagla.at</a>
+            <a target="_blank" href="https://www.motorsagla.at" class="project-link external">www.motorsagla.at</a>
           </div>
           
         </div>
@@ -445,10 +445,10 @@
             </ul>
           </div>
           <div class="right">
-            <a target="_blank" href="http://www.schima-sports.at" class="external">
+            <a target="_blank" href="https://www.schima-sports.at" class="external">
               <img src="/thumbs/big/schimasports.png" />
             </a>
-            <a target="_blank" href="http://www.schima-sports.at" class="project-link external">www.schima-sports.at</a>
+            <a target="_blank" href="https://www.schima-sports.at" class="project-link external">www.schima-sports.at</a>
           </div>
         </div>
               
@@ -533,16 +533,16 @@
             <p>[email]</p>
             <p>UID-Nr. ATU71726279</p>
             <p>
-                <a target="_blank" class="img" title="xing" href="http://www.xing.com/profile/Mario_Rothauer">
+                <a target="_blank" class="img" title="xing" href="https://www.xing.com/profile/Mario_Rothauer">
                   <img src="/img/xing_icon_16x16.png" />
                 </a>
-                <a target="_blank" class="img" title="linkedin" href="http://at.linkedin.com/in/mrothauer">
+                <a target="_blank" class="img" title="linkedin" href="https://at.linkedin.com/in/mrothauer">
                   <img src="/img/linkedin_icon_16x16.png" />
                 </a>
             </p>
           </div>
           <div style="width:250px;float:left;">
-              <a target="_blank" style="float:right;" title="Klimabündnis" href="http://www.klimabuendnis.at/betriebe-mitglieder/rothauerwebsites">
+              <a target="_blank" style="float:right;" title="Klimabündnis" href="https://www.klimabuendnis.at/betriebe-mitglieder/rothauerwebsites">
                   <img style="float:right;" width="250" src="/img/klimabuendnislogo.jpg" />
               </a>
           </div>
