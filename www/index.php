@@ -40,29 +40,6 @@
       <div class="squares">
         <div id="desc" class="description square">
         
-        
-        <div class="desc" id="foodcoopshop">
-          
-	        <div class="left">
-	            <b class="lang de">FoodCoopShop</b>
-	            <b class="lang en">FoodCoopShop</b>
-	            <ul>
-	              <li class="lang de">Open Source Software für Foodcoops</li>
-			      <li class="lang en">Open source software for food-coops</li>
-	              <li><a target="_blank" href="https://www.foodcoopshop.com"><span class="lang de">Projektseite FoodCoopShop</span><span class="lang en">FoodCoopShop project page</span></a></li>
-	              <li><a target="_blank" href="https://github.com/foodcoopshop/foodcoopshop"><span class="lang de">FoodCoopShop auf Github</span><span class="lang en">FoodCoopShop on Github</span></a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.foodcoopshop.com" class="external">
-	              <img src="/thumbs/big/foodcoopshop.png" />
-	            </a>
-	            <a target="_blank" href="http://www.foodcoopshop.com" class="project-link external">www.foodcoopshop.com</a>
-	        </div>
-	          
-        </div>
-        
         <div class="desc" id="reparatur-initiativen">
           
 	        <div class="left">

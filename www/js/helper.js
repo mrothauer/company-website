@@ -284,9 +284,8 @@ rw.Helper = {
         projects.push(o);
         var o = {
             heading : 'www.foodcoop<br />shop.com'
-           ,link : 'www.foodcoopshop.com'
+           ,directLink : 'https://www.foodcoopshop.com'
            ,img  : {name : 'foodcoopshop.png' }
-           ,id : 'foodcoopshop'
         };
         projects.push(o);
         var o = {
