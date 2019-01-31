@@ -479,7 +479,14 @@
             
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
-          	  <b>
+		      <b>
+                <span>Bericht über FoodCoopShop im extra-blick (31.01.2019)</span>
+              </b><br />
+	          <p>
+	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Print-Ausgabe</span></a>
+	          </p>
+
+		      <b>
                 <span>Projekt für das <a href="https://www.reparatur-initiativen.de" target="_blank"><i>Netzwerk Reparatur-Initiativen</i></a> (2018)</span>
               </b><br /><a style="text-decoration: underline" href="https://www.reparatur-initiativen.de/post/auf-dem-weg-zur-reparatur-statistik/" target="_blank">Zum Artikel</a>
 	          <br />
