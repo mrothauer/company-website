@@ -534,7 +534,7 @@
         <div class="desc" id="contact">
           <div style="width:411px;float: left;">
             <p>Mag. (FH) Mario Rothauer</p>
-            <p>Mayrhofstraße 4</p>
+            <p>Am Birkenweg 3</p>
             <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
