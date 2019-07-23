@@ -1,9 +1,4 @@
 <?php
-  // damit www.smart-websites.com/motorsagla.at nicht geht
-  if(preg_match('/smart-websites\.com/', $_SERVER['HTTP_HOST'])) {
-    header("HTTP/1.1 301 Moved Permanently");
-    header("Location: http://www.rothauer-it.com");
-  }
 
 	$environment = 'live';
 	if (preg_match('/rothauer\-it\.test/', $_SERVER['SERVER_NAME'])) {
