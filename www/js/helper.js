@@ -53,8 +53,8 @@ rw.Helper = {
 //                      directLink = 'https://github.com/mrothauer';
 //                  break;
                     case moreId:
-                        var nameEn = 'websites';
-                        var nameDe = 'websites';
+                        var nameEn = 'projects';
+                        var nameDe = 'projekte';
                         break;
                     case contactId:
                         var nameEn = 'contact';
@@ -99,7 +99,7 @@ rw.Helper = {
             var directLink = projects[j].directLink != undefined && projects[j].directLink;
             
             if (projects[j].more != undefined && projects[j].more == true && !directLink) {
-                $('#websites').append('<div class="project">' + $('div#' + projects[j].id).html()) + '</div>';
+                $('#projects').append('<div class="project">' + $('div#' + projects[j].id).html()) + '</div>';
                 continue;
             }
             
@@ -289,6 +289,30 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
+            heading : 'www.reparatur-<br />initiativen.de'
+           ,link : 'www.reparatur-initiativen.de'
+           ,img  : {name : 'reparatur-initiativen.png' }
+           ,id : 'reparatur-initiativen'
+           ,more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'www.fairteiler-<br />scharnstein.at'
+           ,link : 'www.fairteiler-scharnstein.at'
+           ,img  : {name : 'fairteiler-scharnstein.png' }
+           ,id : 'fairteiler-scharnstein'
+           ,more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'www.offene-<br />werkstaetten.org'
+           ,link : 'www.offene-werkstaetten.org'
+           ,img  : {name : 'offenewerkstaetten.png' }
+           ,id : 'offene-werkstaetten'
+           ,more: true
+        };
+        projects.push(o);
+        var o = {
             link : 'www.wildniscamps.at'
            ,img  : {name : 'wildniscamps.png' }
            ,id : 'wildniscamps'
@@ -296,10 +320,11 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-             link : 'www.holzmagier.at'
-            ,img  : {name : 'holzmagier.png' }
-            ,id : 'holzmagier'
-            ,more : true
+            heading : 'kindergarten-<br />scharnstein.at'
+           ,link : 'www.kindergarten-scharnstein.at'
+           ,img  : {name : 'kindergarten-scharnstein.png' }
+           ,id : 'kindergarten-scharnstein'
+           ,more: true
         };
         projects.push(o);
         var o = {
@@ -325,25 +350,10 @@ rw.Helper = {
          };
         projects.push(o);
         var o = {
-            link : 'www.cread.at'
-           ,img  : {name : 'cread.png' }
-           ,id : 'cread'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
             heading : 'www.maler-<br />luckeneder.at'
            ,link : 'www.maler-luckeneder.at'
            ,img  : {name : 'maler-luckeneder.png' }
            ,id : 'maler-luckeneder'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.fairteiler-<br />scharnstein.at'
-           ,link : 'www.fairteiler-scharnstein.at'
-           ,img  : {name : 'fairteiler-scharnstein.png' }
-           ,id : 'fairteiler-scharnstein'
            ,more: true
         };
         projects.push(o);
@@ -355,29 +365,6 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            link : 'www.cumnobis.de'
-           ,img  : {name : 'cumnobis.png' }
-           ,id : 'cumnobis'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            link : 'www.gesellschafterkreis.de'
-           ,heading: 'www.gesellschafter<br />kreis.de'
-           ,img  : {name : 'gesellschafterkreis.png' }
-           ,id : 'gesellschafterkreis'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.offene-<br />werkstaetten.org'
-           ,link : 'www.offene-werkstaetten.org'
-           ,img  : {name : 'offenewerkstaetten.png' }
-           ,id : 'offene-werkstaetten'
-           ,more: true
-       };
-       projects.push(o);
-        var o = {
             link : 'www.variousvisions.at'
            ,img  : {name : 'variousvisions.png' }
            ,id : 'variousvisions'
@@ -385,21 +372,13 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-             heading : 'kindergarten-<br />scharnstein.at'
-            ,link : 'www.kindergarten-scharnstein.at'
-            ,img  : {name : 'kindergarten-scharnstein.png' }
-            ,id : 'kindergarten-scharnstein'
-            ,more: true
-        };
-        projects.push(o);
-        var o = {
-             link : 'www.16a.at'
-            ,img  : {name : '16a.png' }
-            ,id : '16a'
-            ,more : true
-        };
-        projects.push(o);
-        var o = {
+            link : 'www.holzmagier.at'
+           ,img  : {name : 'holzmagier.png' }
+           ,id : 'holzmagier'
+           ,more : true
+       };
+       projects.push(o);
+       var o = {
              link : 'www.schima-sports.at'
             ,img  : {name : 'schimasports.png' }
             ,id : 'schimas-sports'

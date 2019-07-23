@@ -43,18 +43,21 @@
         <div class="desc" id="reparatur-initiativen">
           
 	        <div class="left">
-	            <b>Plattform für Repair-Cafés, München</b>
+	            <b>Netzwerk Reparatur-Initiativen</b>
 	            <ul>
-	              <li class="lang de">Wartung und Weiterentwicklung der Plattform (seit Oktober 2015)</li>
-	              <li class="lang en">Maintainance and development of the platform (since October 2015)</li>
+	              <li class="lang de">Seit 2015: Wartung und Weiterentwicklung des Portals</li>
+	              <li class="lang en">Since 2015: Maintainance and development</li>
+	              <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2019 <a href="https://github.com/anstiftung/mapped-repair-events" target="_blank">Open Source</a></li>
+	              <li class="lang de">basierend auf CakePHP</li>
+	              <li class="lang en">based on CakePHP</li>
 	            </ul>
 	        </div>
 	          
 	        <div class="right">
-	            <a target="_blank" href="http://www.reparatur-initiativen.de" class="external">
+	            <a target="_blank" href="https://www.reparatur-initiativen.de" class="external">
 	              <img src="/thumbs/big/reparatur-initiativen.png" />
 	            </a>
-	            <a target="_blank" href="http://www.reparatur-initiativen.de" class="project-link external">www.reparatur-initiativen.de</a>
+	            <a target="_blank" href="https://www.reparatur-initiativen.de" class="project-link external">www.reparatur-initiativen.de</a>
 	        </div>
 	          
         </div>
@@ -117,28 +120,6 @@
 	          
         </div>        
                 
-        <div class="desc" id="cumnobis">
-          
-	        <div class="left">
-	            <b>Cumnobis, Stuttgart</b>
-	            <ul>
-	              <li class="lang de">Unternehmensentwicklung</li>
-	              <li class="lang en">Corporate development</li>
-	              <li class="lang de">basierend auf CakePHP</li>
-	              <li class="lang en">based on CakePHP</li>
-                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with</span> <a href="http://www.fairidee.de">fairidee.de</a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.cumnobis.de" class="external">
-	              <img src="/thumbs/big/cumnobis.png" />
-	            </a>
-	            <a target="_blank" href="https://www.cumnobis.de" class="project-link external">www.cumnobis.de</a>
-	        </div>
-	          
-        </div>
-        
         <div class="desc" id="maler-luckeneder">
           
 	        <div class="left">
@@ -160,28 +141,6 @@
 	        </div>
 	          
         </div>
-        
-        <div class="desc" id="gesellschafterkreis">
-          
-	        <div class="left">
-	            <b>Gesellschafterkreis, Nürnberg</b>
-	            <ul>
-	              <li class="lang de">Team von Experten im Bereich Unternehmensentwicklung</li>
-	              <li class="lang en">Team of corporate development experts</li>
-	              <li class="lang de">basierend auf CakePHP</li>
-	              <li class="lang en">based on CakePHP</li>
-                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with</span> <a href="http://www.fairidee.de">fairidee.de</a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.gesellschafterkreis.de" class="external">
-	              <img src="/thumbs/big/gesellschafterkreis.png" />
-	            </a>
-	            <a target="_blank" href="https://www.gesellschafterkreis.de" class="project-link external">www.gesellschafterkreis.de</a>
-	        </div>
-	          
-        </div>        
         
         <div class="desc" id="gs-tele">
           
@@ -266,25 +225,6 @@
 	              <img src="/thumbs/big/kindergarten-scharnstein.png" />
 	            </a>
 	            <a target="_blank" href="http://www.kindergarten-scharnstein.at/kraki" class="project-link external">www.kindergarten-scharnstein.at</a>
-	        </div>
-	          
-        </div>
-        
-        <div class="desc" id="16a">
-          
-	        <div class="left">
-	            <b class="lang de">Haus 16A, Kirchdorf</b>
-	            <b class="lang en">House 16A, Upper Austria</b>
-	            <ul>
-	              <li>Layout by Christina Reichsthaler</a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.16a.at" class="external">
-	              <img src="/thumbs/big/16a.png" />
-	            </a>
-	            <a target="_blank" href="http://www.16a.at" class="project-link external">www.16a.at</a>
 	        </div>
 	          
         </div>
@@ -395,14 +335,13 @@
         <div class="desc" id="offene-werkstaetten">
           
           <div class="left">
-            <b class="lang de">Portal für Offene Werkstätten</b>
-            <b class="lang en">Portal for open workshops</b>
+            <b class="lang de">Plattform für Offene Werkstätten</b>
+            <b class="lang en">Platform for open workshops</b>
             <ul>
+	          <li class="lang de">Seit 2011: Wartung und Weiterentwicklung des Portals</li>
+              <li class="lang en">Since 2011: Maintainance and development</li>
               <li class="lang de">Basierend auf <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
-              <li class="lang de">Interaktive Werkstätten-Suche mit Google Maps</li>
-              
               <li class="lang en">Based on <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
-              <li class="lang en">Interactive workshop search with Google Maps</li>
             </ul>
           </div>
           
@@ -440,8 +379,8 @@
             <b class="lang de">Bergsportartikel-Händler, Gschwandt, Oberösterreich</b>
             <b class="lang en">Mountain equipment retailer, Upper Austria</b>
             <ul>
-              <li class="lang de">Basierend auf CakePHP 2.1</li>
-              <li class="lang en">Based on CakePHP 2.1</li>
+              <li class="lang de">Basierend auf CakePHP</li>
+              <li class="lang en">Based on CakePHP</li>
             </ul>
           </div>
           <div class="right">
@@ -458,9 +397,9 @@
             <b class="lang en">Bäckerberg, Upper Austria</b>
             <ul>
               <li class="lang de">Gartengestaltung, Tierzucht und Veranstaltungen</li>
-              <li class="lang de">Basierend auf CakePHP 2.1</li>
+              <li class="lang de">Basierend auf CakePHP</li>
               <li class="lang en">Gardening, animal farm and events</li>
-              <li class="lang en">Based on CakePHP 2.1</li>
+              <li class="lang en">Based on CakePHP</li>
             </ul>
           </div>
           <div class="right">
@@ -471,7 +410,7 @@
           </div>
         </div>
         
-        <div class="desc" id="websites"></div>
+        <div class="desc" id="projects"></div>
 
         <div class="desc" id="about">
             
