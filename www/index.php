@@ -497,7 +497,7 @@
         <div class="desc" id="imprint">
           <div>
             <p>Mag. (FH) Mario Rothauer</p>
-            <p>Mayrhofstraße 4</p>
+            <p>Am Birkenweg 3</p>
             <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
@@ -525,7 +525,7 @@
 <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 
 <p>Mag. (FH) Mario Rothauer<br />
-Mayrhofstraße 4<br />
+Am Birkenweg 3<br />
 A-4644 Scharnstein<br />
 E-Mail: <a href="mailto:office@rothauer-it.com">office@rothauer-it.com</a><br />
 Tel: +43 680 217 89 39
