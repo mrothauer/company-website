@@ -393,13 +393,6 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-             link : 'www.almtalerhaus.at'
-            ,img  : {name : 'almtalerhaus.png' }
-            ,id : 'almtalerhaus'
-            ,more : true
-        };
-        projects.push(o);
-        var o = {
              heading : 'www.nextgreen<br />heroes.com'
             ,link : 'www.nextgreenheroes.com'
             ,img  : {name : 'nextgreenheroes.png' }

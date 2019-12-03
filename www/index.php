@@ -290,27 +290,6 @@
           
         </div>
         
-        <div class="desc" id="almtalerhaus">
-          
-          <div class="left">
-            <b class="lang de">Berghütte, Grünau im Almtal, Oberösterreich</b>
-            <b class="lang en">Mountain hut, Upper Austria</b>
-            <ul>
-              <li class="lang de">Berghütte am Fuße des Toten Gebirges</li>
-              <li class="lang en">Mountain hut in the mountain range "Totes Gebirge"</li>
-              <li>Layout by <a href="https://www.fairidee.de" target="_blank">fairidee.de</a></li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.almtalerhaus.at" class="external">
-              <img src="/thumbs/big/almtalerhaus.png" />
-            </a>
-            <a target="_blank" href="http://www.almtalerhaus.at" class="project-link external">www.almtalerhaus.at</a>
-          </div>
-          
-        </div>
-        
         <div class="desc" id="nextgreenheroes">
           
           <div class="left">
