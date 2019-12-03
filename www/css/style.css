@@ -183,12 +183,6 @@ div.squares a.square.hasNoImage.selected {
     color: white;
     background: orange;
 }
-div.squares a#square-17:hover,
-div.squares a#square-17.selected {
-    color: white;
-    background: #66cd00;
-}
-
 div.squares .square .heading {
     text-align: center;
     margin-top: 53px;

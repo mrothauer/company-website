@@ -12,7 +12,7 @@ rw.Helper = {
         
         for(var i=0;i<squaresCount;i++) {
             
-            var squareIdsForProjects = [16,17,18];
+            var squareIdsForProjects = [16,18];
             var squareIdsForBottomLine = [29,30,31,32,33];
             
             if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
@@ -275,11 +275,6 @@ rw.Helper = {
             heading : 'open source<br />github'
            ,directLink : 'https://github.com/mrothauer'
            ,img  : {name : 'github.png' }
-        };
-        projects.push(o);
-        var o = {
-            heading : 'hofladen-<br />online.at'
-           ,directLink : 'https://www.hofladen-online.at'
         };
         projects.push(o);
         var o = {
