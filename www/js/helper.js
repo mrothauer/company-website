@@ -307,7 +307,6 @@ rw.Helper = {
         var o = {
             heading : 'www.offene-<br />werkstaetten.org'
            ,link : 'www.offene-werkstaetten.org'
-           ,img  : {name : 'offenewerkstaetten.png' }
            ,id : 'offene-werkstaetten'
            ,more: true
         };

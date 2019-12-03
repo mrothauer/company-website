@@ -314,8 +314,8 @@
         <div class="desc" id="offene-werkstaetten">
           
           <div class="left">
-            <b class="lang de">Plattform für Offene Werkstätten</b>
-            <b class="lang en">Platform for open workshops</b>
+            <b class="lang de">Portal der Offene Werkstätten</b>
+            <b class="lang en">Portal of open workshops</b>
             <ul>
 	          <li class="lang de">Seit 2011: Wartung und Weiterentwicklung des Portals</li>
               <li class="lang en">Since 2011: Maintainance and development</li>
@@ -326,7 +326,7 @@
           
           <div class="right">
             <a target="_blank" href="https://www.offene-werkstaetten.org" class="external">
-              <img src="/thumbs/big/offenewerkstaetten.png" />
+              <img src="/thumbs/big/offene-werkstaetten.png" />
             </a>
             <a target="_blank" href="https://www.offene-werkstaetten.org" class="project-link external">www.offene-werkstaetten.org</a>
           </div>
