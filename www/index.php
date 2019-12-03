@@ -129,7 +129,6 @@
 	              <li class="lang en">Painter, Scharnstein, Upper Austria</li>
 	              <li class="lang de">basierend auf Joomla</li>
 	              <li class="lang en">based on Joomla</li>
-                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with cread.at</li>
 	            </ul>
 	        </div>
 	          
@@ -142,29 +141,7 @@
 	          
         </div>
         
-        <div class="desc" id="gs-tele">
-          
-	        <div class="left">
-	            <b>GS Tele, Scharnstein</b>
-	            <ul>
-	              <li class="lang de">Kommunikation / Werbetechnik</li>
-	              <li class="lang en">Communications / Advertising</li>
-	              <li class="lang de">basierend auf Joomla 3</li>
-	              <li class="lang en">based on Joomla 3</li>
-                  <li><span class="lang de">Kooperation mit</span><span class="lang en">Cooperation with</span> <a href="http://www.profiler.at">profiler.at</a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.gs-tele.at" class="external">
-	              <img src="/thumbs/big/gs-tele.png" />
-	            </a>
-	            <a target="_blank" href="http://www.gs-tele.at" class="project-link external">www.gs-tele.at</a>
-	        </div>
-	          
-        </div>  
-                
-         <div class="desc" id="fairteiler-scharnstein">
+        <div class="desc" id="fairteiler-scharnstein">
           
 	        <div class="left">
 	            <b>Fairteiler Scharnstein, Almtal</b>

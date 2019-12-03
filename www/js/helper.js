@@ -357,13 +357,6 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            link : 'www.gs-tele.at'
-           ,img  : {name : 'gs-tele.png' }
-           ,id : 'gs-tele'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
             link : 'www.variousvisions.at'
            ,img  : {name : 'variousvisions.png' }
            ,id : 'variousvisions'
