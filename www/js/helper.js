@@ -135,11 +135,6 @@ rw.Helper = {
             }
         }
         
-        if (k + 1 != 3) {
-            console.error('projects count without more attribute must be 3');
-            console.log(k + 1);
-        }
-        
         $('.desc').append('<a class="header-link" href="#wrapper"><span class="lang en"><< back</span><span class="lang de"><< zurück</span></a>');
         
         //elements in last row are predefined
