@@ -375,25 +375,15 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
               
 		      <b>
-                <span>Bericht über FoodCoopShop im extra-blick (31.01.2019)</span>
-              </b><br />
-	          <p>
-	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Print-Ausgabe</span></a>
-	          </p>
+                <span><a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Bericht über FoodCoopShop im extra-blick (31.01.2019)</span></a></span>
+              </b>
+              <br /><br />
 
-		      <b>
-                <span>Projekt für das <a href="https://www.reparatur-initiativen.de" target="_blank"><i>Netzwerk Reparatur-Initiativen</i></a> (2018)</span>
-              </b><br /><a style="text-decoration: underline" href="https://www.reparatur-initiativen.de/post/auf-dem-weg-zur-reparatur-statistik/" target="_blank">Zum Artikel</a>
-	          <br />
-	          <br />
-	          
           	  <b>
-                <span class="lang de">Leitartikel für "Leben in Stadt und Land" (2018)</span>
-                <span class="lang en">Main article in "Leben in Stadt und Land" (2018, in German)</span>
-              </b><br />
-	          <p>
-	            <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank"><span style="float: none;" class="lang de">Zum Artikel</span><span style="float: none;" class="lang en">read article</span></a>
-	          </p>
+                <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a>
+              </b>
+              <br />
+              <br />
 
           	  <b>
                 <span class="lang de">Bericht über FoodCoopShop in der Tips (14.03.2018)</span>
@@ -403,17 +393,19 @@
 	            <a style="text-decoration: underline" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
 	           / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
 	          </p>
+	          
+	          <br />
 
-			  <b class="lang de">Über mich</b>
-			  <b class="lang en">About me</b>
               <p class="lang en">
-                After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
+              	<b>About me</b>: After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-                Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von <b>webbasierter Software</b> an.
+              	<b>Über mich</b>: Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von webbasierter Software an.
               </p>
               <p class="lang de">Am liebsten arbeitet er an Open-Source-Projekten, die zu einer Verbesserung der Gesellschaft beitragen. Mario lebt mit seiner Familie im Almtal.
               </p>
+              
+              <br />
               <p>
               	<b>
 	                <span class="lang en">Qualifications</span>
