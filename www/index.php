@@ -247,26 +247,6 @@
           
         </div>
         
-        
-        <div class="desc" id="silberfuchs">
-          
-          <div class="left">
-            <b class="lang de">Gasthaus Silberfuchs, Oberösterreich</b>
-            <b class="lang en">Gasthaus Silberfuchs, Upper Austria</b>
-            <ul>
-              <li>Layout by <a href="http://www.fairidee.de" target="_blank">fairidee.de</a></li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.gasthaus-silberfuchs.at" class="external">
-              <img src="/thumbs/big/silberfuchs.png" />
-            </a>
-            <a target="_blank" href="http://www.gasthaus-silberfuchs.at" class="project-link external">www.gasthaus-silberfuchs.at</a>
-          </div>
-          
-        </div>
-        
         <div class="desc" id="nextgreenheroes">
           
           <div class="left">
