@@ -225,28 +225,6 @@
           
         </div>
         
-        <div class="desc" id="holzmagier">
-          
-          <div class="left">
-            <b class="lang de">Holzmagier M.E.C Steinschnak, Grünau</b>
-            <b class="lang en">Wood magician M.E.C Steinschnak, Upper Austria</b>
-            <ul>
-              <li>
-              	<span class="lang en">Carving</span>
-              	<span class="lang de">Holzschnitzer</span>
-              </li>
-            </ul>
-          </div>
-          
-          <div class="right">
-            <a target="_blank" href="http://www.holzmagier.at" class="external">
-              <img src="/thumbs/big/holzmagier.png" />
-            </a>
-            <a target="_blank" href="http://www.holzmagier.at" class="project-link external">www.holzmagier.at</a>
-          </div>
-          
-        </div>
-        
         <div class="desc" id="nextgreenheroes">
           
           <div class="left">

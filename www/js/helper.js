@@ -351,13 +351,6 @@ rw.Helper = {
            ,img  : {name : 'variousvisions.png' }
            ,id : 'variousvisions'
            ,more: true
-        };
-        projects.push(o);
-        var o = {
-            link : 'www.holzmagier.at'
-           ,img  : {name : 'holzmagier.png' }
-           ,id : 'holzmagier'
-           ,more : true
        };
        projects.push(o);
        var o = {
