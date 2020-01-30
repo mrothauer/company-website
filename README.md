@@ -1,5 +1,24 @@
-<h1 align="center">
-  <a href="https://www.rothauer-it.com"><img src="https://raw.githubusercontent.com/mrothauer/company-website/master/www/img/rothauer-it.com.jpg" alt="rothauer-it.com"></a>
-</h1>
+# rothauer-it.com
 
-<h4 align="center">https://www.rothauer-it.com</h4>
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
