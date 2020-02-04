@@ -1,0 +1,4 @@
+<div *ngIf="square.tag == 'div'" id="square-{{index}}" class="square {{square.classes.join(' ')}}"
+  [innerHtml]="square.innerHtml"></div>
+<a *ngIf="square.tag == 'a'" id="square-{{index}}" target="{{square.target}}" href="{{square.href}}"
+  class="square {{square.classes.join(' ')}}" [innerHtml]="square.innerHtml"></a>

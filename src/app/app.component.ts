@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { isDevMode } from '@angular/core';
+import { Component, isDevMode } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,11 @@ import { isDevMode } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public isDevMode: boolean;
+
+  public isDevMode = false;
+
   constructor() {
     this.isDevMode = isDevMode();
   }
+
 }
