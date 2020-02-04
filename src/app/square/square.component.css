@@ -1,3 +1,6 @@
-.last-row .heading {
-    margin-top: 22px;
+::ng-deep .last-row .heading {
+    margin-top: 22px ! important;
+}
+::ng-deep span.lang {
+    display: inline ! important;
 }

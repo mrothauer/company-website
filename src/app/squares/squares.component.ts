@@ -63,27 +63,27 @@ export class SquaresComponent implements OnInit {
     this.squares.push(new Square('div', ['first-column', 'last-row']));
     this.squares.push(new Square('a', ['last-row', 'projects', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
-      <span class="lang de" style="display: inline;">projekte</span>
+      <span class="lang de">projekte</span>
     </div>`
     ));
     this.squares.push(new Square('a', ['last-row', 'contact', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
-      <span class="lang de" style="display: inline;">kontakt</span>
+      <span class="lang de">kontakt</span>
     </div>`
     ));
     this.squares.push(new Square('a', ['last-row', 'about', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
-      <span class="lang de" style="display: inline;">über mich</span>
+      <span class="lang de">über mich</span>
     </div>`
     ));
     this.squares.push(new Square('a', ['last-row', 'imprint', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
-      <span class="lang de" style="display: inline;">impressum</span>
+      <span class="lang de">impressum</span>
     </div>`
     ));
     this.squares.push(new Square('a', ['last-row', 'privacy', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
-      <span class="lang de" style="display: inline;">datenschutz</span>
+      <span class="lang de">datenschutz</span>
     </div>`
     ));
     this.squares.push(new Square('div', ['last-column', 'last-row']));
