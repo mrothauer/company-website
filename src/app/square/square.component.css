@@ -4,3 +4,6 @@
 ::ng-deep span.lang {
     display: inline ! important;
 }
+::ng-deep img.hover-image {
+    display: none;
+}

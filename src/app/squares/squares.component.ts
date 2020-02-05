@@ -32,14 +32,16 @@ export class SquaresComponent implements OnInit {
       `<div class="heading heading-with-break">
       open source<br>github
       </div>
-      <img src="/assets/thumbs/small/github.png" style="display: none;">`
+      <img src="/assets/thumbs/small/github.png" class="hover-image">`,
+      'https://github.com/mrothauer',
     ),
     new Square('div'),
     new Square('a', ['notEmpty', 'hasImage'], '_blank',
       `<div class="heading heading-with-break">
       foodcoop<br>shop.com
       </div>
-      <img src="/assets/thumbs/small/foodcoopshop.png" style="display: none;">`
+      <img src="/assets/thumbs/small/foodcoopshop.png" class="hover-image">`,
+      'https://www.foodcoopshop.com',
     ),
     new Square('div'),
     new Square('div', ['last-column']),
@@ -56,7 +58,7 @@ export class SquaresComponent implements OnInit {
     new Square('a', ['last-row', 'projects', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">
       <span class="lang de">projekte</span>
-    </div>`
+      </div>`
     ),
     new Square('a', ['last-row', 'contact', 'notEmpty', 'hasNoImage'], null,
       `<div class="heading">

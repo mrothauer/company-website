@@ -4,6 +4,6 @@ export class Square {
         public classes: string[] = [],
         public target?: string,
         public innerHtml?: string,
-        public href?: string
+        public href?: string,
     ) { }
 }
