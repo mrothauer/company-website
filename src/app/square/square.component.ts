@@ -10,7 +10,7 @@ export class SquareComponent implements OnInit {
 
   @Input() square: Square;
   @Input() index: number;
-  private showBackgroundImage = false;
+  public showBackgroundImage = false;
 
   constructor() { }
 
