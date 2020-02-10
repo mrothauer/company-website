@@ -1,4 +1,8 @@
 <div *ngIf="square.tag == 'div'" id="square-{{index}}" class="square {{square.classes.join(' ')}}"
   [innerHtml]="square.innerHtml"></div>
-<a *ngIf="square.tag == 'a'" id="square-{{index}}" target="{{square.target}}" href="{{square.href}}"
-  class="square {{square.classes.join(' ')}}" [innerHtml]="square.innerHtml"></a>
+<a *ngIf="square.tag == 'a'" (mouseenter)="toggleBackgroundImage()" (mouseleave)="toggleBackgroundImage()"
+  id="square-{{index}}" href="{{square.href}}" class="square {{square.classes.join(' ')}}" target="{{square.target}}">
+  <div class=" {{square.innerHtmlClasses.join(' ')}}">{{square.innerHtml}}
+  </div>
+  <img *ngIf="square.backgroundImageSrc != null" src="{{square.backgroundImageSrc}}" [hidden]="!showBackgroundImage" />
+</a>

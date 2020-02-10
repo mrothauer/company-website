@@ -10,10 +10,15 @@ export class SquareComponent implements OnInit {
 
   @Input() square: Square;
   @Input() index: number;
+  private showBackgroundImage = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleBackgroundImage() {
+    this.showBackgroundImage = !this.showBackgroundImage;
   }
 
 }

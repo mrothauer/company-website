@@ -28,19 +28,23 @@ export class SquaresComponent implements OnInit {
 
     new Square('div', ['first-column']),
     new Square('div'),
-    new Square('a', ['notEmpty', 'hasImage'], '_blank',
-      `<div class="heading heading-with-break">
-      open source<br>github
-      </div>
-      <img src="/assets/thumbs/small/github.png" class="hover-image">`,
+    new Square(
+      'a',
+      ['notEmpty', 'hasImage'],
+      '_blank',
+      ['heading', 'heading-with-break'],
+      'open source<br>github',
+      '/assets/thumbs/small/github.png',
       'https://github.com/mrothauer',
     ),
     new Square('div'),
-    new Square('a', ['notEmpty', 'hasImage'], '_blank',
-      `<div class="heading heading-with-break">
-      foodcoop<br>shop.com
-      </div>
-      <img src="/assets/thumbs/small/foodcoopshop.png" class="hover-image">`,
+    new Square(
+      'a',
+      ['notEmpty', 'hasImage'],
+      '_blank',
+      ['heading', 'heading-with-break'],
+      'foodcoop<br>shop.com',
+      '/assets/thumbs/small/foodcoopshop.png',
       'https://www.foodcoopshop.com',
     ),
     new Square('div'),
@@ -56,29 +60,24 @@ export class SquaresComponent implements OnInit {
 
     new Square('div', ['first-column', 'last-row']),
     new Square('a', ['last-row', 'projects', 'notEmpty', 'hasNoImage'], null,
-      `<div class="heading">
-      <span class="lang de">projekte</span>
-      </div>`
+      ['heading'],
+      'projekte'
     ),
     new Square('a', ['last-row', 'contact', 'notEmpty', 'hasNoImage'], null,
-      `<div class="heading">
-      <span class="lang de">kontakt</span>
-    </div>`
+      ['heading'],
+      'kontakt'
     ),
     new Square('a', ['last-row', 'about', 'notEmpty', 'hasNoImage'], null,
-      `<div class="heading">
-      <span class="lang de">über mich</span>
-    </div>`
+      ['heading'],
+      'über mich'
     ),
     new Square('a', ['last-row', 'imprint', 'notEmpty', 'hasNoImage'], null,
-      `<div class="heading">
-      <span class="lang de">impressum</span>
-    </div>`
+      ['heading'],
+      'impressum'
     ),
     new Square('a', ['last-row', 'privacy', 'notEmpty', 'hasNoImage'], null,
-      `<div class="heading">
-      <span class="lang de">datenschutz</span>
-    </div>`
+      ['heading'],
+      'datenschutz'
     ),
     new Square('div', ['last-column', 'last-row']),
   ];

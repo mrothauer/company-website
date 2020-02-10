@@ -136,7 +136,6 @@ div.squares .square.description {
 div.squares .square.hasImage img {
     height: 130px;
     width: 130px;
-    display: none;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -202,7 +201,6 @@ div.squares div.square.description div.right a.project-link {
     float: right;
     margin-top: 5px;
 }
-
 div.squares a.square.hasImage:hover div.info,
 div.squares a.square.hasImage.selected div.info {
     display: none;
@@ -218,7 +216,6 @@ div.squares a.square.hasNoImage.selected {
     color: white;
     background: orange;
 }
-
 div.squares .square .heading {
     text-align: center;
     margin-top: 53px;
