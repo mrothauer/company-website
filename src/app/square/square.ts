@@ -7,5 +7,6 @@ export class Square {
         public innerHtml?: string,
         public backgroundImageSrc?: string,
         public href?: string,
+        public id?: string,
     ) { }
 }

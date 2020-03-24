@@ -11,14 +11,19 @@ export class SquareComponent implements OnInit {
   @Input() square: Square;
   @Input() index: number;
   public showBackgroundImage = false;
+  public visibleContent = 'about';
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  toggleBackgroundImage() {
+  toggleBackgroundImage(): void {
     this.showBackgroundImage = !this.showBackgroundImage;
+  }
+
+  toggleContent(id: string): void {
+    this.visibleContent = id;
   }
 
 }
