@@ -45,8 +45,8 @@
             <div class="left">
                 <b>Netzwerk Reparatur-Initiativen</b>
                 <ul>
-                  <li class="lang de">Seit 2015: Wartung und Weiterentwicklung des Portals</li>
-                  <li class="lang en">Since 2015: Maintainance and development</li>
+                  <li class="lang de">Wartung und Weiterentwicklung des Portals</li>
+                  <li class="lang en">Maintainance and development</li>
                   <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2019 <a href="https://github.com/anstiftung/mapped-repair-events" target="_blank">Open Source</a></li>
                   <li class="lang de">basierend auf CakePHP</li>
                   <li class="lang en">based on CakePHP</li>
@@ -252,8 +252,8 @@
             <b class="lang de">Portal der Offene Werkstätten</b>
             <b class="lang en">Portal of open workshops</b>
             <ul>
-              <li class="lang de">Seit 2011: Wartung und Weiterentwicklung des Portals</li>
-              <li class="lang en">Since 2011: Maintainance and development</li>
+              <li class="lang de">Wartung und Weiterentwicklung des Portals</li>
+              <li class="lang en">Maintainance and development</li>
               <li class="lang de">Basierend auf <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
               <li class="lang en">Based on <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
             </ul>
