@@ -7,207 +7,207 @@
     <meta name="theme-color" content="#719f41">
     <meta name="viewport" content="width=device-width, initial-scale=0.4">
 
-	<meta name="author" content="Mag. (FH) Mario Rothauer" />
-	<meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
-	<meta name="description" content="Programmier-Diensleistungen aus dem Almtal. Seit 2009." />
-	<meta name="robots" content="index, follow" />
+    <meta name="author" content="Mag. (FH) Mario Rothauer" />
+    <meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
+    <meta name="description" content="Programmier-Diensleistungen aus dem Almtal. Seit 2009." />
+    <meta name="robots" content="index, follow" />
     <meta name="google-site-verification" content="SEYDpX9sY2j6wzm9huzlL0SonRDDqxsR7W3Yi4DiuVs" />
 
-	<title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
+    <title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'fonts.css'); ?>" />
-	<link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
-	<link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
-  
+    <link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'fonts.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css?<?php echo filemtime($cssPath.'style.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css?<?php echo filemtime($cssPath.'mobile.css'); ?>" />
+
     <script type="text/javascript">
-		if(!window.rw) { rw = window.rw = {}; }
-		rw.environment = '<?php echo $environment; ?>';
-	</script>
-	
+        if(!window.rw) { rw = window.rw = {}; }
+        rw.environment = '<?php echo $environment; ?>';
+    </script>
+
 </head>
 
 <body>
 
     <div id="wrapper">
-        
+
       <a id="head" href="javascript:void(0);"></a>
 
       <div id="lang-box">
         <a class="button-de" title="Deutsch" href="javascript:void(0)"><img src="/img/flag-de.gif" width="16" height="11" /></a>
         <a class="button-en" title="English" href="javascript:void(0)"><img src="/img/flag-en.gif" width="16" height="11" /></a>
       </div>
-      
+
       <div class="squares">
         <div id="desc" class="description square">
-        
+
         <div class="desc" id="reparatur-initiativen">
-          
-	        <div class="left">
-	            <b>Netzwerk Reparatur-Initiativen</b>
-	            <ul>
-	              <li class="lang de">Seit 2015: Wartung und Weiterentwicklung des Portals</li>
-	              <li class="lang en">Since 2015: Maintainance and development</li>
-	              <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2019 <a href="https://github.com/anstiftung/mapped-repair-events" target="_blank">Open Source</a></li>
-	              <li class="lang de">basierend auf CakePHP</li>
-	              <li class="lang en">based on CakePHP</li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.reparatur-initiativen.de" class="external">
-	              <img src="/thumbs/big/reparatur-initiativen.png" />
-	            </a>
-	            <a target="_blank" href="https://www.reparatur-initiativen.de" class="project-link external">www.reparatur-initiativen.de</a>
-	        </div>
-	          
+
+            <div class="left">
+                <b>Netzwerk Reparatur-Initiativen</b>
+                <ul>
+                  <li class="lang de">Seit 2015: Wartung und Weiterentwicklung des Portals</li>
+                  <li class="lang en">Since 2015: Maintainance and development</li>
+                  <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2019 <a href="https://github.com/anstiftung/mapped-repair-events" target="_blank">Open Source</a></li>
+                  <li class="lang de">basierend auf CakePHP</li>
+                  <li class="lang en">based on CakePHP</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.reparatur-initiativen.de" class="external">
+                  <img src="/thumbs/big/reparatur-initiativen.png" />
+                </a>
+                <a target="_blank" href="https://www.reparatur-initiativen.de" class="project-link external">www.reparatur-initiativen.de</a>
+            </div>
+
         </div>
-        
+
         <div class="desc" id="wildniscamps">
-          
-	        <div class="left">
-	            <b>Wildnischule Wildniscamps, Viechtwang</b>
-	            <ul>
-	              <li class="lang de">Die Wildnisschule eures Vertrauens</li>
-	              <li class="lang en">Wilderness school, Upper Austria</li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.wildniscamps.at" class="external">
-	              <img src="/thumbs/big/wildniscamps.png" />
-	            </a>
-	            <a target="_blank" href="https://www.wildniscamps.at" class="project-link external">www.wildniscamps.at</a>
-	        </div>
-	          
-        </div> 
+
+            <div class="left">
+                <b>Wildnischule Wildniscamps, Viechtwang</b>
+                <ul>
+                  <li class="lang de">Die Wildnisschule eures Vertrauens</li>
+                  <li class="lang en">Wilderness school, Upper Austria</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.wildniscamps.at" class="external">
+                  <img src="/thumbs/big/wildniscamps.png" />
+                </a>
+                <a target="_blank" href="https://www.wildniscamps.at" class="project-link external">www.wildniscamps.at</a>
+            </div>
+
+        </div>
 
         <div class="desc" id="kunstbrettl">
-          
-	        <div class="left">
-	            <b>Kunstbrettl AGE, Pettenbach</b>
-	            <ul>
-	              <li class="lang de">Einfach zu bedienende Webseite für den kulturellen Nahversorger in Pettenbach.</li>
-	              <li class="lang en">Easy to handle website for the local theater club.</li>
-	              <li>Layout &copy; Jörg Pichler</li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.kunstbrettl.at" class="external">
-	              <img src="/thumbs/big/kunstbrettl.png" />
-	            </a>
-	            <a target="_blank" href="https://www.kunstbrettl.at" class="project-link external">www.kunstbrettl.at</a>
-	        </div>
-	          
-        </div> 
-        
+
+            <div class="left">
+                <b>Kunstbrettl AGE, Pettenbach</b>
+                <ul>
+                  <li class="lang de">Einfach zu bedienende Webseite für den kulturellen Nahversorger in Pettenbach.</li>
+                  <li class="lang en">Easy to handle website for the local theater club.</li>
+                  <li>Layout &copy; Jörg Pichler</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.kunstbrettl.at" class="external">
+                  <img src="/thumbs/big/kunstbrettl.png" />
+                </a>
+                <a target="_blank" href="https://www.kunstbrettl.at" class="project-link external">www.kunstbrettl.at</a>
+            </div>
+
+        </div>
+
         <div class="desc" id="marktmusik-scharnstein">
-          
-	        <div class="left">
-	            <b>Marktmusik Redtenbacher, Scharnstein</b>
-	            <ul>
-	              <li class="lang de">Einfach zu bedienende Webseite für den lokalen Musikverein.</li>
-	              <li class="lang en">Easy to handle website for the local music club.</li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="external">
-	              <img src="/thumbs/big/marktmusik-scharnstein.png" />
-	            </a>
-	            <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="project-link external">www.marktmusik-scharnstein.at</a>
-	        </div>
-	          
-        </div>        
-                
+
+            <div class="left">
+                <b>Marktmusik Redtenbacher, Scharnstein</b>
+                <ul>
+                  <li class="lang de">Einfach zu bedienende Webseite für den lokalen Musikverein.</li>
+                  <li class="lang en">Easy to handle website for the local music club.</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="external">
+                  <img src="/thumbs/big/marktmusik-scharnstein.png" />
+                </a>
+                <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="project-link external">www.marktmusik-scharnstein.at</a>
+            </div>
+
+        </div>
+
         <div class="desc" id="maler-luckeneder">
-          
-	        <div class="left">
-	            <b>Maler Luckeneder, Scharnstein</b>
-	            <ul>
-	              <li class="lang de">Malerei, Scharnstein</li>
-	              <li class="lang en">Painter, Scharnstein, Upper Austria</li>
-	              <li class="lang de">basierend auf Joomla</li>
-	              <li class="lang en">based on Joomla</li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.maler-luckeneder.at" class="external">
-	              <img src="/thumbs/big/maler-luckeneder.png" />
-	            </a>
-	            <a target="_blank" href="https://www.maler-luckeneder.at" class="project-link external">www.maler-luckeneder.at</a>
-	        </div>
-	          
+
+            <div class="left">
+                <b>Maler Luckeneder, Scharnstein</b>
+                <ul>
+                  <li class="lang de">Malerei, Scharnstein</li>
+                  <li class="lang en">Painter, Scharnstein, Upper Austria</li>
+                  <li class="lang de">basierend auf Joomla</li>
+                  <li class="lang en">based on Joomla</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.maler-luckeneder.at" class="external">
+                  <img src="/thumbs/big/maler-luckeneder.png" />
+                </a>
+                <a target="_blank" href="https://www.maler-luckeneder.at" class="project-link external">www.maler-luckeneder.at</a>
+            </div>
+
         </div>
-        
+
         <div class="desc" id="fairteiler-scharnstein">
-          
-	        <div class="left">
-	            <b>Fairteiler Scharnstein, Almtal</b>
-	            <ul>
-	              <li class="lang de">Foodcoop in Scharnstein, Oberösterreich</li>
-	              <li class="lang en">Foodcoop in Scharnstein, Upper Austria</li>
-	              <li class="lang de">basierend auf <a href="https://www.foodcoopshop.com">FoodCoopShop</a></li>
-	              <li class="lang en">based on <a href="https://www.foodcoopshop.com">FoodCoopShop</a> </li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="external">
-	              <img src="/thumbs/big/fairteiler-scharnstein.png" />
-	            </a>
-	            <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="project-link external">www.fairteiler-scharnstein.at</a>
-	        </div>
-	          
-        </div>        
-        
-         <div class="desc" id="variousvisions">
-          
-	        <div class="left">
-	            <b class="lang de">Video-Produktionen Jan Gruber, Gmunden</b>
-	            <b class="lang en">Video Productions Jan Gruber, Gmunden / Upper Austria</b>
-	            <ul>
-	              <li class="lang de">Horizontale Single-Page-Website mit dynamischer Vimeo-Einbindung</li>
-	              <li class="lang en">Horizontal single page website with dynamic integration of Vimeo videos</li>
-	              <li class="lang de">Swipe-Funktion bei mobilen Devices</li>
-	              <li class="lang en">Swiping enabled on mobile devices</li>
-	              <li class="lang">Layout by Jan Gruber</li>
-	              </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.variousvisions.at" class="external">
-	              <img src="/thumbs/big/variousvisions.png" />
-	            </a>
-	            <a target="_blank" href="http://www.variousvisions.at" class="project-link external">www.variousvisions.at</a>
-	        </div>
-	          
+
+            <div class="left">
+                <b>Fairteiler Scharnstein, Almtal</b>
+                <ul>
+                  <li class="lang de">Foodcoop in Scharnstein, Oberösterreich</li>
+                  <li class="lang en">Foodcoop in Scharnstein, Upper Austria</li>
+                  <li class="lang de">basierend auf <a href="https://www.foodcoopshop.com">FoodCoopShop</a></li>
+                  <li class="lang en">based on <a href="https://www.foodcoopshop.com">FoodCoopShop</a> </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="external">
+                  <img src="/thumbs/big/fairteiler-scharnstein.png" />
+                </a>
+                <a target="_blank" href="https://www.fairteiler-scharnstein.at" class="project-link external">www.fairteiler-scharnstein.at</a>
+            </div>
+
         </div>
-                
+
+         <div class="desc" id="variousvisions">
+
+            <div class="left">
+                <b class="lang de">Video-Produktionen Jan Gruber, Gmunden</b>
+                <b class="lang en">Video Productions Jan Gruber, Gmunden / Upper Austria</b>
+                <ul>
+                  <li class="lang de">Horizontale Single-Page-Website mit dynamischer Vimeo-Einbindung</li>
+                  <li class="lang en">Horizontal single page website with dynamic integration of Vimeo videos</li>
+                  <li class="lang de">Swipe-Funktion bei mobilen Devices</li>
+                  <li class="lang en">Swiping enabled on mobile devices</li>
+                  <li class="lang">Layout by Jan Gruber</li>
+                  </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="http://www.variousvisions.at" class="external">
+                  <img src="/thumbs/big/variousvisions.png" />
+                </a>
+                <a target="_blank" href="http://www.variousvisions.at" class="project-link external">www.variousvisions.at</a>
+            </div>
+
+        </div>
+
         <div class="desc" id="kindergarten-scharnstein">
-          
-	        <div class="left">
-	            <b class="lang de">Kindergarten Scharnstein</b>
-	            <b class="lang en">Kindergarten Scharnstein, Upper Austria</b>
-	            <ul>
-	              <li>Layout by cread.at</li>
+
+            <div class="left">
+                <b class="lang de">Kindergarten Scharnstein</b>
+                <b class="lang en">Kindergarten Scharnstein, Upper Austria</b>
+                <ul>
+                  <li>Layout by cread.at</li>
                   <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
                   <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-	            </ul>
-	        </div>
-	          
-	        <div class="right">
-	            <a target="_blank" href="http://www.kindergarten-scharnstein.at/kraki" class="external">
-	              <img src="/thumbs/big/kindergarten-scharnstein.png" />
-	            </a>
-	            <a target="_blank" href="http://www.kindergarten-scharnstein.at/kraki" class="project-link external">www.kindergarten-scharnstein.at</a>
-	        </div>
-	          
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="http://www.kindergarten-scharnstein.at/kraki" class="external">
+                  <img src="/thumbs/big/kindergarten-scharnstein.png" />
+                </a>
+                <a target="_blank" href="http://www.kindergarten-scharnstein.at/kraki" class="project-link external">www.kindergarten-scharnstein.at</a>
+            </div>
+
         </div>
-        
- 		<div class="desc" id="grabner">
-          
+
+         <div class="desc" id="grabner">
+
           <div class="left">
             <b class="lang de">Grabner GmbH, Tischlerei, Grünau</b>
             <b class="lang en">Grabner Ltd., Carpenter, Upper Austria</b>
@@ -215,18 +215,18 @@
               <li>Layout by cread.at</li>
             </ul>
           </div>
-          
+
           <div class="right">
             <a target="_blank" href="http://www.grabner-gmbh.at" class="external">
               <img src="/thumbs/big/grabner.png" />
             </a>
             <a target="_blank" href="http://www.grabner-gmbh.at" class="project-link external">www.grabner-gmbh.at</a>
           </div>
-          
+
         </div>
-        
+
         <div class="desc" id="nextgreenheroes">
-          
+
           <div class="left">
             <b class="lang de">Freiwilligenarbeit für Jugendliche, Schweiz (Indien)</b>
             <b class="lang en">Social work for young adults, Switzerland (India)</b>
@@ -236,40 +236,40 @@
               <li>Layout by <a href="https://www.fairidee.de" target="_blank">fairidee.de</a></li>
             </ul>
           </div>
-          
+
           <div class="right">
             <a target="_blank" href="http://www.nextgreenheroes.com" class="external">
               <img src="/thumbs/big/nextgreenheroes.png" />
             </a>
             <a target="_blank" href="http://www.nextgreenheroes.com" class="project-link external">www.nextgreenheroes.com</a>
           </div>
-          
+
         </div>
 
         <div class="desc" id="offene-werkstaetten">
-          
+
           <div class="left">
             <b class="lang de">Portal der Offene Werkstätten</b>
             <b class="lang en">Portal of open workshops</b>
             <ul>
-	          <li class="lang de">Seit 2011: Wartung und Weiterentwicklung des Portals</li>
+              <li class="lang de">Seit 2011: Wartung und Weiterentwicklung des Portals</li>
               <li class="lang en">Since 2011: Maintainance and development</li>
               <li class="lang de">Basierend auf <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
               <li class="lang en">Based on <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
             </ul>
           </div>
-          
+
           <div class="right">
             <a target="_blank" href="https://www.offene-werkstaetten.org" class="external">
               <img src="/thumbs/big/offene-werkstaetten.png" />
             </a>
             <a target="_blank" href="https://www.offene-werkstaetten.org" class="project-link external">www.offene-werkstaetten.org</a>
           </div>
-          
+
         </div>
-        
+
         <div class="desc" id="motorsagla">
-        
+
           <div class="left">
             <b class="lang de">Motorsägenschnitzer Herbert Danzer, Kirchham, Oberösterreich</b>
             <b class="lang en">Chainsaw carving, Upper Austria</b>
@@ -278,16 +278,16 @@
               <li class="lang en">User-friendly implementation of <a target="_blank" href="http://www.twospy.com/galleriffic/">galleriffic image gallery</a></li>
             </ul>
           </div>
-          
+
           <div class="right">
             <a target="_blank" href="https://www.motorsagla.at" class="external">
               <img src="/thumbs/big/motorsagla.png" />
             </a>
             <a target="_blank" href="https://www.motorsagla.at" class="project-link external">www.motorsagla.at</a>
           </div>
-          
+
         </div>
-        
+
         <div class="desc" id="schimas-sports">
           <div class="left">
             <b class="lang de">Bergsportartikel-Händler, Gschwandt, Oberösterreich</b>
@@ -304,78 +304,59 @@
             <a target="_blank" href="https://www.schima-sports.at" class="project-link external">www.schima-sports.at</a>
           </div>
         </div>
-              
-        <div class="desc" id="baeckerberg">
-          <div class="left">
-            <b class="lang de">Bäckerberg, Oberösterreich</b>
-            <b class="lang en">Bäckerberg, Upper Austria</b>
-            <ul>
-              <li class="lang de">Gartengestaltung, Tierzucht und Veranstaltungen</li>
-              <li class="lang de">Basierend auf CakePHP</li>
-              <li class="lang en">Gardening, animal farm and events</li>
-              <li class="lang en">Based on CakePHP</li>
-            </ul>
-          </div>
-          <div class="right">
-            <a target="_blank" href="http://www.bäckerberg.at" class="external">
-              <img src="/thumbs/big/baeckerberg.png" />
-            </a>
-            <a target="_blank" href="http://www.bäckerberg.at" class="project-link external">www.bäckerberg.at</a>
-          </div>
-        </div>
-        
+
         <div class="desc" id="projects"></div>
 
         <div class="desc" id="about">
-            
+
             <div>
-            
+
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
-              
-		      <b>
+
+              <b>
                 <span><a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Bericht über FoodCoopShop im extra-blick (31.01.2019)</span></a></span>
               </b>
               <br /><br />
 
-          	  <b>
+                <b>
                 <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a>
               </b>
               <br />
               <br />
 
-          	  <b>
+                <b>
                 <span class="lang de">Bericht über FoodCoopShop in der Tips (14.03.2018)</span>
                 <span class="lang en">Article about FoodCoopShop in Tips (in German)</span>
               </b><br />
-	          <p>
-	            <a style="text-decoration: underline" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
-	           / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
-	          </p>
-	          
-	          <br />
+              <p>
+                <a style="text-decoration: underline" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
+               / <a style="text-decoration: underline" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
+              </p>
+
+              <br />
 
               <p class="lang en">
-              	<b>About me</b>: After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
+                  <b>About me</b>: After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
               </p>
               <p class="lang de">
-              	<b>Über mich</b>: Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von webbasierter Software an.
+                  <b>Über mich</b>: Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von webbasierter Software an.
               </p>
               <p class="lang de">Am liebsten arbeitet er an Open-Source-Projekten, die zu einer Verbesserung der Gesellschaft beitragen. Mario lebt mit seiner Familie im Almtal.
               </p>
-              
+
               <br />
               <p>
-              	<b>
-	                <span class="lang en">Qualifications</span>
-    	            <span class="lang de">Qualifikationen</span>
-	            :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, Continuous Integration (Travis-CI)
+                  <b>
+                    <span class="lang en">Qualifications</span>
+                    <span class="lang de">Qualifikationen</span>
+                :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, Continuous Integration (Travis-CI)
               </p>
               <p class="lang en">Languages: German, Spanish, English</p>
               <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>
           </div>
-          
+
         </div>
-        
+
         <div class="desc" id="contact">
           <div style="width:411px;float: left;">
             <p>Mag. (FH) Mario Rothauer</p>
@@ -399,7 +380,7 @@
               </a>
           </div>
         </div>
-        
+
         <div class="desc" id="imprint">
           <div>
             <p>Mag. (FH) Mario Rothauer</p>
@@ -408,7 +389,7 @@
             <p>+43 680 217 89 39</p>
             <p>[email]</p>
             <p>UID-Nr. ATU71726279</p>
-            
+
             <p style="margin-top:30px;">
               <b class="lang de">Haftungsausschluss</b>
               <b class="lang en">Liability of links</b>
@@ -419,11 +400,11 @@
             <p class="lang de small">
                 Dieser Internetauftritt beinhaltet Links zu externen Internetauftritten Dritter, auf deren Inhalt der Medieninhaber keinen Einfluss hat. Dementsprechend kann der Medieninhaber trotz sorgfältiger Prüfung für die Inhalte der entsprechenden Seiten keine Verantwortung übernehmen. Für diese Inhalte ist der Betreiber der jeweiligen Website verantwortlich. Sollten dennoch Rechtsverletzungen in Verbindung mit einer der verlinkten Seiten erkennbar werden, wird der Link selbstverständlich umgehend entfernt.
             </p>
-            
+
           </div>
         </div>
-        
-		<div class="desc" id="privacy">
+
+        <div class="desc" id="privacy">
           <div>
             <h2>Datenschutzerklärung</h2>
 
@@ -442,12 +423,12 @@ Tel: +43 680 217 89 39
 <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten k&ouml;nnen Sie jederzeit folgende Rechte aus&uuml;ben:</p>
 
 <ul>
-	<li>Auskunft &uuml;ber Ihre bei uns gespeicherten Daten und deren Verarbeitung,</li>
-	<li>Berichtigung unrichtiger personenbezogener Daten,</li>
-	<li>L&ouml;schung Ihrer bei uns gespeicherten Daten,</li>
-	<li>Einschr&auml;nkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht l&ouml;schen d&uuml;rfen,</li>
-	<li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und</li>
-	<li>Daten&uuml;bertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben.</li>
+    <li>Auskunft &uuml;ber Ihre bei uns gespeicherten Daten und deren Verarbeitung,</li>
+    <li>Berichtigung unrichtiger personenbezogener Daten,</li>
+    <li>L&ouml;schung Ihrer bei uns gespeicherten Daten,</li>
+    <li>Einschr&auml;nkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht l&ouml;schen d&uuml;rfen,</li>
+    <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und</li>
+    <li>Daten&uuml;bertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben.</li>
 </ul>
 
 <p>Sofern Sie uns eine Einwilligung erteilt haben, k&ouml;nnen Sie diese jederzeit mit Wirkung f&uuml;r die Zukunft widerrufen.</p>
@@ -457,9 +438,9 @@ Tel: +43 680 217 89 39
 <p>Wir verarbeiten Ihre personenbezogenen Daten nur zu den in dieser Datenschutzerkl&auml;rung genannten Zwecken. Eine &Uuml;bermittlung Ihrer pers&ouml;nlichen Daten an Dritte zu anderen als den genannten Zwecken findet nicht statt. Wir geben Ihre pers&ouml;nlichen Daten nur an Dritte weiter, wenn:</p>
 
 <ul>
-	<li>Sie Ihre ausdr&uuml;ckliche Einwilligung dazu erteilt haben,</li>
-	<li>die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,</li>
-	<li>die Verarbeitung zur Erf&uuml;llung einer rechtlichen Verpflichtung erforderlich ist,</li>
+    <li>Sie Ihre ausdr&uuml;ckliche Einwilligung dazu erteilt haben,</li>
+    <li>die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,</li>
+    <li>die Verarbeitung zur Erf&uuml;llung einer rechtlichen Verpflichtung erforderlich ist,</li>
 </ul>
 
 <p>die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein &uuml;berwiegendes schutzw&uuml;rdiges Interesse an der Nichtweitergabe Ihrer Daten haben.</p>
@@ -475,10 +456,10 @@ Tel: +43 680 217 89 39
 <p>Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Sie werden insbesondere zu folgenden Zwecken verarbeitet:</p>
 
 <ul>
-	<li>Sicherstellung eines problemlosen Verbindungsaufbaus der Website,</li>
-	<li>Sicherstellung einer reibungslosen Nutzung unserer Website,</li>
-	<li>Auswertung der Systemsicherheit und -stabilit&auml;t sowie</li>
-	<li>zu weiteren administrativen Zwecken.</li>
+    <li>Sicherstellung eines problemlosen Verbindungsaufbaus der Website,</li>
+    <li>Sicherstellung einer reibungslosen Nutzung unserer Website,</li>
+    <li>Auswertung der Systemsicherheit und -stabilit&auml;t sowie</li>
+    <li>zu weiteren administrativen Zwecken.</li>
 </ul>
 
 <p>Die Verarbeitung Ihrer personenbezogenen Daten basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um R&uuml;ckschl&uuml;sse auf Ihre Person zu ziehen. Empf&auml;nger der Daten sind nur die verantwortliche Stelle und ggf. Auftragsverarbeiter.</p>
@@ -514,22 +495,22 @@ Tel: +43 680 217 89 39
 
           </div>
         </div>
-        
+
       </div>
-      
+
     </div>
-    
+
   </div>
-  
+
   <script type="text/javascript" src="/<?php echo $jsPath; ?>jquery-1.12.4.min.js?<?php echo filemtime($jsPath.'jquery-1.12.4.min.js'); ?>"></script>
   <script type="text/javascript" src="/<?php echo $jsPath; ?>helper.js?<?php echo filemtime($jsPath.'helper.js'); ?>"></script>
-  
+
   <script type="text/javascript">
     $(document).ready(function() {
         rw.Helper.render();
     });
   </script>
-  
+
     <?php if ($environment == 'live') { ?>
         <!-- Matomo -->
             <script type="text/javascript">
@@ -548,7 +529,7 @@ Tel: +43 680 217 89 39
             <noscript><p><img src="https://www.rothauer-it.com/pwk/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
         <!-- End Matomo Code -->
     <?php } ?>
-  
-  
+
+
 </body>
 </html>

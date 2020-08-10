@@ -2,26 +2,26 @@
 rw.Helper = {
 
     render : function() {
-        
+
         var projects = rw.Helper.getProjects();
-        
+
         var squaresContainer = $('div.squares');
         var columns = 7;
         var rows = 5;
         var squaresCount = rows * columns;
-        
+
         for(var i=0;i<squaresCount;i++) {
-            
+
             var squareIdsForProjects = [16,17,18];
             var squareIdsForBottomLine = [29,30,31,32,33];
-            
+
             if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
                 var square = $('<a/>').attr('href', '#desc');
             } else {
                 var square = $('<div/>');
             }
             square.addClass('square').attr('id', 'square-' + i);
-            
+
             if ((i + 1) % columns == 0) {
                 square.addClass('last-column');
             }
@@ -34,14 +34,14 @@ rw.Helper = {
             if (i < columns) {
                 square.addClass('first-row');
             }
-            
+
 //          var openSourceId = squareIdsForBottomLine[0];
             var moreId = squareIdsForBottomLine[0];
             var contactId = squareIdsForBottomLine[1];
             var aboutId = squareIdsForBottomLine[2];
             var imprintId = squareIdsForBottomLine[3];
             var privacyId = squareIdsForBottomLine[4];
-            
+
             if ($.inArray(i, squareIdsForBottomLine) != -1) {
                 var newHeading = $('<div/>').addClass('heading');
                 var directLink = false;
@@ -73,7 +73,7 @@ rw.Helper = {
                         var nameDe = 'datenschutz';
                         break;
                 }
-                
+
                 newHeading.css('margin-top', marginTop + 'px');
                 newHeading.html('<span class="lang de">' + nameDe + '</span><span class="lang en">' + nameEn + '</span>');
                 if (directLink !== false) {
@@ -92,22 +92,22 @@ rw.Helper = {
             }
             squaresContainer.find('div.description').before(square);
         }
-        
+
         var k = -1;
         for(var j=0;j<projects.length;j++) {
-            
+
             var directLink = projects[j].directLink != undefined && projects[j].directLink;
-            
+
             if (projects[j].more != undefined && projects[j].more == true && !directLink) {
                 $('#projects').append('<div class="project">' + $('div#' + projects[j].id).html()) + '</div>';
                 continue;
             }
-            
+
             k++;
             var projectContainer = squaresContainer.find('#square-' + squareIdsForProjects[k]);
             projectContainer.addClass('notEmpty').addClass(projects[j].id);
             projectContainer.attr('title', projects[j].link);
-            
+
             var newHeading = $('<div/>').addClass('heading');
             if (projects[j].heading != undefined) {
                 var heading = projects[j].heading;
@@ -120,12 +120,12 @@ rw.Helper = {
             heading = heading.replace(/www\./, '');
             newHeading.html(heading);
             projectContainer.append(newHeading);
-            
+
             if (directLink) {
                 projectContainer.attr('href', projects[j].directLink);
                 projectContainer.attr('target', '_blank');
             }
-            
+
             if (projects[j].img != undefined) {
                 var newImg = rw.Helper.getThumbSmall(projects[j].img);
                 projectContainer.append(newImg);
@@ -134,9 +134,9 @@ rw.Helper = {
                 projectContainer.addClass('hasNoImage');
             }
         }
-        
+
         $('.desc').append('<a class="header-link" href="#wrapper"><span class="lang en"><< back</span><span class="lang de"><< zurück</span></a>');
-        
+
         //elements in last row are predefined
         $('a.square.notEmpty').on('click', function() {
             var classes = $(this).attr('class');
@@ -155,11 +155,11 @@ rw.Helper = {
         });
 
         this.bindImageEvents();
-        
+
         $('a#head').on('click', function() {
             $('.square.contact').trigger('click');
         });
-        
+
         $('a.square.notEmpty').on('mouseover', function() {
             var heading = $(this).find('.heading');
             if (heading.html().toLowerCase().match('span')) {
@@ -176,7 +176,7 @@ rw.Helper = {
         });
 
         $('.square.about').trigger('click');
-        
+
         // Smooth Scroll to Top
         // http://www.elmastudio.de/wordpress/back-to-top-buttons-mit-smooth-scroll-und-fading-in-wordpress/
         $('a.square[href*=\\#], a.header-link').on('click', function() {
@@ -190,32 +190,32 @@ rw.Helper = {
                 }
             }
         });
-        
+
         this.initLocalisation();
         this.replaceEmailPlaceholder();
-        
+
     }
-    
+
     ,bindImageEvents : function() {
         $('a.square.hasImage').off('mouseenter');
         $('a.square.hasImage').off('mouseleave');
         $('a.square.hasImage:not(".selected")').on('mouseenter', rw.Helper.bindImageMouseover);
         $('a.square.hasImage:not(".selected")').on('click', rw.Helper.bindImageClick);
     }
-    
+
     ,bindImageMouseover : function() {
         $(this).find('img').stop(true).animate({opacity:'toggle'}, {duration:1000});
         $(this).on('mouseleave', rw.Helper.bindImageMouseover);
     }
-    
+
     ,bindImageClick : function() {
         rw.Helper.bindImageEvents();
     }
-    
+
     ,smoothHideUnselectedImages : function() {
         $('a.square.hasImage:not(".selected") img').hide();
     }
-    
+
     ,replaceEmailPlaceholder : function() {
         var emailContainers = $('#contact, #imprint, #privacy');
         var emailString = 'office' + '@' + 'rothaue' + 'r-it' + '.com';
@@ -223,20 +223,20 @@ rw.Helper = {
             $(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
         });
     }
-    
+
     ,initLocalisation : function () {
-        
+
         var userLang = navigator.language /* Mozilla */ || navigator.userLanguage /* IE */;
-        
+
         var initLang = 'en';
         if (userLang.match(/de/) != -1) {
             initLang = 'de';
         }
-        
+
         $('#lang-box a').css('opacity', 0.6);
         $('#lang-box .button-' + initLang).css('opacity', 1);
         $('#lang-box').show();
-        
+
         $('#wrapper .lang').hide();
         $('#wrapper .lang.' + initLang).show();
 
@@ -249,7 +249,7 @@ rw.Helper = {
             }
           }
         );
-        
+
         $('#lang-box a').click(function () {
             $('#lang-box a').css('opacity', 0.6);
             $(this).css('opacity', 1);
@@ -257,13 +257,13 @@ rw.Helper = {
             $('#wrapper .lang').hide();
             $('#wrapper .lang.' + currentLang).show();
         });
-        
+
     }
-    
+
     ,getThumbSmall : function(img) {
         return newImg = $('<img/>').attr('src', '/thumbs/small/' + img.name);
     }
-    
+
     ,getProjects : function() {
         var projects = [];
         var o = {
@@ -381,14 +381,7 @@ rw.Helper = {
             ,more : true
         };
         projects.push(o);
-        var o = {
-             link : 'www.bäckerberg.at'
-            ,img  : {name : 'baeckerberg.png' }
-            ,id : 'baeckerberg'
-            ,more : true
-        };
-        projects.push(o);
         return projects;
     }
-    
+
 };
