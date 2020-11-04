@@ -359,12 +359,18 @@
 
         <div class="desc" id="contact">
           <div style="width:411px;float: left;">
-            <p>Mag. (FH) Mario Rothauer</p>
-            <p>Am Birkenweg 3</p>
-            <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
-            <p>+43 680 217 89 39</p>
-            <p>[email]</p>
-            <p>UID-Nr. ATU71726279</p>
+            <p>Mag. (FH) Mario Rothauer<br />
+                Am Birkenweg 3<br />
+                A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span>
+            </p>
+            <p>
+                <b>Büro-Adresse:</b><br />
+                Grubbachstraße 14<br />
+                A-4644 Scharnstein
+            </p>
+            <p>+43 680 217 89 39<br />
+                [email]<br />
+                UID-Nr. ATU71726279<br />
             <p>
                 <a target="_blank" class="img" title="xing" href="https://www.xing.com/profile/Mario_Rothauer">
                   <img src="/img/xing_icon_16x16.png" />
@@ -383,13 +389,19 @@
 
         <div class="desc" id="imprint">
           <div>
-            <p>Mag. (FH) Mario Rothauer</p>
-            <p>Am Birkenweg 3</p>
-            <p>A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span></p>
-            <p>+43 680 217 89 39</p>
-            <p>[email]</p>
-            <p>UID-Nr. ATU71726279</p>
-
+            <p>Mag. (FH) Mario Rothauer<br />
+                Am Birkenweg 3<br />
+                A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span>
+            </p>
+            <p>
+                <b>Büro-Adresse:</b><br />
+                Grubbachstraße 14<br />
+                A-4644 Scharnstein
+            </p>
+            <p>+43 680 217 89 39<br />
+                [email]<br />
+                UID-Nr. ATU71726279<br />
+            <p>
             <p style="margin-top:30px;">
               <b class="lang de">Haftungsausschluss</b>
               <b class="lang en">Liability of links</b>
