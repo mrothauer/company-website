@@ -288,10 +288,15 @@
                   <b>
                     <span class="lang en">Qualifications</span>
                     <span class="lang de">Qualifikationen</span>
-                :</b> PHP, MySQL, CakePHP, Symfony3, Angular2, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, Continuous Integration (Travis-CI)
+                :</b> PHP, MySQL, CakePHP, Symfony, Angular, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, CI/CD
               </p>
-              <p class="lang en">Languages: German, Spanish, English</p>
-              <p class="lang de">Sprachen: Deutsch, Spanisch, Englisch</p>
+
+              <p class="lang en"><b>Languages</b>: German, Spanish, English</p>
+              <p class="lang de"><b>Sprachen</b>: Deutsch, Spanisch, Englisch</p>
+
+              <p class="lang en"><b>Additional</b>: Many years of experience with food ordering workflow.</p>
+              <p class="lang de"><b>Sonstiges</b>: Mehrjährige Erfahrung in der Online-Vorbestellung von Lebensmitteln</p>
+
           </div>
 
         </div>
