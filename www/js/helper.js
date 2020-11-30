@@ -353,31 +353,9 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            link : 'www.variousvisions.at'
-           ,img  : {name : 'variousvisions.png' }
-           ,id : 'variousvisions'
-           ,more: true
-       };
-       projects.push(o);
-       var o = {
-             link : 'www.schima-sports.at'
-            ,img  : {name : 'schimasports.png' }
-            ,id : 'schimas-sports'
-            ,more : true
-        };
-        projects.push(o);
-        var o = {
              link : 'www.grabner-gmbh.at'
             ,img  : {name : 'grabner.png' }
             ,id : 'grabner'
-            ,more : true
-        };
-        projects.push(o);
-        var o = {
-             heading : 'www.nextgreen<br />heroes.com'
-            ,link : 'www.nextgreenheroes.com'
-            ,img  : {name : 'nextgreenheroes.png' }
-            ,id : 'nextgreenheroes'
             ,more : true
         };
         projects.push(o);

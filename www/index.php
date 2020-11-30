@@ -162,29 +162,6 @@
 
         </div>
 
-         <div class="desc" id="variousvisions">
-
-            <div class="left">
-                <b class="lang de">Video-Produktionen Jan Gruber, Gmunden</b>
-                <b class="lang en">Video Productions Jan Gruber, Gmunden / Upper Austria</b>
-                <ul>
-                  <li class="lang de">Horizontale Single-Page-Website mit dynamischer Vimeo-Einbindung</li>
-                  <li class="lang en">Horizontal single page website with dynamic integration of Vimeo videos</li>
-                  <li class="lang de">Swipe-Funktion bei mobilen Devices</li>
-                  <li class="lang en">Swiping enabled on mobile devices</li>
-                  <li class="lang">Layout by Jan Gruber</li>
-                  </ul>
-            </div>
-
-            <div class="right">
-                <a target="_blank" href="http://www.variousvisions.at" class="external">
-                  <img src="/thumbs/big/variousvisions.png" />
-                </a>
-                <a target="_blank" href="http://www.variousvisions.at" class="project-link external">www.variousvisions.at</a>
-            </div>
-
-        </div>
-
         <div class="desc" id="kindergarten-scharnstein">
 
             <div class="left">
@@ -221,27 +198,6 @@
               <img src="/thumbs/big/grabner.png" />
             </a>
             <a target="_blank" href="http://www.grabner-gmbh.at" class="project-link external">www.grabner-gmbh.at</a>
-          </div>
-
-        </div>
-
-        <div class="desc" id="nextgreenheroes">
-
-          <div class="left">
-            <b class="lang de">Freiwilligenarbeit für Jugendliche, Schweiz (Indien)</b>
-            <b class="lang en">Social work for young adults, Switzerland (India)</b>
-            <ul>
-              <li class="lang de">Basierend auf <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-              <li class="lang en">Based on <a target="_blank" href="http://cakephp.org/">CakePHP</a></li>
-              <li>Layout by <a href="https://www.fairidee.de" target="_blank">fairidee.de</a></li>
-            </ul>
-          </div>
-
-          <div class="right">
-            <a target="_blank" href="http://www.nextgreenheroes.com" class="external">
-              <img src="/thumbs/big/nextgreenheroes.png" />
-            </a>
-            <a target="_blank" href="http://www.nextgreenheroes.com" class="project-link external">www.nextgreenheroes.com</a>
           </div>
 
         </div>
@@ -286,23 +242,6 @@
             <a target="_blank" href="https://www.motorsagla.at" class="project-link external">www.motorsagla.at</a>
           </div>
 
-        </div>
-
-        <div class="desc" id="schimas-sports">
-          <div class="left">
-            <b class="lang de">Bergsportartikel-Händler, Gschwandt, Oberösterreich</b>
-            <b class="lang en">Mountain equipment retailer, Upper Austria</b>
-            <ul>
-              <li class="lang de">Basierend auf CakePHP</li>
-              <li class="lang en">Based on CakePHP</li>
-            </ul>
-          </div>
-          <div class="right">
-            <a target="_blank" href="https://www.schima-sports.at" class="external">
-              <img src="/thumbs/big/schimasports.png" />
-            </a>
-            <a target="_blank" href="https://www.schima-sports.at" class="project-link external">www.schima-sports.at</a>
-          </div>
         </div>
 
         <div class="desc" id="projects"></div>
