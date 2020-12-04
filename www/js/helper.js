@@ -285,6 +285,20 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
+           link : 'www.foodcoopshop.com'
+           ,img  : {name : 'foodcoopshop.png' }
+           ,id : 'foodcoopshop'
+           ,more: true
+        };
+        projects.push(o);
+        var o = {
+           link : 'www.hofladen-online.at'
+           ,img  : {name : 'hofladen-online.png' }
+           ,id : 'hofladen-online'
+           ,more: true
+        };
+        projects.push(o);
+        var o = {
             heading : 'www.reparatur-<br />initiativen.de'
            ,link : 'www.reparatur-initiativen.de'
            ,img  : {name : 'reparatur-initiativen.png' }
@@ -293,17 +307,17 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'www.fairteiler-<br />scharnstein.at'
-           ,link : 'www.fairteiler-scharnstein.at'
-           ,img  : {name : 'fairteiler-scharnstein.png' }
-           ,id : 'fairteiler-scharnstein'
+            heading : 'www.offene-<br />werkstaetten.org'
+           ,link : 'www.offene-werkstaetten.org'
+           ,id : 'offene-werkstaetten'
            ,more: true
         };
         projects.push(o);
         var o = {
-            heading : 'www.offene-<br />werkstaetten.org'
-           ,link : 'www.offene-werkstaetten.org'
-           ,id : 'offene-werkstaetten'
+            heading : 'www.fairteiler-<br />scharnstein.at'
+           ,link : 'www.fairteiler-scharnstein.at'
+           ,img  : {name : 'fairteiler-scharnstein.png' }
+           ,id : 'fairteiler-scharnstein'
            ,more: true
         };
         projects.push(o);

@@ -40,16 +40,62 @@
       <div class="squares">
         <div id="desc" class="description square">
 
+        <div class="desc" id="foodcoopshop">
+
+            <div class="left">
+                <b>FoodCoopShop</b>
+                <ul>
+                  <li class="lang de">Software für Foodcoops</li>
+                  <li class="lang en">Software for food-coops</li>
+                  <li class="lang de">Entwickler: Mag. (FH) Mario Rothauer</li>
+                  <li class="lang en">Developed by: Mag. (FH) Mario Rothauer</li>
+                  <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2016 <a href="https://github.com/foodcoopshop/foodcoopshop" target="_blank">Open Source</a></li>
+                  <li class="lang de"><a href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank">Bericht über FoodCoopShop im extra-blick (31.01.2019)</a></li>
+                  <li class="lang de"><a href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank">Bericht über FoodCoopShop in der Tips (14.03.2018)</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.foodcoopshop.com" class="external">
+                  <img src="/thumbs/big/foodcoopshop.png" />
+                </a>
+                <a target="_blank" href="https://www.foodcoopshop.com" class="project-link external">www.foodcoopshop.com</a>
+            </div>
+
+        </div>
+
+        <div class="desc" id="hofladen-online">
+
+            <div class="left">
+                <b>Hofladen Online</b>
+                <ul>
+                  <li class="lang de">Online-Shop für Direktvermarkter</li>
+                  <li class="lang en">Online shop for direct sellers</li>
+                  <li class="lang de">Entwickler: Mag. (FH) Mario Rothauer</li>
+                  <li class="lang en">Developed by: Mag. (FH) Mario Rothauer</li>
+                  <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2020 <a href="https://foodcoopshop.github.io/de/hofladen-online.html" target="_blank">Open Source</a></li>
+                  <li class="lang de"><a href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a target="_blank" href="https://www.hofladen-online.at" class="external">
+                  <img src="/thumbs/big/hofladen-online.png" />
+                </a>
+                <a target="_blank" href="https://www.hofladen-online.at" class="project-link external">www.hofladen-online.at</a>
+            </div>
+
+        </div>
+
         <div class="desc" id="reparatur-initiativen">
 
             <div class="left">
                 <b>Netzwerk Reparatur-Initiativen</b>
                 <ul>
                   <li class="lang de">Wartung und Weiterentwicklung des Portals</li>
+                  <li class="lang de"><a href="https://www.nachhaltigkeitspreis.de/design/sieger/" target="_blank">Dezember 2020: Sieger des Deutschen Nachhaltigkeitspreises Design in der Kategorie Vorreiter</a></li>
                   <li class="lang en">Maintainance and development</li>
                   <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2019 <a href="https://github.com/anstiftung/mapped-repair-events" target="_blank">Open Source</a></li>
-                  <li class="lang de">basierend auf CakePHP</li>
-                  <li class="lang en">based on CakePHP</li>
                 </ul>
             </div>
 
@@ -210,8 +256,6 @@
             <ul>
               <li class="lang de">Wartung und Weiterentwicklung des Portals</li>
               <li class="lang en">Maintainance and development</li>
-              <li class="lang de">Basierend auf <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
-              <li class="lang en">Based on <a target="_blank" href="https://cakephp.org/">CakePHP</a></li>
             </ul>
           </div>
 
@@ -259,11 +303,6 @@
 
               <b>
                 <span><a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Bericht über FoodCoopShop im extra-blick (31.01.2019)</span></a></span>
-              </b>
-              <br /><br />
-
-                <b>
-                <a style="text-decoration: underline" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a>
               </b>
               <br /><br />
 
