@@ -12,7 +12,7 @@ rw.Helper = {
 
         for(var i=0;i<squaresCount;i++) {
 
-            var squareIdsForProjects = [16,17,18];
+            var squareIdsForProjects = [16,17,18,24];
             var squareIdsForBottomLine = [29,30,31,32,33];
 
             if ($.inArray(i, $.merge(squareIdsForProjects, squareIdsForBottomLine)) != -1) {
@@ -48,10 +48,6 @@ rw.Helper = {
                 var image = false;
                 var marginTop = 22;
                 switch(i) {
-//                  case openSourceId:
-//                      var nameEn = nameDe = 'open source';
-//                      directLink = 'https://github.com/mrothauer';
-//                  break;
                     case moreId:
                         var nameEn = 'projects';
                         var nameDe = 'projekte';
@@ -267,9 +263,9 @@ rw.Helper = {
     ,getProjects : function() {
         var projects = [];
         var o = {
-            heading : 'open source<br />github'
-           ,directLink : 'https://github.com/mrothauer'
-           ,img  : {name : 'github.png' }
+            heading : 'dorfladen-<br />online.at'
+           ,directLink : 'https://dorfladen-online.at'
+           ,img  : {name : 'dorfladen-online.png' }
         };
         projects.push(o);
         var o = {
@@ -282,6 +278,12 @@ rw.Helper = {
             heading : 'www.foodcoop<br />shop.com'
            ,directLink : 'https://www.foodcoopshop.com'
            ,img  : {name : 'foodcoopshop.png' }
+        };
+        projects.push(o);
+        var o = {
+            heading : 'open source<br />github'
+           ,directLink : 'https://github.com/mrothauer'
+           ,img  : {name : 'github.png' }
         };
         projects.push(o);
         var o = {
