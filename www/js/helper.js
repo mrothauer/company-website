@@ -262,6 +262,8 @@ rw.Helper = {
 
     ,getProjects : function() {
         var projects = [];
+
+        /* START SQUARES */
         var o = {
             heading : 'dorfladen-<br />online.at',
             directLink : 'https://dorfladen-online.at',
@@ -269,13 +271,13 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'www.hofladen-<br />online.at',
+            heading : 'hofladen-<br />online.at',
             directLink : 'https://www.hofladen-online.at',
             img  : {name : 'hofladen-online.jpg' }
         };
         projects.push(o);
         var o = {
-            heading : 'www.foodcoop<br />shop.com',
+            heading : 'foodcoop<br />shop.com',
             directLink : 'https://www.foodcoopshop.com',
             img  : {name : 'foodcoopshop.png' }
         };
@@ -286,10 +288,20 @@ rw.Helper = {
             img  : {name : 'github.png' }
         };
         projects.push(o);
+        /* END SQUARES */
+
+        /* START PROJECTS */
         var o = {
            link : 'www.foodcoopshop.com',
             img  : {name : 'foodcoopshop.png' },
             id : 'foodcoopshop',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+           link : 'www.dorfladen-online.at',
+            img  : {name : 'dorfladen-online.png' },
+            id : 'dorfladen-online',
             more: true
         };
         projects.push(o);
@@ -375,7 +387,10 @@ rw.Helper = {
              more : true
         };
         projects.push(o);
+        /* END PROJECTS */
+
         return projects;
+
     }
 
 };
