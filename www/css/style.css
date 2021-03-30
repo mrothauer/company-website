@@ -202,7 +202,8 @@ div.squares .square div.info {
 }
 div#about p,
 div#privacy p,
-div#imprint p {
+div#imprint p,
+div#contact p {
     padding: 0;
     margin: 0;
     padding-bottom: 10px;
