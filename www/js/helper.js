@@ -263,116 +263,116 @@ rw.Helper = {
     ,getProjects : function() {
         var projects = [];
         var o = {
-            heading : 'dorfladen-<br />online.at'
-           ,directLink : 'https://dorfladen-online.at'
-           ,img  : {name : 'dorfladen-online.png' }
+            heading : 'dorfladen-<br />online.at',
+            directLink : 'https://dorfladen-online.at',
+            img  : {name : 'dorfladen-online.png' }
         };
         projects.push(o);
         var o = {
-            heading : 'www.hofladen-<br />online.at'
-           ,directLink : 'https://www.hofladen-online.at'
-           ,img  : {name : 'hofladen-online.jpg' }
+            heading : 'www.hofladen-<br />online.at',
+            directLink : 'https://www.hofladen-online.at',
+            img  : {name : 'hofladen-online.jpg' }
         };
         projects.push(o);
         var o = {
-            heading : 'www.foodcoop<br />shop.com'
-           ,directLink : 'https://www.foodcoopshop.com'
-           ,img  : {name : 'foodcoopshop.png' }
+            heading : 'www.foodcoop<br />shop.com',
+            directLink : 'https://www.foodcoopshop.com',
+            img  : {name : 'foodcoopshop.png' }
         };
         projects.push(o);
         var o = {
-            heading : 'open source<br />github'
-           ,directLink : 'https://github.com/mrothauer'
-           ,img  : {name : 'github.png' }
+            heading : 'open source<br />github',
+            directLink : 'https://github.com/mrothauer',
+            img  : {name : 'github.png' }
         };
         projects.push(o);
         var o = {
-           link : 'www.foodcoopshop.com'
-           ,img  : {name : 'foodcoopshop.png' }
-           ,id : 'foodcoopshop'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-           link : 'www.hofladen-online.at'
-           ,img  : {name : 'hofladen-online.png' }
-           ,id : 'hofladen-online'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.reparatur-<br />initiativen.de'
-           ,link : 'www.reparatur-initiativen.de'
-           ,img  : {name : 'reparatur-initiativen.png' }
-           ,id : 'reparatur-initiativen'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.offene-<br />werkstaetten.org'
-           ,link : 'www.offene-werkstaetten.org'
-           ,id : 'offene-werkstaetten'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.fairteiler-<br />scharnstein.at'
-           ,link : 'www.fairteiler-scharnstein.at'
-           ,img  : {name : 'fairteiler-scharnstein.png' }
-           ,id : 'fairteiler-scharnstein'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            link : 'www.wildniscamps.at'
-           ,img  : {name : 'wildniscamps.png' }
-           ,id : 'wildniscamps'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'kindergarten-<br />scharnstein.at'
-           ,link : 'www.kindergarten-scharnstein.at'
-           ,img  : {name : 'kindergarten-scharnstein.png' }
-           ,id : 'kindergarten-scharnstein'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-            link : 'www.kunstbrettl.at'
-           ,img  : {name : 'kunstbrettl.png' }
-           ,id : 'kunstbrettl'
-           ,more: true
-        };
-        projects.push(o);
-        var o = {
-             link : 'www.motorsagla.at'
-            ,img  : {name : 'motorsagla.png' }
-            ,id : 'motorsagla',
+           link : 'www.foodcoopshop.com',
+            img  : {name : 'foodcoopshop.png' },
+            id : 'foodcoopshop',
             more: true
         };
         projects.push(o);
         var o = {
-            heading : 'www.marktmusik-<br />scharnstein.at'
-           ,link : 'www.marktmusik-scharnstein.at'
-           ,img  : {name : 'marktmusik-scharnstein.png' }
-           ,id : 'marktmusik-scharnstein'
-           ,more: true
-         };
-        projects.push(o);
-        var o = {
-            heading : 'www.maler-<br />luckeneder.at'
-           ,link : 'www.maler-luckeneder.at'
-           ,img  : {name : 'maler-luckeneder.png' }
-           ,id : 'maler-luckeneder'
-           ,more: true
+           link : 'www.hofladen-online.at',
+            img  : {name : 'hofladen-online.png' },
+            id : 'hofladen-online',
+            more: true
         };
         projects.push(o);
         var o = {
-             link : 'www.grabner-gmbh.at'
-            ,img  : {name : 'grabner.png' }
-            ,id : 'grabner'
-            ,more : true
+            heading : 'www.reparatur-<br />initiativen.de',
+            link : 'www.reparatur-initiativen.de',
+            img  : {name : 'reparatur-initiativen.png' },
+            id : 'reparatur-initiativen',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'www.offene-<br />werkstaetten.org',
+            link : 'www.offene-werkstaetten.org',
+            id : 'offene-werkstaetten',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'www.fairteiler-<br />scharnstein.at',
+            link : 'www.fairteiler-scharnstein.at',
+            img  : {name : 'fairteiler-scharnstein.png' },
+            id : 'fairteiler-scharnstein',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            link : 'www.wildniscamps.at',
+            img  : {name : 'wildniscamps.png' },
+            id : 'wildniscamps',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'kindergarten-<br />scharnstein.at',
+            link : 'www.kindergarten-scharnstein.at',
+            img  : {name : 'kindergarten-scharnstein.png' },
+            id : 'kindergarten-scharnstein',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            link : 'www.kunstbrettl.at',
+            img  : {name : 'kunstbrettl.png' },
+            id : 'kunstbrettl',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+             link : 'www.motorsagla.at',
+             img  : {name : 'motorsagla.png' },
+             id : 'motorsagla',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+            heading : 'www.marktmusik-<br />scharnstein.at',
+            link : 'www.marktmusik-scharnstein.at',
+            img  : {name : 'marktmusik-scharnstein.png' },
+            id : 'marktmusik-scharnstein',
+            more: true
+         };
+        projects.push(o);
+        var o = {
+            heading : 'www.maler-<br />luckeneder.at',
+            link : 'www.maler-luckeneder.at',
+            img  : {name : 'maler-luckeneder.png' },
+            id : 'maler-luckeneder',
+            more: true
+        };
+        projects.push(o);
+        var o = {
+             link : 'www.grabner-gmbh.at',
+             img  : {name : 'grabner.png' },
+             id : 'grabner',
+             more : true
         };
         projects.push(o);
         return projects;
