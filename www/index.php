@@ -341,15 +341,15 @@
               <br />
 
               <p class="lang en">
-                  <b>About me</b>: After finising the University of Applied Science in Vienna and gaining lots of work experience in South Armerica and Berlin, Mario works as a freelance web programmer in the beautiful Almtal (Upper Austria) since 2009.
+                  <b>About me</b>:
+                  Mario works as a freelance web-developer since 2009. His favorite projects are open source projects with a social impact, he lives with his family in Upper Austria.
               </p>
               <p class="lang de">
-                  <b>Über mich</b>: Nach dem FH-Studium für Projektmanagement und Informationstechnik in Wien und mehreren fachbezogenenen Auslandsaufenthalten in Südamerika und Berlin bietet Mario seit 2009 seine Programmier-Dienstleistungen zur Erstellung von webbasierter Software an.
-              </p>
-              <p class="lang de">Am liebsten arbeitet er an Open-Source-Projekten, die zu einer Verbesserung der Gesellschaft beitragen. Mario lebt mit seiner Familie im Almtal.
+                  <b>Über mich</b>:
+                  Mario ist seit 2009 als Webentwickler selbstständig. Er arbeitet am liebsten an Open-Source-Projekten,
+                  die zu einer Verbesserung der Gesellschaft beitragen und lebt mit seiner Familie im Almtal / Oberösterreich.
               </p>
 
-              <br />
               <p>
                   <b>
                     <span class="lang en">Qualifications</span>
@@ -357,11 +357,11 @@
                 :</b> PHP, MySQL, CakePHP, Symfony, Angular, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, CI/CD
               </p>
 
-              <p class="lang en"><b>Languages</b>: German, Spanish, English</p>
-              <p class="lang de"><b>Sprachen</b>: Deutsch, Spanisch, Englisch</p>
-
               <p class="lang en"><b>Additional</b>: Many years of experience with food ordering workflow.</p>
               <p class="lang de"><b>Sonstiges</b>: Mehrjährige Erfahrung in der Online-Vorbestellung von Lebensmitteln</p>
+
+              <p class="lang en"><b>Languages</b>: German, Spanish, English</p>
+              <p class="lang de"><b>Sprachen</b>: Deutsch, Spanisch, Englisch</p>
 
           </div>
 
