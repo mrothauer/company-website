@@ -69,7 +69,7 @@
             <div class="left">
                 <b>Dorfladen Online</b>
                 <ul>
-                  <li class="lang de">Bestell-Software für den Lebensmittel-Einzelhandel</li>
+                  <li class="lang de">Software zum Betreiben von kleinen, regionalen Lebensmittelgeschäften</li>
                   <li class="lang en">Online shop for small grocery stores</li>
                   <li class="lang de">Entwickler: Mag. (FH) Mario Rothauer</li>
                   <li class="lang en">Developed by: Mag. (FH) Mario Rothauer</li>
