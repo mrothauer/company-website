@@ -79,7 +79,7 @@
 
             <div class="right">
                 <a target="_blank" href="https://www.dorfladen-online.at" class="external">
-                  <img src="/thumbs/big/dorfladen-online.png" />
+                  <img src="/thumbs/big/dorfladen-online-neu.png" />
                 </a>
                 <a target="_blank" href="https://www.dorfladen-online.at" class="project-link external">www.dorfladen-online.at</a>
             </div>
