@@ -365,14 +365,6 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'www.marktmusik-<br />scharnstein.at',
-            link : 'www.marktmusik-scharnstein.at',
-            img  : {name : 'marktmusik-scharnstein.png' },
-            id : 'marktmusik-scharnstein',
-            more: true
-         };
-        projects.push(o);
-        var o = {
             heading : 'www.maler-<br />luckeneder.at',
             link : 'www.maler-luckeneder.at',
             img  : {name : 'maler-luckeneder.png' },

@@ -169,25 +169,6 @@
 
         </div>
 
-        <div class="desc" id="marktmusik-scharnstein">
-
-            <div class="left">
-                <b>Marktmusik Redtenbacher, Scharnstein</b>
-                <ul>
-                  <li class="lang de">Einfach zu bedienende Webseite für den lokalen Musikverein.</li>
-                  <li class="lang en">Easy to handle website for the local music club.</li>
-                </ul>
-            </div>
-
-            <div class="right">
-                <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="external">
-                  <img src="/thumbs/big/marktmusik-scharnstein.png" />
-                </a>
-                <a target="_blank" href="http://www.marktmusik-scharnstein.at" class="project-link external">www.marktmusik-scharnstein.at</a>
-            </div>
-
-        </div>
-
         <div class="desc" id="maler-luckeneder">
 
             <div class="left">
