@@ -271,15 +271,15 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'hofladen-<br />online.at',
-            directLink : 'https://www.hofladen-online.at',
-            img  : {name : 'hofladen-online.jpg' }
-        };
-        projects.push(o);
-        var o = {
             heading : 'foodcoop<br />shop.com',
             directLink : 'https://www.foodcoopshop.com',
             img  : {name : 'foodcoopshop.png' }
+        };
+        projects.push(o);
+        var o = {
+            heading : 'hofladen-<br />online.at',
+            directLink : 'https://www.hofladen-online.at',
+            img  : {name : 'hofladen-online.jpg' }
         };
         projects.push(o);
         var o = {
@@ -292,16 +292,16 @@ rw.Helper = {
 
         /* START PROJECTS */
         var o = {
-           link : 'www.foodcoopshop.com',
-            img  : {name : 'foodcoopshop.png' },
-            id : 'foodcoopshop',
+           link : 'www.dorfladen-online.at',
+            img  : {name : 'dorfladen-online.png' },
+            id : 'dorfladen-online',
             more: true
         };
         projects.push(o);
         var o = {
-           link : 'www.dorfladen-online.at',
-            img  : {name : 'dorfladen-online.png' },
-            id : 'dorfladen-online',
+           link : 'www.foodcoopshop.com',
+            img  : {name : 'foodcoopshop.png' },
+            id : 'foodcoopshop',
             more: true
         };
         projects.push(o);
