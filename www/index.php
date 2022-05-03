@@ -69,7 +69,7 @@
             <div class="left">
                 <b>Dorfladen Online</b>
                 <ul>
-                  <li class="lang de">Software zum Betreiben von kleinen, regionalen Lebensmittelgeschäften</li>
+                  <li class="lang de">Software zum Betreiben von regionalen Lebensmittelgeschäften</li>
                   <li class="lang en">Online shop for small grocery stores</li>
                   <li class="lang de">Entwickler: Mag. (FH) Mario Rothauer</li>
                   <li class="lang en">Developed by: Mag. (FH) Mario Rothauer</li>
@@ -300,11 +300,6 @@
               <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
 
               <b>
-                <span><a style="text-decoration: underline" href="https://www.nachhaltigkeitspreis.de/design/sieger/" target="_blank"><span style="float: none;">Sieger des Deutschen Nachhaltigkeitspreises Design in der Kategorie Vorreiter: Netzwerk Reparatur-Initiativen (03.12.2020)</span></a></span>
-              </b>
-              <br /><br />
-
-              <b>
                 <span><a style="text-decoration: underline" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Bericht über FoodCoopShop im extra-blick (31.01.2019)</span></a></span>
               </b>
               <br /><br />
@@ -335,11 +330,11 @@
                   <b>
                     <span class="lang en">Qualifications</span>
                     <span class="lang de">Qualifikationen</span>
-                :</b> PHP, MySQL, CakePHP, Symfony, Angular, Bootstrap, Unit Testing, WordPress, HTML, CSS, JavaScript, jQuery, OpenStreetMap, Eclipse, Git, Github, Open Source, CI/CD
+                :</b> CakePHP, MySQL, Unit Testing, Integration Testing, WordPress, LeafletJS, Git, Github, Open Source, CI/CD, HTML, CSS, JavaScript, jQuery
               </p>
 
-              <p class="lang en"><b>Additional</b>: Many years of experience with food ordering workflow.</p>
-              <p class="lang de"><b>Sonstiges</b>: Mehrjährige Erfahrung in der Online-Vorbestellung von Lebensmitteln</p>
+              <p class="lang en"><b>Additional</b>: Several years of experience with food ordering workflow.</p>
+              <p class="lang de"><b>Sonstiges</b>: Mehrjährige Erfahrung in der Online-Vorbestellung von Lebensmitteln / Erstellen von <i>stabiler</i> Software / Langfristige Wartung und Betreuung von Software-Projekten</p>
 
               <p class="lang en"><b>Languages</b>: German, Spanish, English</p>
               <p class="lang de"><b>Sprachen</b>: Deutsch, Spanisch, Englisch</p>
