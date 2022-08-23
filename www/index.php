@@ -527,13 +527,13 @@ Tel: +43 680 217 89 39
               _paq.push(['enableLinkTracking']);
               (function() {
                 var u="https://stats.rothauer-it.com/";
-                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
                 _paq.push(['setSiteId', 3]);
                 var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
               })();
             </script>
-            <noscript><p><img src="https://stats.rothauer-it.com/matomo.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+            <noscript><p><img src="https://stats.rothauer-it.com/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
         <!-- End Matomo Code -->
     <?php } ?>
 
