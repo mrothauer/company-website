@@ -491,13 +491,6 @@ Tel: +43 680 217 89 39
 
 <p>Wir behalten uns vor, diese Datenschutzerkl&auml;rung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um &Auml;nderungen unserer Leistungen in der Datenschutzerkl&auml;rung umzusetzen, z.B. bei der Einf&uuml;hrung neuer Services. F&uuml;r Ihren erneuten Besuch gilt dann die neue Datenschutzerkl&auml;rung.</p>
 
-<h3>Webanalyse mit Matomo</h3>
-<p>Unsere Website verwendet Funktionen des Webanalysedienstes Matomo. Dazu werden <b>keine</b> Cookies verwendet. Die dadurch erzeugten Informationen werden auf den Server des Anbieters (rothauer-it.com, Serverstandort: Deutschland) übertragen und dort gespeichert. Wir haben mit dem Anbieter einen entsprechenden Vertrag zur Auftragsdatenverarbeitung abgeschlossen. <b></b>Ihre IP-Adresse wird erfasst, aber umgehend (durch Löschung der letzten 2 Bytes) pseudonymisiert. Dadurch ist nur mehr eine grobe Lokalisierung möglich. Die Datenverarbeitung erfolgt auf Basis der gesetzlichen Bestimmungen des § 96 Abs 3 TKG sowie des Art 6 Abs 1 lit a (Einwilligung) und/oder f (berechtigtes Interesse) der DSGVO. Unser Anliegen im Sinne der DSGVO (berechtigtes Interesse) ist die Verbesserung unseres Angebotes und unseres Webauftritts. Da uns die Privatsphäre unserer Nutzer wichtig ist, werden die Nutzerdaten pseudonymisiert. Die Nutzerdaten werden für die Dauer von 12 Monaten aufbewahrt.</p>
-
-<p>Sie können mittels "Opt-Out" eine Auswertung ihres Besuches verhindern:</p>
-<iframe style="border: 0; height: 100px; width: 100%;" src="https://stats.rothauer-it.com/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de" width="300" height="150"></iframe>
-
-
 <p><em>Die Datenschutzerkl&auml;rung wurde mit dem </em><a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/" rel="noopener" target="_blank"><em>Datenschutzerkl&auml;rungs-Generator der activeMind AG erstellt</em></a><em>.</em></p>
 
           </div>
@@ -517,26 +510,6 @@ Tel: +43 680 217 89 39
         rw.Helper.render();
     });
   </script>
-
-    <?php if ($environment == 'live') { ?>
-        <!-- Matomo -->
-            <script type="text/javascript">
-              var _paq = _paq || [];
-              _paq.push(['disableCookies']);
-              _paq.push(['trackPageView']);
-              _paq.push(['enableLinkTracking']);
-              (function() {
-                var u="https://stats.rothauer-it.com/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', 3]);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-              })();
-            </script>
-            <noscript><p><img src="https://stats.rothauer-it.com/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
-        <!-- End Matomo Code -->
-    <?php } ?>
-
 
 </body>
 </html>
