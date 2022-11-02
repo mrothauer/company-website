@@ -343,32 +343,9 @@ rw.Helper = {
         };
         projects.push(o);
         var o = {
-            heading : 'kindergarten-<br />scharnstein.at',
-            link : 'www.kindergarten-scharnstein.at',
-            img  : {name : 'kindergarten-scharnstein.png' },
-            id : 'kindergarten-scharnstein',
-            more: true
-        };
-        projects.push(o);
-        var o = {
-            link : 'www.kunstbrettl.at',
-            img  : {name : 'kunstbrettl.png' },
-            id : 'kunstbrettl',
-            more: true
-        };
-        projects.push(o);
-        var o = {
              link : 'www.motorsagla.at',
              img  : {name : 'motorsagla.png' },
              id : 'motorsagla',
-            more: true
-        };
-        projects.push(o);
-        var o = {
-            heading : 'www.maler-<br />luckeneder.at',
-            link : 'www.maler-luckeneder.at',
-            img  : {name : 'maler-luckeneder.png' },
-            id : 'maler-luckeneder',
             more: true
         };
         projects.push(o);
