@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  php-fpm:
+    build: .
+    container_name: rothauerit.php
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      - WEB_DOCUMENT_ROOT=/app/www
+    ports:
+      - "8119:80"
+    networks:
+      default:
+        aliases:
+          - rothauer-it.test
+      rothauerit:
+
+networks:
+  rothauerit:
