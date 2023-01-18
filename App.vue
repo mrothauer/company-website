@@ -1,5 +1,7 @@
 <script lang="ts">
+  
   import LanguageToggle from './components/LanguageToggle.vue'
+
   export default {
     components: {
       LanguageToggle
@@ -16,8 +18,7 @@
 
   <a id="head" href="javascript:void(0);"></a>
   
-  <LanguageToggle
-  ></LanguageToggle>
+  <LanguageToggle></LanguageToggle>
 
   <div class="squares">
     <div id="desc" class="description square">
