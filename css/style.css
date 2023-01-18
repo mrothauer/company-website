@@ -39,16 +39,8 @@ ul li {
     margin: 20px auto;
     position: relative;
 }
-
-#lang-box {
-    position: absolute;
-    top: 38px;
-    right: 14px;
-    z-index: 100;
-}
-div#lang-box a {
-    float: left;
-    margin-left: 5px;
+.lang.en {
+    display: none;
 }
 
 a#head {

@@ -189,7 +189,6 @@ let Helper = {
             }
         });
 
-        this.initLocalisation();
         this.replaceEmailPlaceholder();
 
     },
@@ -220,26 +219,6 @@ let Helper = {
         emailContainers.each(function() {
             $(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
         });
-    },
-
-    initLocalisation : function () {
-
-        let userLang = navigator.language /* Mozilla */ || navigator.userLanguage /* IE */;
-
-        let initLang = 'en';
-        if (userLang.match(/de/) != -1) {
-            initLang = 'de';
-        }
-
-        $('#app .lang').hide();
-        $('#app .lang.' + initLang).show();
-
-        $('#lang-box a').on('click', function () {
-            let currentLang = $(this).attr('class').replace(/button-/, '');
-            $('#app .lang').hide();
-            $('#app .lang.' + currentLang).show();
-        });
-
     },
 
     getThumbSmall : function(img) {

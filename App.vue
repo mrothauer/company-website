@@ -1,21 +1,23 @@
 <script lang="ts">
-    export default {
-        data() {
-            return {
-                message: 'FoodCoopShop'
-            }
-        }
+  import LanguageToggle from './components/LanguageToggle.vue'
+  export default {
+    components: {
+      LanguageToggle
+    },
+    data() {
+      return {
+        message: 'FoodCoopShop'
+      }
     }
+  }
 </script>
 
 <template>
 
   <a id="head" href="javascript:void(0);"></a>
   
-  <div id="lang-box">
-    <a class="button-de" title="Deutsch" href="javascript:void(0)"><img src="/img/flag-de.gif" width="16" height="11" /></a>
-    <a class="button-en" title="English" href="javascript:void(0)"><img src="/img/flag-en.gif" width="16" height="11" /></a>
-  </div>
+  <LanguageToggle
+  ></LanguageToggle>
 
   <div class="squares">
     <div id="desc" class="description square">
