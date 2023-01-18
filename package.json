@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "jquery": "^3.6.3"
+    "@vitejs/plugin-vue": "^4.0.0",
+    "jquery": "^3.6.3",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "vite": "^4.0.4"

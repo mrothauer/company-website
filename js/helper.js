@@ -231,13 +231,13 @@ let Helper = {
             initLang = 'de';
         }
 
-        $('#wrapper .lang').hide();
-        $('#wrapper .lang.' + initLang).show();
+        $('#app .lang').hide();
+        $('#app .lang.' + initLang).show();
 
         $('#lang-box a').on('click', function () {
             let currentLang = $(this).attr('class').replace(/button-/, '');
-            $('#wrapper .lang').hide();
-            $('#wrapper .lang.' + currentLang).show();
+            $('#app .lang').hide();
+            $('#app .lang.' + currentLang).show();
         });
 
     },

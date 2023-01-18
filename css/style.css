@@ -34,7 +34,7 @@ ul li {
 .small {
     font-size: 11px;
 }
-#wrapper {
+#app {
     width: 787px;
     margin: 20px auto;
     position: relative;
