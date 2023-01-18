@@ -6,4 +6,7 @@ import $ from 'jquery';
 window.$ = $;
 
 import Helper from './js/helper.js'
-Helper.render()
+import Projects from './js/projects.js'
+
+let projects = Projects.getAll()
+Helper.render(projects)
