@@ -1,9 +1,10 @@
+let Helper = {};
 
-rw.Helper = {
+export default Helper = {
 
     render : function() {
 
-        var projects = rw.Helper.getProjects();
+        var projects = Helper.getProjects();
 
         var squaresContainer = $('div.squares');
         var columns = 7;
@@ -123,7 +124,7 @@ rw.Helper = {
             }
 
             if (projects[j].img != undefined) {
-                var newImg = rw.Helper.getThumbSmall(projects[j].img);
+                var newImg = Helper.getThumbSmall(projects[j].img);
                 projectContainer.append(newImg);
                 projectContainer.addClass('hasImage');
             } else {
@@ -146,8 +147,8 @@ rw.Helper = {
             $('div.desc').hide();
             $('div.description').show();
             $('#' + projectId).show();
-            rw.Helper.smoothHideUnselectedImages();
-            rw.Helper.bindImageEvents();
+            Helper.smoothHideUnselectedImages();
+            Helper.bindImageEvents();
         });
 
         this.bindImageEvents();
@@ -195,17 +196,17 @@ rw.Helper = {
     ,bindImageEvents : function() {
         $('a.square.hasImage').off('mouseenter');
         $('a.square.hasImage').off('mouseleave');
-        $('a.square.hasImage:not(".selected")').on('mouseenter', rw.Helper.bindImageMouseover);
-        $('a.square.hasImage:not(".selected")').on('click', rw.Helper.bindImageClick);
+        $('a.square.hasImage:not(".selected")').on('mouseenter', Helper.bindImageMouseover);
+        $('a.square.hasImage:not(".selected")').on('click', Helper.bindImageClick);
     }
 
     ,bindImageMouseover : function() {
         $(this).find('img').stop(true).animate({opacity:'toggle'}, {duration:1000});
-        $(this).on('mouseleave', rw.Helper.bindImageMouseover);
+        $(this).on('mouseleave', Helper.bindImageMouseover);
     }
 
     ,bindImageClick : function() {
-        rw.Helper.bindImageEvents();
+        Helper.bindImageEvents();
     }
 
     ,smoothHideUnselectedImages : function() {
@@ -257,10 +258,11 @@ rw.Helper = {
     }
 
     ,getThumbSmall : function(img) {
-        return newImg = $('<img/>').attr('src', '/thumbs/small/' + img.name);
+        return $('<img/>').attr('src', 'thumbs/small/' + img.name);
     }
 
     ,getProjects : function() {
+        
         var projects = [];
 
         /* START SQUARES */
