@@ -5,11 +5,10 @@ import './css/mobile.css'
 import $ from 'jquery';
 window.$ = $;
 
-import Helper from './js/helper.js'
-import projects from './js/projects.js'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 createApp(App).mount('#app')
 
+import Helper from './js/helper.js'
+import projects from './js/projects.js'
 Helper.render(projects)
