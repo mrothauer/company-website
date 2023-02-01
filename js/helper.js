@@ -1,4 +1,4 @@
-export default function render(projects) {
+export default function init() {
 
     //elements in last row are predefined
     $('a.square.notEmpty').on('click', function() {

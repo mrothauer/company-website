@@ -1,8 +1,7 @@
 <script setup lang="ts">
 
   import { onMounted } from 'vue'
-  import projects from './js/projects.js'
-  import render from './js/helper.js'
+  import init from './js/helper.js'
   import LanguageToggle from './components/LanguageToggle.vue'
   import Squares from './components/Squares.vue'
   
@@ -21,7 +20,7 @@
   import Imprint from './components/pages/Imprint.vue'
 
   onMounted(() => {
-    render(projects)
+    init()
   })
 
 </script>
