@@ -1,3 +1,5 @@
+<style src="./Squares.css"></style>
+
 <template>
     <div class="square first-column first-row" id="square-0"></div>
     <div class="square first-row" id="square-1"></div>
@@ -55,5 +57,4 @@
                 class="lang en">privacy</span></div>
     </a>
     <div class="square last-column last-row" id="square-34"></div>
-
 </template>
