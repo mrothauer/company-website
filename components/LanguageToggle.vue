@@ -8,6 +8,8 @@
       document.querySelectorAll('#app .lang.' + currentLang).forEach(e => e.style.display = 'block');
       // @ts-ignore
       document.querySelectorAll('#app span.lang.' + currentLang).forEach(e => e.style.display = 'inline');
+      // @ts-ignore
+      document.querySelectorAll('#app li.lang.' + currentLang).forEach(e => e.style.display = 'list-item');
   }
 
   const locales = [
