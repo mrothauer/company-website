@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="reparatur-initiativen">
+    <div class="project">
 
         <div class="left">
         <b>Netzwerk Reparatur-Initiativen</b>

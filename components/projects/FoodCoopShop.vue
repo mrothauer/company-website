@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="foodcoopshop">
+    <div class="project">
 
         <div class="left">
         <b>FoodCoopShop</b>

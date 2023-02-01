@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="hofladen-online">
+    <div class="project">
 
         <div class="left">
         <b>Hofladen Online</b>

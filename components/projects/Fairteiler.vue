@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="fairteiler-scharnstein">
+    <div class="project">
 
     <div class="left">
     <b>Fairteiler Scharnstein, Almtal</b>

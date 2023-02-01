@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="motorsagla">
+    <div class="project">
 
         <div class="left">
         <b class="lang de">Motorsägenschnitzer Herbert Danzer, Kirchham, Oberösterreich</b>

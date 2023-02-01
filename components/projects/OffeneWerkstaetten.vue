@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="offene-werkstaetten">
+    <div class="project">
 
         <div class="left">
         <b class="lang de">Portal der Offene Werkstätten</b>

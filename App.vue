@@ -38,17 +38,17 @@
 
     <div id="desc" class="description square">
       
-      <div class="desc" id="projects"></div>
+      <div class="desc" id="projects">
+        <FoodCoopShop />
+        <DorfladenOnline />
+        <HofladenOnline />
+        <ReparaturInitiativen />
+        <Wildniscamps />
+        <Fairteiler />
+        <OffeneWerkstaetten />
+        <Motorsagla />
+      </div>
       
-      <FoodCoopShop />
-      <DorfladenOnline />
-      <HofladenOnline />
-      <ReparaturInitiativen />
-      <Wildniscamps />
-      <Fairteiler />
-      <OffeneWerkstaetten />
-      <Motorsagla />
-
       <About />
       <Contact />
       <Privacy />

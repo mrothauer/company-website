@@ -1,5 +1,5 @@
 <template>
-    <div class="desc" id="wildniscamps">
+    <div class="project">
 
         <div class="left">
         <b>Wildnischule Wildniscamps, Viechtwang</b>
