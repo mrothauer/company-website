@@ -242,8 +242,7 @@
 <template>
 
   <a id="head" href="javascript:void(0);"></a>
-  
-  <LanguageToggle></LanguageToggle>
+  <LanguageToggle />
 
   <div class="squares">
     <div id="desc" class="description square">
