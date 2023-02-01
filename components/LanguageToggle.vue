@@ -6,6 +6,8 @@
       document.querySelectorAll('#app .lang').forEach(e => e.style.display = 'none');
       // @ts-ignore
       document.querySelectorAll('#app .lang.' + currentLang).forEach(e => e.style.display = 'block');
+      // @ts-ignore
+      document.querySelectorAll('#app span.lang.' + currentLang).forEach(e => e.style.display = 'inline');
   }
 
 </script>
