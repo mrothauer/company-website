@@ -87,12 +87,5 @@ var o = {
     more: true
 };
 projects.push(o);
-var o = {
-    link : 'www.grabner-gmbh.at',
-    img  : {name : 'grabner.png' },
-    id : 'grabner',
-    more : true
-};
-projects.push(o);
 
 export default projects;
