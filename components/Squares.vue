@@ -19,13 +19,13 @@
     <div class="square" id="square-15"></div><a href="https://dorfladen-online.at" class="square notEmpty hasImage"
         id="square-16" target="_blank">
         <div class="heading heading-with-break">dorfladen-<br>online.at</div><img
-            src="thumbs/small/dorfladen-online.png" style="display: none;">
+            src="/thumbs/small/dorfladen-online.png" style="display: none;">
     </a><a href="https://www.foodcoopshop.com" class="square notEmpty hasImage" id="square-17" target="_blank">
-        <div class="heading heading-with-break">foodcoop<br>shop.com</div><img src="thumbs/small/foodcoopshop.png"
+        <div class="heading heading-with-break">foodcoop<br>shop.com</div><img src="/thumbs/small/foodcoopshop.png"
             style="display: none;">
     </a><a href="https://www.hofladen-online.at" class="square notEmpty hasImage" id="square-18" target="_blank">
         <div class="heading heading-with-break">hofladen-<br>online.at</div><img
-            src="thumbs/small/hofladen-online.jpg" style="display: none;">
+            src="/thumbs/small/hofladen-online.jpg" style="display: none;">
     </a>
     <div class="square" id="square-19"></div>
     <div class="square last-column" id="square-20"></div>
@@ -33,7 +33,7 @@
     <div class="square" id="square-22"></div>
     <div class="square" id="square-23"></div><a href="https://github.com/mrothauer" class="square notEmpty hasImage"
         id="square-24" target="_blank">
-        <div class="heading heading-with-break">open source<br>github</div><img src="thumbs/small/github.png"
+        <div class="heading heading-with-break">open source<br>github</div><img src="/thumbs/small/github.png"
             style="display: none;">
     </a>
     <div class="square" id="square-25"></div>
