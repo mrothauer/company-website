@@ -197,39 +197,39 @@
 
     replaceEmailPlaceholder();
 
-    }
+  }
 
-    function bindImageEvents() {
-      $('a.square.hasImage').off('mouseenter');
-      $('a.square.hasImage').off('mouseleave');
-      $('a.square.hasImage:not(".selected")').on('mouseenter', bindImageMouseover);
-      $('a.square.hasImage:not(".selected")').on('click', bindImageClick);
-    }
+  function bindImageEvents() {
+    $('a.square.hasImage').off('mouseenter');
+    $('a.square.hasImage').off('mouseleave');
+    $('a.square.hasImage:not(".selected")').on('mouseenter', bindImageMouseover);
+    $('a.square.hasImage:not(".selected")').on('click', bindImageClick);
+  }
 
-    function bindImageMouseover() {
-      $(this).find('img').stop(true).animate({opacity:'toggle'}, {duration:1000});
-      $(this).on('mouseleave', bindImageMouseover);
-    }
+  function bindImageMouseover() {
+    $(this).find('img').stop(true).animate({opacity:'toggle'}, {duration:1000});
+    $(this).on('mouseleave', bindImageMouseover);
+  }
 
-    function bindImageClick() {
-      bindImageEvents();
-    }
+  function bindImageClick() {
+    bindImageEvents();
+  }
 
-    function smoothHideUnselectedImages() {
-      $('a.square.hasImage:not(".selected") img').hide();
-    }
+  function smoothHideUnselectedImages() {
+    $('a.square.hasImage:not(".selected") img').hide();
+  }
 
-    function replaceEmailPlaceholder() {
-      let emailContainers = $('#contact, #imprint, #privacy');
-      let emailString = 'office' + '@' + 'rothaue' + 'r-it' + '.com';
-      emailContainers.each(function() {
-          $(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
-      });
-    }
+  function replaceEmailPlaceholder() {
+    let emailContainers = $('#contact, #imprint, #privacy');
+    let emailString = 'office' + '@' + 'rothaue' + 'r-it' + '.com';
+    emailContainers.each(function() {
+        $(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
+    });
+  }
 
-    function getThumbSmall(img) {
-      return $('<img/>').attr('src', 'thumbs/small/' + img.name);
-    }
+  function getThumbSmall(img) {
+    return $('<img/>').attr('src', 'thumbs/small/' + img.name);
+  }
 
   const message = 'FoodCoopShop'
   
