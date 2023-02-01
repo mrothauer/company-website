@@ -28,7 +28,6 @@
         <img :src="'/img/flag-' + locale.key + '.gif'" width="16" height="11" />
       </a>
   </div>
-
 </template>
 
 <style>
