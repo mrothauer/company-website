@@ -10,13 +10,25 @@
       document.querySelectorAll('#app span.lang.' + currentLang).forEach(e => e.style.display = 'inline');
   }
 
+  const locales = [
+    {key: 'en', label: 'English'},
+    {key: 'de', label: 'Deutsch'}
+  ]
+
 </script>
 
 <template>
   <div id="lang-box">
-    <a @click="toggle" data-lang="de" class="button-de" title="Deutsch" href="javascript:void(0);"><img src="/img/flag-de.gif" width="16" height="11" /></a>
-    <a @click="toggle" data-lang="en" class="button-en" title="English" href="javascript:void(0);"><img src="/img/flag-en.gif" width="16" height="11" /></a>
+      <a v-for="locale in locales"
+        @click="toggle"
+        :class="'button-' + locale.key"
+        :data-lang="locale.key"
+        :title="locale.label"
+        href="javascript:void(0);">
+        <img :src="'/img/flag-' + locale.key + '.gif'" width="16" height="11" />
+      </a>
   </div>
+
 </template>
 
 <style>
