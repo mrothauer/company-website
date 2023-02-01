@@ -4,6 +4,7 @@
   import projects from './js/projects.js'
   import render from './js/helper.js'
   import LanguageToggle from './components/LanguageToggle.vue'
+  import Squares from './components/Squares.vue'
   
   import FoodCoopShop from './components/projects/FoodCoopShop.vue'
   import DorfladenOnline from './components/projects/DorfladenOnline.vue'
@@ -32,6 +33,8 @@
   <LanguageToggle />
 
   <div class="squares">
+
+    <Squares />
 
     <div id="desc" class="description square">
       

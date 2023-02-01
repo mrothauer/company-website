@@ -1,34 +1,6 @@
 
 let projects = [];
 
-/* START SQUARES */
-var o = {
-    heading : 'dorfladen-<br />online.at',
-    directLink : 'https://dorfladen-online.at',
-    img  : {name : 'dorfladen-online.png' }
-};
-projects.push(o);
-var o = {
-    heading : 'foodcoop<br />shop.com',
-    directLink : 'https://www.foodcoopshop.com',
-    img  : {name : 'foodcoopshop.png' }
-};
-projects.push(o);
-var o = {
-    heading : 'hofladen-<br />online.at',
-    directLink : 'https://www.hofladen-online.at',
-    img  : {name : 'hofladen-online.jpg' }
-};
-projects.push(o);
-var o = {
-    heading : 'open source<br />github',
-    directLink : 'https://github.com/mrothauer',
-    img  : {name : 'github.png' }
-};
-projects.push(o);
-/* END SQUARES */
-
-/* START PROJECTS */
 var o = {
 link : 'www.dorfladen-online.at',
     img  : {name : 'dorfladen-online.png' },
