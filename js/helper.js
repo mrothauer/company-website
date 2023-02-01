@@ -85,7 +85,4 @@ export default function init() {
         $(this).html($(this).html().replace(/\[email\]/, '<a href="mailto:' + emailString + '">' + emailString + '</a>'));
     });
   }
-
-  function getThumbSmall(img) {
-    return $('<img/>').attr('src', 'thumbs/small/' + img.name);
-  }
+ 
