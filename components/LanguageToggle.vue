@@ -13,8 +13,8 @@
   }
 
   const locales = [
-    {key: 'en', label: 'English'},
-    {key: 'de', label: 'Deutsch'}
+    {key: 'de', label: 'Deutsch'},
+    {key: 'en', label: 'English'}
   ]
 
 </script>
