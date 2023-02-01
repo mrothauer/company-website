@@ -1,15 +1,13 @@
-<script lang="ts">
-  export default {
-    methods: {
-      toggle(event: any) {
-        let currentLang = event.target.parentElement.className.replace(/button-/, '')
-        // @ts-ignore
-        document.querySelectorAll('#app .lang').forEach(e => e.style.display = 'none');
-        // @ts-ignore
-        document.querySelectorAll('#app .lang.' + currentLang).forEach(e => e.style.display = 'block');
-      },
-    }
+<script setup lang="ts">
+
+  function toggle(event: any) {
+      let currentLang = event.target.parentElement.className.replace(/button-/, '')
+      // @ts-ignore
+      document.querySelectorAll('#app .lang').forEach(e => e.style.display = 'none');
+      // @ts-ignore
+      document.querySelectorAll('#app .lang.' + currentLang).forEach(e => e.style.display = 'block');
   }
+
 </script>
 
 <template>

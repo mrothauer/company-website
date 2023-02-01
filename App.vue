@@ -1,17 +1,13 @@
-<script lang="ts">
-  
-  import LanguageToggle from './components/LanguageToggle.vue'
+<script setup lang="ts">
 
-  export default {
-    components: {
-      LanguageToggle
-    },
-    data() {
-      return {
-        message: 'FoodCoopShop'
-      }
-    }
-  }
+  import { onMounted } from 'vue'
+  
+  const message = 'FoodCoopShop'
+  
+  onMounted(() => {
+    console.log(`The initial count is ${message}.`)
+  })
+
 </script>
 
 <template>

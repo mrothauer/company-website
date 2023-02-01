@@ -7,7 +7,11 @@ window.$ = $;
 
 import { createApp } from 'vue'
 import App from './App.vue'
-createApp(App).mount('#app')
+import LanguageToggle from './components/LanguageToggle.vue'
+
+const app = createApp(App)
+app.component('LanguageToggle', LanguageToggle)
+app.mount('#app')
 
 import Helper from './js/helper.js'
 import projects from './js/projects.js'
