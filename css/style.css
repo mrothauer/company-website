@@ -90,3 +90,25 @@ div#imprint {
     margin-right: 63px;
     width: 661px;
 }
+
+@media only screen and (max-device-width: 768px) {
+    
+  .desc p,
+  .desc span,
+  .desc li {
+    font-size: 25px;
+    line-height: 32px ! important;
+    text-align: left;
+  }
+  
+  .desc li {
+    float: left;
+    margin-left: 25px;
+  }
+  
+  div#about span,
+  div#about b {
+    font-size: 25px ! important;
+  }
+  
+}

@@ -129,3 +129,28 @@ div.squares .square div.info {
     bottom: 5px;
     font-size: 10px;
 }
+
+@media only screen and (max-device-width: 768px) {
+  div.squares div.square.description div.right,
+  div.squares div.square.description div.right img {
+    width: 490px;
+  }
+  div.squares div.square.description div.right {
+    margin-right: 10px;
+  }
+  
+  div.squares div.square.description div.desc div.left b {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    float: left;
+  }
+  
+  div.squares .square .heading {
+    font-size: 20px;
+    margin-top: 49px;
+  }
+  div.squares .square .heading.heading-with-break {
+    margin-top: 37px;
+  }
+}
