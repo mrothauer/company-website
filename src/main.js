@@ -1,5 +1,5 @@
-import './css/fonts.css'
-import './css/style.css'
+import './assets/css/fonts.css'
+import './assets/css/style.css'
 
 import $ from 'jquery';
 window.$ = $;

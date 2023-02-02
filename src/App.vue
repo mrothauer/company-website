@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
   import { onMounted } from 'vue'
-  import init from './js/helper.js'
+  import init from './assets/js/helper.js'
   import LanguageToggle from './components/LanguageToggle.vue'
   import Squares from './components/Squares.vue'
   
