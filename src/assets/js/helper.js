@@ -1,27 +1,6 @@
 export default function init() {
 
-    //elements in last row are predefined
-    $('a.square.notEmpty').on('click', function() {
-        let classes = $(this).attr('class');
-        let splitClasses = classes.split(' ');
-        let projectId = splitClasses[2];
-        projectId = projectId.split('<br>'); // for imprint<br>disclaimer
-        projectId = projectId[0];
-        $('div.description').hide();
-        $('a.square').removeClass('selected');
-        $(this).addClass('selected');
-        $('div.desc').hide();
-        $('div.description').show();
-        $('#' + projectId).show();
-        smoothHideUnselectedImages();
-        bindImageEvents();
-    });
-
     bindImageEvents();
-
-    $('a#head').on('click', function() {
-        $('.square.contact').trigger('click');
-    });
 
     $('a.square.notEmpty').on('mouseover', function() {
         let heading = $(this).find('.heading');
