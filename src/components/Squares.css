@@ -36,7 +36,6 @@ div.squares .square.description {
     border-right: none;
     border-bottom: none;
     border-top: 1px solid orange;
-    display: none;
     height: auto;
     min-height: 130px;
     margin-bottom: 10px;

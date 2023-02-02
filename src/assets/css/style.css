@@ -60,6 +60,9 @@ a.header-link {
 .orange {
     color: orange;
 }
+div#about {
+    display: block;
+}
 div#about p,
 div#privacy p,
 div#imprint p,
