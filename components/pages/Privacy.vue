@@ -1,3 +1,7 @@
+<script setup lang="ts">
+    import Address from '../Address.vue'
+</script>
+
 <template>
     <div class="desc" id="privacy">
         <div>
@@ -5,12 +9,7 @@
 
         <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
 
-        <p>Mag. (FH) Mario Rothauer<br />
-            Am Birkenweg 3<br />
-            A-4644 Scharnstein<br />
-            E-Mail: <a href="mailto:office@rothauer-it.com">office@rothauer-it.com</a><br />
-            Tel: +43 680 217 89 39
-        </p>
+        <Address />
 
         <h3>Ihre Betroffenenrechte</h3>
 

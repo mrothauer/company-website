@@ -1,23 +1,13 @@
+<script setup lang="ts">
+    import Address from '../Address.vue'
+</script>
+
 <template>
     <div class="desc" id="imprint">
         <div>
-        <p>Mag. (FH) Mario Rothauer<br />
-            Am Birkenweg 3<br />
-            A-4644 Scharnstein / <span class="lang en">Austria</span><span class="lang de">Österreich</span>
-        </p>
-        <p>
-            <b>Büro-Adresse:</b><br />
-            Grubbachstraße 14<br />
-            A-4644 Scharnstein
-        </p>
-        <p>+43 680 217 89 39<br />
-            [email]<br />
-            UID-Nr. ATU71726279<br />
-        </p>
-        <p>
-            <b>Geschäftszeiten:</b><br />
-            Montag bis Mittwoch 08:30 bis 17:30 Uhr, Donnerstag 08:30 bis 12:00
-        </p>
+        
+        <Address />
+
         <p style="margin-top:30px;">
             <b class="lang de">Haftungsausschluss</b>
             <b class="lang en">Liability of links</b>
