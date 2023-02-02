@@ -5,15 +5,7 @@
   import LanguageToggle from './components/LanguageToggle.vue'
   import Squares from './components/Squares.vue'
   
-  import FoodCoopShop from './components/projects/FoodCoopShop.vue'
-  import DorfladenOnline from './components/projects/DorfladenOnline.vue'
-  import HofladenOnline from './components/projects/HofladenOnline.vue'
-  import ReparaturInitiativen from './components/projects/ReparaturInitiativen.vue'
-  import Wildniscamps from './components/projects/Wildniscamps.vue'
-  import Fairteiler from './components/projects/Fairteiler.vue'
-  import OffeneWerkstaetten from './components/projects/OffeneWerkstaetten.vue'
-  import Motorsagla from './components/projects/Motorsagla.vue'
-
+  import Projects from './components/pages/Projects.vue'
   import About from './components/pages/About.vue'
   import Contact from './components/pages/Contact.vue'
   import Privacy from './components/pages/Privacy.vue'
@@ -37,17 +29,7 @@
 
     <div id="desc" class="description square">
       
-      <div class="desc" id="projects">
-        <FoodCoopShop />
-        <DorfladenOnline />
-        <HofladenOnline />
-        <ReparaturInitiativen />
-        <Wildniscamps />
-        <Fairteiler />
-        <OffeneWerkstaetten />
-        <Motorsagla />
-      </div>
-      
+      <Projects />
       <About />
       <Contact />
       <Privacy />
