@@ -14,6 +14,6 @@
     </p>
     <p>
         <b>Geschäftszeiten:</b><br />
-        Montag bis Mittwoch 08:30 bis 17:30 Uhr, Donnerstag 08:30 bis 12:00
+        Montag bis Mittwoch 08:30 bis 18:00 Uhr
     </p>
 </template>
