@@ -4,10 +4,7 @@
   import DorfladenOnline from '../projects/DorfladenOnline.vue'
   import HofladenOnline from '../projects/HofladenOnline.vue'
   import ReparaturInitiativen from '../projects/ReparaturInitiativen.vue'
-  import Wildniscamps from '../projects/Wildniscamps.vue'
   import Fairteiler from '../projects/Fairteiler.vue'
-  import OffeneWerkstaetten from '../projects/OffeneWerkstaetten.vue'
-  import Motorsagla from '../projects/Motorsagla.vue'
 
 </script>
 
@@ -17,9 +14,6 @@
         <DorfladenOnline />
         <HofladenOnline />
         <ReparaturInitiativen />
-        <Wildniscamps />
         <Fairteiler />
-        <OffeneWerkstaetten />
-        <Motorsagla />
     </div>
 </template>
