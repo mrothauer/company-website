@@ -9,7 +9,6 @@
             <li class="lang de">Entwickler: Mag. (FH) Mario Rothauer</li>
             <li class="lang en">Developed by: Mag. (FH) Mario Rothauer</li>
             <li><span class="lang de">Seit</span><span class="lang en">Since</span> 2020 <a href="https://foodcoopshop.github.io/de/hofladen-online.html" target="_blank">Open Source</a></li>
-            <li class="lang de"><a href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a></li>
         </ul>
         </div>
 
