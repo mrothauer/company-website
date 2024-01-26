@@ -4,7 +4,6 @@
   import DorfladenOnline from '../projects/DorfladenOnline.vue'
   import HofladenOnline from '../projects/HofladenOnline.vue'
   import ReparaturInitiativen from '../projects/ReparaturInitiativen.vue'
-  import Fairteiler from '../projects/Fairteiler.vue'
 
 </script>
 
@@ -14,6 +13,5 @@
         <DorfladenOnline />
         <HofladenOnline />
         <ReparaturInitiativen />
-        <Fairteiler />
     </div>
 </template>
