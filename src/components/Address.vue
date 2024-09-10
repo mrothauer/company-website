@@ -12,8 +12,4 @@
         [email]<br />
         UID-Nr. ATU71726279<br />
     </p>
-    <p>
-        <b>Geschäftszeiten:</b><br />
-        Montag bis Mittwoch 08:30 bis 18:00 Uhr
-    </p>
 </template>
