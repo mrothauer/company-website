@@ -5,8 +5,8 @@
     </p>
     <p>
         <b>Büro-Adresse:</b><br />
-        Grubbachstraße 14<br />
-        A-4644 Scharnstein
+        Grubbachstraße 71<br />
+        A-4644 Grünau im Almtal
     </p>
     <p>+43 680 217 89 39<br />
         [email]<br />
