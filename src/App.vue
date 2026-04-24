@@ -1,7 +1,5 @@
 <script setup lang="ts">
 
-import { onMounted } from 'vue'
-import init from './assets/js/helper.js'
 import LanguageToggle from './components/LanguageToggle.vue'
 import Squares from './components/Squares.vue'
 
@@ -10,10 +8,6 @@ import About from './components/pages/About.vue'
 import Contact from './components/pages/Contact.vue'
 import Privacy from './components/pages/Privacy.vue'
 import Imprint from './components/pages/Imprint.vue'
-
-onMounted(() => {
-  init()
-})
 
 function showContact() {
   let projectId = 'contact'

@@ -4,17 +4,66 @@
 
 <script setup lang="ts">
 
-function showPage(event) {
-    let projectId = event.currentTarget.classList[2]
+function showPage(event: MouseEvent) {
+    const link = event.currentTarget
+    if (!(link instanceof HTMLAnchorElement)) {
+        return
+    }
+
+    event.preventDefault()
+
+    const projectId = link.classList[2]
+    if (!projectId) {
+        return
+    }
+
     const descriptions = document.querySelectorAll('.desc');
     descriptions.forEach(element => { element.style.display = 'none' });
     const squares = document.querySelectorAll('.square')
     squares.forEach(element => { element.classList.remove('selected') });
     const divider = document.getElementById('desc')
     const currentPage = document.getElementById(projectId)
+
+    if (!divider || !currentPage) {
+        return
+    }
+
     currentPage.style.display = 'block'
-    event.currentTarget.classList.add('selected')
+    link.classList.add('selected')
     divider.style.display = 'block'
+    divider.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+function toggleImagePreview(event: MouseEvent) {
+    const square = event.currentTarget
+    if (!(square instanceof Element)) {
+        return
+    }
+
+    const image = square.querySelector('img')
+    if (!(image instanceof HTMLElement)) {
+        return
+    }
+
+    const isHidden = image.style.display === 'none' || image.style.display === ''
+    if (isHidden) {
+        image.style.display = 'block'
+        image.style.opacity = '0'
+        image.animate([{ opacity: '0' }, { opacity: '1' }], {
+            duration: 1000,
+            fill: 'forwards',
+            easing: 'ease'
+        })
+        return
+    }
+
+    image.animate([{ opacity: '1' }, { opacity: '0' }], {
+        duration: 1000,
+        fill: 'forwards',
+        easing: 'ease'
+    }).onfinish = () => {
+        image.style.display = 'none'
+    }
 }
 
 </script>
@@ -36,15 +85,17 @@ function showPage(event) {
     <div class="square last-column" id="square-13"></div>
     <div class="square first-column" id="square-14"></div>
     <div class="square" id="square-15"></div><a href="https://dorfladen-online.at" class="square notEmpty hasImage"
-        id="square-16" target="_blank">
+        id="square-16" target="_blank" @mouseenter="toggleImagePreview" @mouseleave="toggleImagePreview">
         <div class="heading heading-with-break">dorfladen-<br>online.at</div><img
             src="/thumbs/small/dorfladen-online.png" style="display: none;">
     </a>
-    <a href="https://www.foodcoopshop.com" class="square notEmpty hasImage" id="square-17" target="_blank">
+    <a href="https://www.foodcoopshop.com" class="square notEmpty hasImage" id="square-17" target="_blank"
+        @mouseenter="toggleImagePreview" @mouseleave="toggleImagePreview">
         <div class="heading heading-with-break">foodcoop<br>shop.com</div><img src="/thumbs/small/foodcoopshop.png"
             style="display: none;">
     </a>
-    <a href="https://www.hofladen-online.at" class="square notEmpty hasImage" id="square-18" target="_blank">
+    <a href="https://www.hofladen-online.at" class="square notEmpty hasImage" id="square-18" target="_blank"
+        @mouseenter="toggleImagePreview" @mouseleave="toggleImagePreview">
         <div class="heading heading-with-break">hofladen-<br>online.at</div><img src="/thumbs/small/hofladen-online.jpg"
             style="display: none;">
     </a>
@@ -54,7 +105,7 @@ function showPage(event) {
     <div class="square" id="square-22"></div>
     <div class="square" id="square-23"></div>
     <a href="https://github.com/mrothauer" class="square notEmpty hasImage"
-        id="square-24" target="_blank">
+        id="square-24" target="_blank" @mouseenter="toggleImagePreview" @mouseleave="toggleImagePreview">
         <div class="heading heading-with-break">open source<br>github</div>
         <img src="/thumbs/small/github.png" style="display: none;">
     </a>
