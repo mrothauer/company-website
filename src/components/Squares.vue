@@ -5,73 +5,92 @@ import { state, setPage, toggleTheme, toggleLang } from '../store.js'
 const emit = defineEmits(['navigate'])
 
 /*
- * Grid positions: [column, row, columnSpan, rowSpan] (1-based).
+ * Grid areas are [column, row, columnSpan?, rowSpan?] (1-based).
  * desktop: 7 columns (half, 5 full, half) x 5 rows (half, 3 full, half)
  * mobile:  5 columns (half, 3 full, half) x 6 rows (half, 3 full, half, half)
  */
 const GRID = {
-    desktop: { cols: 7, rows: 5 },
-    mobile: { cols: 5, rows: 6 },
+    desktop: { cols: 7, rows: 5, prefix: 'd' },
+    mobile: { cols: 5, rows: 6, prefix: 'm' },
 }
 
-const tiles = [
-    // desktop: the logo overlays the grid at its original position (see .logo), mobile: grid area
-    { key: 'logo', type: 'logo', mobile: [2, 2, 3, 1] },
-    { key: 'controls', type: 'controls', desktop: [7, 1], mobile: [3, 1, 2, 1] },
+// the logo overlays the desktop grid at its original position (see .logo) and only takes an area on mobile
+const LOGO = { mobile: [2, 2, 3, 1] }
+const CONTROLS = { desktop: [7, 1], mobile: [3, 1, 2, 1] }
 
-    { key: 'dorfladen', type: 'link', href: 'https://www.dorfladen-online.at', lines: ['dorfladen-', 'online.at'], img: '/thumbs/small/dorfladen-online.png', desktop: [3, 3], mobile: [2, 3] },
-    { key: 'foodcoopshop', type: 'link', href: 'https://www.foodcoopshop.com', lines: ['foodcoop', 'shop.com'], img: '/thumbs/small/foodcoopshop.png', desktop: [4, 3], mobile: [3, 3] },
-    { key: 'hofladen', type: 'link', href: 'https://www.hofladen-online.at', lines: ['hofladen-', 'online.at'], img: '/thumbs/small/hofladen-online.jpg', desktop: [5, 3], mobile: [4, 3] },
-    { key: 'github', type: 'link', href: 'https://github.com/mrothauer', lines: ['open source', 'github'], img: '/thumbs/small/github.png', desktop: [4, 4], mobile: [3, 4] },
-
-    { key: 'projects', type: 'nav', de: 'projekte', en: 'projects', desktop: [2, 5], mobile: [2, 5] },
-    { key: 'contact', type: 'nav', de: 'kontakt', en: 'contact', desktop: [3, 5], mobile: [3, 5] },
-    { key: 'about', type: 'nav', de: 'über mich', en: 'about', desktop: [4, 5], mobile: [4, 5] },
-    { key: 'imprint', type: 'nav', de: 'impressum', en: 'imprint', desktop: [5, 5], mobile: [2, 6] },
-    { key: 'privacy', type: 'nav', de: 'datenschutz', en: 'privacy', desktop: [6, 5], mobile: [3, 6] },
+const PROJECTS = [
+    { href: 'https://www.dorfladen-online.at', lines: ['dorfladen-', 'online.at'], img: '/thumbs/small/dorfladen-online.png', desktop: [3, 3], mobile: [2, 3] },
+    { href: 'https://www.foodcoopshop.com', lines: ['foodcoop', 'shop.com'], img: '/thumbs/small/foodcoopshop.png', desktop: [4, 3], mobile: [3, 3] },
+    { href: 'https://www.hofladen-online.at', lines: ['hofladen-', 'online.at'], img: '/thumbs/small/hofladen-online.jpg', desktop: [5, 3], mobile: [4, 3] },
+    { href: 'https://github.com/mrothauer', lines: ['open source', 'github'], img: '/thumbs/small/github.png', desktop: [4, 4], mobile: [3, 4] },
 ]
 
-function placement(desktop, mobile) {
+const PAGES = [
+    { key: 'projects', de: 'projekte', en: 'projects', desktop: [2, 5], mobile: [2, 5] },
+    { key: 'contact', de: 'kontakt', en: 'contact', desktop: [3, 5], mobile: [3, 5] },
+    { key: 'about', de: 'über mich', en: 'about', desktop: [4, 5], mobile: [4, 5] },
+    { key: 'imprint', de: 'impressum', en: 'imprint', desktop: [5, 5], mobile: [2, 6] },
+    { key: 'privacy', de: 'datenschutz', en: 'privacy', desktop: [6, 5], mobile: [3, 6] },
+]
+
+const TEXT = {
+    de: { nav: 'Hauptnavigation', lang: 'Switch to English', dark: 'Dunkles Design aktivieren', light: 'Helles Design aktivieren' },
+    en: { nav: 'Main navigation', lang: 'Auf Deutsch umschalten', dark: 'Switch to dark mode', light: 'Switch to light mode' },
+}
+
+// CSS custom properties that place an element in both layouts (see .cell)
+function area({ desktop, mobile }) {
     const style = {}
-    if (desktop) {
-        const [c, r, cs = 1, rs = 1] = desktop
-        Object.assign(style, { '--dc': c, '--dr': r, '--dcs': cs, '--drs': rs })
-    }
-    if (mobile) {
-        const [c, r, cs = 1, rs = 1] = mobile
-        Object.assign(style, { '--mc': c, '--mr': r, '--mcs': cs, '--mrs': rs })
+    for (const [layout, pos] of [['desktop', desktop], ['mobile', mobile]]) {
+        if (!pos) continue
+        const [c, r, cs = 1, rs = 1] = pos
+        const p = GRID[layout].prefix
+        Object.assign(style, { [`--${p}c`]: c, [`--${p}r`]: r, [`--${p}cs`]: cs, [`--${p}rs`]: rs })
     }
     return style
 }
 
-// every grid cell that is not covered by a tile becomes an empty square
-function emptyCells(layout) {
+// every cell no tile covers becomes an empty square
+function freeCells(layout) {
     const { cols, rows } = GRID[layout]
     const taken = new Set()
-    tiles.forEach(tile => {
-        if (!tile[layout]) return
-        const [c, r, cs = 1, rs = 1] = tile[layout]
+    for (const item of [LOGO, CONTROLS, ...PROJECTS, ...PAGES]) {
+        const pos = item[layout]
+        if (!pos) continue
+        const [c, r, cs = 1, rs = 1] = pos
         for (let x = c; x < c + cs; x++) {
             for (let y = r; y < r + rs; y++) taken.add(`${x}/${y}`)
         }
-    })
+    }
     const cells = []
     for (let y = 1; y <= rows; y++) {
         for (let x = 1; x <= cols; x++) {
-            if (!taken.has(`${x}/${y}`)) cells.push({ key: `${layout}-${x}-${y}`, layout, pos: [x, y] })
+            if (!taken.has(`${x}/${y}`)) cells.push([x, y])
         }
     }
     return cells
 }
 
-const empties = [...emptyCells('desktop'), ...emptyCells('mobile')]
-
-const themeLabel = computed(() => {
-    const toDark = state.theme !== 'dark'
-    return state.lang === 'de'
-        ? (toDark ? 'Dunkles Design aktivieren' : 'Helles Design aktivieren')
-        : (toDark ? 'Switch to dark mode' : 'Switch to light mode')
+// one element serves a free cell in each layout, so the DOM holds max(desktop, mobile) empties
+const desktopFree = freeCells('desktop')
+const mobileFree = freeCells('mobile')
+const empties = Array.from({ length: Math.max(desktopFree.length, mobileFree.length) }, (_, i) => {
+    const desktop = desktopFree[i]
+    const mobile = mobileFree[i]
+    return {
+        style: area({ desktop, mobile }),
+        only: !mobile ? 'only-desktop' : !desktop ? 'only-mobile' : null,
+    }
 })
+
+const logoStyle = area(LOGO)
+const controlsStyle = area(CONTROLS)
+const projects = PROJECTS.map(p => ({ ...p, style: area(p) }))
+const pages = PAGES.map(p => ({ ...p, style: area(p) }))
+
+const t = computed(() => TEXT[state.lang])
+const isDark = computed(() => state.theme === 'dark')
+const themeLabel = computed(() => isDark.value ? t.value.light : t.value.dark)
 
 function navigate(page) {
     setPage(page)
@@ -80,61 +99,47 @@ function navigate(page) {
 </script>
 
 <template>
-    <nav class="grid" :aria-label="state.lang === 'de' ? 'Hauptnavigation' : 'Main navigation'">
+    <nav class="grid" :aria-label="t.nav">
 
-        <div v-for="cell in empties" :key="cell.key"
-            :class="['cell', 'empty', 'only-' + cell.layout]"
-            :style="cell.layout === 'desktop' ? placement(cell.pos, null) : placement(null, cell.pos)"
+        <div v-for="(cell, i) in empties" :key="i" :class="['cell', 'empty', cell.only]" :style="cell.style"
             aria-hidden="true"></div>
 
-        <template v-for="tile in tiles" :key="tile.key">
+        <a href="#contact" class="logo" :style="logoStyle" @click.prevent="navigate('contact')">
+            <img :src="isDark ? '/img/rothauer-it.com-dark.png' : '/img/rothauer-it.com.jpg'" width="273" height="81"
+                alt="rothauer-it.com – Programmier-Dienstleistungen aus dem Almtal" />
+        </a>
 
-            <a v-if="tile.type === 'logo'" href="#contact" class="logo"
-                :style="placement(null, tile.mobile)"
-                @click.prevent="navigate('contact')">
-                <img :src="state.theme === 'dark' ? '/img/rothauer-it.com-dark.png' : '/img/rothauer-it.com.jpg'" width="273" height="81"
-                    alt="rothauer-it.com – Programmier-Dienstleistungen aus dem Almtal" />
-            </a>
+        <div class="cell controls" :style="controlsStyle">
+            <button type="button" class="control" :aria-label="t.lang" @click="toggleLang">
+                <span :class="{ active: state.lang === 'de' }">DE</span>
+                <span class="sep">/</span>
+                <span :class="{ active: state.lang === 'en' }">EN</span>
+            </button>
+            <button type="button" class="control" :aria-label="themeLabel" :title="themeLabel" @click="toggleTheme">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <template v-if="isDark">
+                        <circle cx="12" cy="12" r="4.5" />
+                        <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" />
+                    </template>
+                    <path v-else d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" />
+                </svg>
+            </button>
+        </div>
 
-            <div v-else-if="tile.type === 'controls'" class="cell controls"
-                :style="placement(tile.desktop, tile.mobile)">
-                <button type="button" class="control"
-                    :aria-label="state.lang === 'de' ? 'Switch to English' : 'Auf Deutsch umschalten'"
-                    @click="toggleLang">
-                    <span :class="{ active: state.lang === 'de' }">DE</span>
-                    <span class="sep">/</span>
-                    <span :class="{ active: state.lang === 'en' }">EN</span>
-                </button>
-                <button type="button" class="control"
-                    :aria-label="themeLabel" :title="themeLabel"
-                    @click="toggleTheme">
-                    <svg v-if="state.theme === 'dark'" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-                        <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8" />
-                        <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"
-                            stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
-                    </svg>
-                    <svg v-else viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-                        <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor"
-                            stroke-width="1.8" stroke-linejoin="round" />
-                    </svg>
-                </button>
-            </div>
+        <a v-for="p in projects" :key="p.href" :href="p.href" target="_blank" rel="noopener"
+            class="cell tile has-image" :style="p.style">
+            <span class="heading">{{ p.lines[0] }}<br>{{ p.lines[1] }}</span>
+            <img :src="p.img" alt="" loading="lazy" />
+        </a>
 
-            <a v-else-if="tile.type === 'link'" :href="tile.href" target="_blank" rel="noopener"
-                class="cell tile has-image" :style="placement(tile.desktop, tile.mobile)">
-                <span class="heading">{{ tile.lines[0] }}<br>{{ tile.lines[1] }}</span>
-                <img :src="tile.img" alt="" loading="lazy" />
-            </a>
+        <a v-for="p in pages" :key="p.key" :href="'#' + p.key"
+            :class="['cell', 'tile', 'nav', { selected: state.page === p.key }]"
+            :aria-current="state.page === p.key ? 'page' : null" :style="p.style"
+            @click.prevent="navigate(p.key)">
+            <span class="heading">{{ p[state.lang] }}</span>
+        </a>
 
-            <a v-else-if="tile.type === 'nav'" :href="'#' + tile.key"
-                :class="['cell', 'tile', 'nav', { selected: state.page === tile.key }]"
-                :aria-current="state.page === tile.key ? 'page' : null"
-                :style="placement(tile.desktop, tile.mobile)"
-                @click.prevent="navigate(tile.key)">
-                <span class="heading">{{ tile[state.lang] }}</span>
-            </a>
-
-        </template>
     </nav>
 </template>
 
@@ -142,12 +147,13 @@ function navigate(page) {
 .grid {
     /* u = size of one full square */
     --u: calc((100cqi - 6px) / 6);
+    position: relative;
     display: grid;
-    /* the last column takes the remaining width so no rounding gap shows the line color at the right edge */
+    /* the last column takes the remaining width so no rounding gap is left at the right edge */
     grid-template-columns: calc(var(--u) / 2) repeat(5, var(--u)) minmax(0, 1fr);
     grid-template-rows: calc(var(--u) / 2) repeat(3, var(--u)) calc(var(--u) / 2);
     gap: 1px;
-    /* line color everywhere except the outermost pixel on the right */
+    /* the gaps show the line color; it stops 2px before the right edge so no outer line appears */
     background-image: linear-gradient(var(--line), var(--line));
     background-repeat: no-repeat;
     background-size: calc(100% - 2px) 100%;
@@ -167,6 +173,7 @@ function navigate(page) {
     transition: background-color .3s, color .3s;
 }
 .only-mobile { display: none; }
+.cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; z-index: 2; }
 
 /* empty squares light up when the pointer passes, then fade slowly */
 @media (hover: hover) {
@@ -178,7 +185,6 @@ function navigate(page) {
  * logo: the original image, placed exactly as in the old layout
  * (787px wide grid: left 448px, top -16px, 273px wide), scaled with the grid
  */
-.grid { position: relative; }
 .logo {
     position: absolute;
     left: calc(100cqi * 448 / 787);
@@ -213,11 +219,11 @@ function navigate(page) {
 .control:hover { color: var(--accent); background: var(--accent-soft); }
 .control:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 
-/* content tiles */
+/* project and page tiles */
 .tile { text-align: center; font-size: 15px; line-height: 1.3; }
 .tile .heading { position: relative; z-index: 1; transition: opacity .3s; padding: 0 4px; }
 
-.tile.has-image img {
+.has-image img {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -227,16 +233,12 @@ function navigate(page) {
     transform: scale(1.06);
     transition: opacity .5s ease, transform .6s ease;
 }
-.tile.has-image:hover img,
-.tile.has-image:focus-visible img { opacity: 1; transform: none; }
-.tile.has-image:hover .heading,
-.tile.has-image:focus-visible .heading { opacity: 0; }
-.tile.has-image:hover { background: var(--surface); }
+.has-image:hover { background: var(--surface); }
+.has-image:is(:hover, :focus-visible) img { opacity: 1; transform: none; }
+.has-image:is(:hover, :focus-visible) .heading { opacity: 0; }
 
-.tile.nav:hover { background: var(--accent-soft); color: var(--text); }
-.tile.nav.selected { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
-
-.cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; z-index: 2; }
+.nav:hover { background: var(--accent-soft); color: var(--text); }
+.nav.selected { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
 
 @media (max-width: 719px) {
     .grid {
@@ -244,7 +246,8 @@ function navigate(page) {
         grid-template-columns: calc(var(--u) / 2) repeat(3, var(--u)) minmax(0, 1fr);
         grid-template-rows: calc(var(--u) / 2) repeat(3, var(--u)) repeat(2, calc(var(--u) / 2));
     }
-    .cell {
+    .cell,
+    .logo {
         grid-column: var(--mc) / span var(--mcs);
         grid-row: var(--mr) / span var(--mrs);
     }
@@ -253,8 +256,6 @@ function navigate(page) {
     .logo {
         position: static;
         width: auto;
-        grid-column: var(--mc) / span var(--mcs);
-        grid-row: var(--mr) / span var(--mrs);
         display: flex;
         align-items: center;
         justify-content: center;
