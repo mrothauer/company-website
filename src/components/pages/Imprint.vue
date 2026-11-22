@@ -3,12 +3,12 @@
 </script>
 
 <template>
-    <div class="desc" id="imprint">
+    <div class="desc text-page" id="imprint">
         <div>
         
         <Address />
 
-        <p style="margin-top:30px;">
+        <p style="margin-top: 2rem;">
             <b class="lang de">Haftungsausschluss</b>
             <b class="lang en">Liability of links</b>
         </p>

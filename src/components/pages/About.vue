@@ -1,11 +1,7 @@
 <template>
     <div class="desc" id="about">
 
-        <div>
-
-        <img alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
-
-        <br />
+        <img class="portrait" alt="Mario Rothauer" width="200" height="200" src="/img/profilbild-netidee.jpg" />
 
         <p class="lang en">
             <b>About me</b>:
@@ -18,10 +14,8 @@
         </p>
 
         <p>
-            <b>
-            <span class="lang en">Qualifications</span>
-            <span class="lang de">Qualifikationen</span>
-            :</b> Docker, CakePHP, MySQL, Unit Testing, Integration Testing, React, LeafletJS, Git, Github, Open Source, CI/CD, VSCode, HTML, CSS, JavaScript, jQuery
+            <b><span class="lang en">Qualifications</span><span class="lang de">Qualifikationen</span></b>:
+            Docker, CakePHP, MySQL, Unit Testing, Integration Testing, React, LeafletJS, Git, Github, Open Source, CI/CD, VSCode, HTML, CSS, JavaScript, jQuery
         </p>
 
         <p class="lang en"><b>Additional</b>: Several years of experience with food ordering workflow.</p>
@@ -30,28 +24,26 @@
         <p class="lang en"><b>Languages</b>: German, Spanish, English</p>
         <p class="lang de"><b>Sprachen</b>: Deutsch, Spanisch, Englisch</p>
 
-        <p class="lang de"><b>Presse</b>:</p>
-        <p class="lang en"><b>Press</b>:</p>
-        <b>
-            <span><a style="text-decoration: underline;" href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank"><span style="float: none;">Bericht über FoodCoopShop im extra-blick (31.01.2019)</span></a></span>
-        </b>
-        <br /><br />
-
-        <b>
-            <span class="lang de">Bericht über FoodCoopShop in der Tips (14.03.2018)</span>
-            <span class="lang en">Article about FoodCoopShop in Tips (in German)</span>
-        </b><br />
-
-        <p>
-            <a style="text-decoration: underline;" href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank"><span style="float: none;" class="lang de">Online-Version</span><span style="float: none;" class="lang en">online version</span></a>
-            / <a style="text-decoration: underline;" target="_blank" href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22"><span style="float: none;" class="lang de">Print-Ausgabe</span><span style="float: none;" class="lang en">print version</span></a>
-        </p>
-
-        <b>
-            <a style="text-decoration: underline;" href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank">Leitartikel für "Leben in Stadt und Land" (2018)</a>
-        </b>
-
-    </div>
+        <h3>
+            <span class="lang de">Presse</span>
+            <span class="lang en">Press</span>
+        </h3>
+        <ul class="press">
+            <li>
+                <a href="https://www.foodcoopshop.com/2019/01/foodcoopshop-im-extra-blick/" target="_blank" rel="noopener">Bericht über FoodCoopShop im extra-blick (31.01.2019)</a>
+            </li>
+            <li>
+                <span class="lang de">Bericht über FoodCoopShop in der Tips (14.03.2018)</span>
+                <span class="lang en">Article about FoodCoopShop in Tips (in German)</span>
+                <br />
+                <a href="https://www.tips.at/news/scharnstein/wirtschaft-politik/419922-digitalisierung-unterstuetzt-die-nahversorgung-im-almtal" target="_blank" rel="noopener"><span class="lang de">Online-Version</span><span class="lang en">online version</span></a>
+                /
+                <a href="https://www.tips.at/zeitung-epaper/?ausgabe=tips-gmunden&id=31669#/22" target="_blank" rel="noopener"><span class="lang de">Print-Ausgabe</span><span class="lang en">print version</span></a>
+            </li>
+            <li>
+                <a href="https://www.foodcoopshop.com/2018/06/leitartikel-vom-markt-platz-zum-online-markt/" target="_blank" rel="noopener">Leitartikel für "Leben in Stadt und Land" (2018)</a>
+            </li>
+        </ul>
 
     </div>
 </template>

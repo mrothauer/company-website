@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="desc" id="privacy">
+    <div class="desc text-page" id="privacy">
         <div>
         <h2>Datenschutzerklärung</h2>
 
