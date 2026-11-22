@@ -229,3 +229,27 @@ ul li::marker { color: var(--accent); }
 
 /* privacy / imprint */
 #privacy ul { margin-bottom: 1rem; }
+
+/* ---------- images in dark mode ---------- */
+
+/* tone bright images down so they don't glare on the dark background;
+   full brightness returns on hover / focus */
+img { transition: filter .3s; }
+
+:root[data-theme="dark"] img {
+    filter: brightness(.8) contrast(1.05);
+}
+:root[data-theme="dark"] a:hover img,
+:root[data-theme="dark"] a:focus-visible img {
+    filter: none;
+}
+
+/* the white plate around the Klimabündnis logo is dimmed as a whole */
+.klimabuendnis { transition: filter .3s; }
+:root[data-theme="dark"] .klimabuendnis { filter: brightness(.8) contrast(1.05); }
+:root[data-theme="dark"] .klimabuendnis img { filter: none; }
+:root[data-theme="dark"] .klimabuendnis:hover { filter: none; }
+
+/* the logo only slightly, so its orange stays bright */
+:root[data-theme="dark"] .logo img { filter: brightness(.9); }
+:root[data-theme="dark"] .logo:hover img { filter: none; }
