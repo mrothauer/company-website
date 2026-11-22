@@ -143,11 +143,12 @@ function navigate(page) {
     /* u = size of one full square */
     --u: calc((100cqi - 6px) / 6);
     display: grid;
-    grid-template-columns: calc(var(--u) / 2) repeat(5, var(--u)) calc(var(--u) / 2);
+    /* the last column takes the remaining width so no rounding gap shows the line color at the right edge */
+    grid-template-columns: calc(var(--u) / 2) repeat(5, var(--u)) minmax(0, 1fr);
     grid-template-rows: calc(var(--u) / 2) repeat(3, var(--u)) calc(var(--u) / 2);
     gap: 1px;
-    background: var(--line);
-    transition: background-color .3s;
+    /* line color everywhere except the outermost pixel on the right */
+    background: linear-gradient(var(--line), var(--line)) left top / calc(100% - 1px) 100% no-repeat;
 }
 
 .cell {
@@ -238,7 +239,7 @@ function navigate(page) {
 @media (max-width: 719px) {
     .grid {
         --u: calc((100cqi - 4px) / 4);
-        grid-template-columns: calc(var(--u) / 2) repeat(3, var(--u)) calc(var(--u) / 2);
+        grid-template-columns: calc(var(--u) / 2) repeat(3, var(--u)) minmax(0, 1fr);
         grid-template-rows: calc(var(--u) / 2) repeat(3, var(--u)) repeat(2, calc(var(--u) / 2));
     }
     .cell {
