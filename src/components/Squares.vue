@@ -148,7 +148,9 @@ function navigate(page) {
     grid-template-rows: calc(var(--u) / 2) repeat(3, var(--u)) calc(var(--u) / 2);
     gap: 1px;
     /* line color everywhere except the outermost pixel on the right */
-    background: linear-gradient(var(--line), var(--line)) left top / calc(100% - 1px) 100% no-repeat;
+    background-image: linear-gradient(var(--line), var(--line));
+    background-repeat: no-repeat;
+    background-size: calc(100% - 2px) 100%;
 }
 
 .cell {
