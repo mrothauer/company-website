@@ -92,7 +92,7 @@ function navigate(page) {
             <a v-if="tile.type === 'logo'" href="#contact" class="logo"
                 :style="placement(null, tile.mobile)"
                 @click.prevent="navigate('contact')">
-                <img src="/img/rothauer-it.com.jpg" width="273" height="81"
+                <img :src="state.theme === 'dark' ? '/img/rothauer-it.com-dark.png' : '/img/rothauer-it.com.jpg'" width="273" height="81"
                     alt="rothauer-it.com – Programmier-Dienstleistungen aus dem Almtal" />
             </a>
 
