@@ -17,7 +17,7 @@
     --radius: 12px;
     --gutter: 16px;
     --max: 880px;
-    --font: 'Open Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 :root[data-theme="dark"] {

@@ -1,18 +1,18 @@
-/* open-sans-regular - latin */
+/*
+ * Inter (variable, latin subset), self-hosted
+ * source: @fontsource-variable/inter 5.3.0, license: SIL OFL 1.1 (public/fonts/Inter-LICENSE.txt)
+ */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100 900;
   font-display: swap;
-  src: url('/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
-       url('/fonts/open-sans-v15-latin-regular.woff') format('woff');
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2');
 }
-/* open-sans-700 - latin */
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100 900;
   font-display: swap;
-  src: url('/fonts/open-sans-v15-latin-700.woff2') format('woff2'),
-       url('/fonts/open-sans-v15-latin-700.woff') format('woff');
+  src: url('/fonts/inter-latin-wght-italic.woff2') format('woff2');
 }

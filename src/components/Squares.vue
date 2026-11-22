@@ -263,10 +263,8 @@ function navigate(page) {
     .controls { flex-direction: row; }
     .controls .control + .control { border-left: 1px solid var(--line); }
     .control { font-size: 13px; }
-    .tile { font-size: 13px; }
-}
-
-@media (max-width: 359px) {
-    .tile { font-size: 12px; }
+    /* scale with the square so labels like "open source" stay on one line */
+    .tile { font-size: clamp(10px, calc(var(--u) * .145), 13px); letter-spacing: -.01em; }
+    .tile .heading { padding: 0 2px; }
 }
 </style>
