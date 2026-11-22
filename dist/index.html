@@ -4,8 +4,10 @@
 <head>
 
   <meta charset="UTF-8" />
-  <meta name="theme-color" content="#719f41">
-  <meta name="viewport" content="width=device-width, initial-scale=0.4">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
 
   <meta name="author" content="Mag. (FH) Mario Rothauer" />
   <meta name="keywords" content="programmier-dienstleistungen webprogrammierung webdesign almtal mario rothauer" />
@@ -14,9 +16,21 @@
   <meta name="google-site-verification" content="SEYDpX9sY2j6wzm9huzlL0SonRDDqxsR7W3Yi4DiuVs" />
 
   <title>Mag. (FH) Mario Rothauer | Programmier-Dienstleistungen aus dem Almtal</title>
-  
-  <script type="module" crossorigin src="/assets/index-D9uXMMe4.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CsYo2Ap4.css">
+
+  <script>
+    // set the theme before first paint to avoid a flash of the wrong colors
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+
+  <script type="module" crossorigin src="/assets/index-CSBuMECT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-yTX93-us.css">
 </head>
 
 <body>
